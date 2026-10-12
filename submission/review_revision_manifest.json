@@ -1,0 +1,41 @@
+{
+  "revision_date": "2026-10-12",
+  "base_repository_commit": "4f1ceb597687000c3ed7a5b2314fe809ca567440",
+  "original_execution_release": "v1.0.0",
+  "scope": "Editorial clarification and offline ranking sensitivity; 244582 completed original reviews",
+  "reason": "Submission review recommendations plus explicit student explanation of human topic-label interpretation.",
+  "changes": [
+    "surface counts, evaluation and phase timing in README",
+    "preserve original topic agreement and add qualitative student acceptance of most disputed topics",
+    "recommend joint usability/playback investigation with separate needs_review sensitivity evidence",
+    "clarify local Qwen drafts, code-rendered metrics and editorial memo authorship",
+    "label historical checkpoint reports and preserve current tracked reports during evidence extraction"
+  ],
+  "current_file_sha256": {
+    "ARCHITECTURE.md": "5be3ae5342e124d5b47f2ac44ae8820c5813675f4406f6ea17247441769b4380",
+    "README.md": "f8c2b6c32847cfeb7caad899c42b4836a89f1b0c260b9d1e4ad13ec6f6ca557c",
+    "cost/report.md": "7c587664d1a71693983cc22516b0962b7b2e82cd0609c07c6633f382174ee948",
+    "docs/SETUP.md": "df687fb484a7947480de91501d6ef5bb4a782162d9d2ed935c963232a5ebd6ec",
+    "reports/checkpoint10000/report.md": "cbe1322f601e87994d7fa6965b0cb345db5b55a91f4be7d522f1bffcafb86167",
+    "reports/checkpoint500/report.md": "cf9adfeee5840a964ece17284646acfe7e7653c6ed26d6e32dfb24f030030594",
+    "reports/completed_subset/memo.md": "0f10e21926f8b8ee7e7bbf3c7e4a6ec6af8c318ebbbf36c3c65122e6aff6176f",
+    "reports/golden50/report.md": "c7249fb978dc8ef51c7ae9a73d2c1c84efd9bbbbeb0a5ee8010447077783bf16",
+    "reports/golden50/student_review_decision.json": "dd3c40ee8afe668a0b97d3754de944ed8888567ecbd6744613df7c6cc101f53b",
+    "submission/README.md": "2146891fe933b84ab003d7301c305f8a5c900e752d3e1792af1b5986c39abe3a",
+    "submission/STUDENT_CHECKLIST.md": "7f159723d4da97fba1e219b5335fc84d5fdd3ec9f1a99b1028aba98590092ac3",
+    "submission/requirement-audit.md": "6b985dd46d33f50a67c109e2f8efb5c818eff3788546314b85e916bc4be697f2",
+    "scripts/ranking_sensitivity.py": "26ae95946f3a8c5aee1e464d0a0a4bb8797600fc0e7735051212aa94b09ce206",
+    "reports/completed_subset/ranking_sensitivity.json": "77263dea025e0f8a6b2d11693b17a73701e4c693f215d378cc08e8d23236db1a",
+    "reports/completed_subset/ranking_sensitivity.md": "e1e7ab540f8b001c712ecb471c0b7ddf5fde233e5d79267601b60ee105fdbbcc",
+    "reports/submission_review/memo_before_review_revision.md": "304c280154ba560e1ef22edbc6c5434a1204f3d5cd9812e6335fef12f8720fe4",
+    "reports/submission_review/follow_up_checks.json": "d7e7f27e07dd4f9744b398d2a920e9fe2fc2c512377b587bb709d337ab5fcb1e"
+  },
+  "original_execution_manifest": "submission/final_run_manifest.json",
+  "original_memo_snapshot": "reports/submission_review/memo_before_review_revision.md",
+  "baseline_and_classifications_changed": false,
+  "golden_labels_or_scores_changed": false,
+  "paid_execution_performed": false,
+  "new_model_calls": 0,
+  "live_database_or_dashboard_updated": false,
+  "distribution": "Current repository source plus original evidence ZIP extracted with unzip -n; original archives/checksums are retained."
+}

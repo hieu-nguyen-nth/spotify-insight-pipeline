@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-12",
+  "status": "pass",
+  "offline_unit_tests": {
+    "count": 98,
+    "network_socket_connections": "blocked",
+    "seconds_reported_by_unittest": 0.93
+  },
+  "sensitivity_replay": "byte-identical JSON; baseline issue counts and severity sums match ranking.csv",
+  "fault_checks": [
+    "duplicate ID rejected",
+    "boolean severity rejected",
+    "string needs_review flag rejected"
+  ],
+  "frozen_hash_checks": [
+    "records",
+    "membership",
+    "ranking",
+    "claims",
+    "blind verification",
+    "original memo snapshot"
+  ],
+  "golden_human_labels_match_original_snapshot": true,
+  "offline_calculator": "passed with network socket connections blocked",
+  "new_model_calls": 0,
+  "live_dashboard_or_database_mutated": false,
+  "dependency_environment": "Existing pinned virtual environment; no fresh install claimed"
+}

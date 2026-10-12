@@ -1,5 +1,7 @@
 # Measured pilot and budget decision · October 11, 2026
 
+> Historical development checkpoint. Statements about pending dispatch, deployment or injection tests describe the saved checkpoint date. For final scope, completed tests and provisional accounting, see the [current README](../README.md) and [stopped-project cost summary](completed_subset/summary.json). Original measurements and forecasts below are preserved.
+
 **The 100, 500 and 10,000 measurements are complete; full dispatch is still pending.** The actual complete 100-review cold pilot cost **$0.001058946** in calculated API usage and took **102.185 seconds**. The measured warm repeat took **0.179 seconds**, with **zero new model calls and zero new API consumption**. Topic agreement on the separate human golden 50 is 68%; the student reviewed and accepted the differences. Preserve those diagnostics; the updated 10,000 budget decision is recorded below.
 
 | Stage | Cold seconds | API usage USD | Model/work |

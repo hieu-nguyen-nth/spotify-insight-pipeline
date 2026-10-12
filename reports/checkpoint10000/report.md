@@ -1,5 +1,7 @@
 # Measured 10,000-review checkpoint · October 11, 2026
 
+> Historical development checkpoint. Statements about pending dispatch, deployment or injection tests describe the saved checkpoint date. For final scope, completed tests and provisional accounting, see the [current README](../../README.md) and [stopped-project cost summary](../../cost/completed_subset/summary.json). Original measurements and forecasts below are preserved.
+
 The accepted frozen configuration completed all 10,000 reviews in **321.593 seconds (5 minutes 22 seconds)** for **$0.074998392 calculated API usage**, within the approved $0.20 incremental cap. The instructor checker passed 10,000/10,000 outputs, with 1,552 valid exact-text aliases and no missing, duplicate, invalid or unresolved output IDs. This is a development checkpoint, not full-corpus completion or certified semantic accuracy.
 
 | Stage | Actual seconds | Actual API USD | Work |

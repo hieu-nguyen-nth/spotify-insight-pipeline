@@ -1,0 +1,128 @@
+{
+  "version": "needs-review-sensitivity-v1",
+  "input_sha256": "10456fc611a0eb420793557a9ea7aece0e2e3b806a032f8d577046f6be401762",
+  "completed_records": 244582,
+  "needs_review_records": 59633,
+  "complaint_cancellation_records": 15825,
+  "flagged_complaint_cancellation_records": 7518,
+  "baseline": [
+    {
+      "rank": 1,
+      "issue_id": "issue_usability",
+      "complaint_count": 5862,
+      "severity_sum": 15949,
+      "priority_score": 15949
+    },
+    {
+      "rank": 2,
+      "issue_id": "issue_playback",
+      "complaint_count": 4157,
+      "severity_sum": 15278,
+      "priority_score": 15278
+    },
+    {
+      "rank": 3,
+      "issue_id": "issue_billing",
+      "complaint_count": 1656,
+      "severity_sum": 4906,
+      "priority_score": 4906
+    },
+    {
+      "rank": 4,
+      "issue_id": "issue_other",
+      "complaint_count": 1843,
+      "severity_sum": 3857,
+      "priority_score": 3857
+    },
+    {
+      "rank": 5,
+      "issue_id": "issue_catalog",
+      "complaint_count": 1084,
+      "severity_sum": 3027,
+      "priority_score": 3027
+    },
+    {
+      "rank": 6,
+      "issue_id": "issue_access",
+      "complaint_count": 603,
+      "severity_sum": 2378,
+      "priority_score": 2378
+    },
+    {
+      "rank": 7,
+      "issue_id": "issue_downloads",
+      "complaint_count": 572,
+      "severity_sum": 2001,
+      "priority_score": 2001
+    },
+    {
+      "rank": 8,
+      "issue_id": "issue_support",
+      "complaint_count": 48,
+      "severity_sum": 143,
+      "priority_score": 143
+    }
+  ],
+  "unflagged_diagnostic": [
+    {
+      "rank": 1,
+      "issue_id": "issue_playback",
+      "complaint_count": 2555,
+      "severity_sum": 9792,
+      "priority_score": 9792
+    },
+    {
+      "rank": 2,
+      "issue_id": "issue_usability",
+      "complaint_count": 2887,
+      "severity_sum": 7482,
+      "priority_score": 7482
+    },
+    {
+      "rank": 3,
+      "issue_id": "issue_other",
+      "complaint_count": 1179,
+      "severity_sum": 2396,
+      "priority_score": 2396
+    },
+    {
+      "rank": 4,
+      "issue_id": "issue_billing",
+      "complaint_count": 598,
+      "severity_sum": 1768,
+      "priority_score": 1768
+    },
+    {
+      "rank": 5,
+      "issue_id": "issue_access",
+      "complaint_count": 394,
+      "severity_sum": 1576,
+      "priority_score": 1576
+    },
+    {
+      "rank": 6,
+      "issue_id": "issue_catalog",
+      "complaint_count": 409,
+      "severity_sum": 1172,
+      "priority_score": 1172
+    },
+    {
+      "rank": 7,
+      "issue_id": "issue_downloads",
+      "complaint_count": 269,
+      "severity_sum": 978,
+      "priority_score": 978
+    },
+    {
+      "rank": 8,
+      "issue_id": "issue_support",
+      "complaint_count": 16,
+      "severity_sum": 42,
+      "priority_score": 42
+    }
+  ],
+  "diagnostic_policy": "Exclude needs_review=true only in this separate sensitivity scenario.",
+  "limitations": "Exclusion introduces its own selection bias. This is neither a corrected ranking nor a population or accuracy estimate.",
+  "original_labels_and_baseline_changed": false,
+  "new_model_calls": 0
+}
