@@ -1,0 +1,35 @@
+[
+  {
+    "action": "Improve search and skip functionalities",
+    "claim_ids": [
+      "issue_usability_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "08d3a5a9-1ec1-4b10-a5c8-393da33843e1"
+    ],
+    "reason": "Users face difficulties in finding and skipping songs, leading to frustration and reduced satisfaction.",
+    "issue_id": "issue_usability"
+  },
+  {
+    "action": "Improve app stability and error handling",
+    "claim_ids": [
+      "issue_playback_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "039112fc-bbed-4540-83cc-890fcb129751"
+    ],
+    "reason": "Reduce frequent app crashes and malfunctions to enhance user satisfaction",
+    "issue_id": "issue_playback"
+  },
+  {
+    "action": "Collect specific feedback before diagnosing this issue.",
+    "claim_ids": [
+      "issue_other_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "83e0e3fb-c641-483d-8b6a-16dff7c2ab24"
+    ],
+    "reason": "The quoted reviews express dissatisfaction without describing a defect.",
+    "issue_id": "issue_other"
+  }
+]

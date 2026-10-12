@@ -1,0 +1,29 @@
+{
+  "review_id": "4da2cf8f-b70a-4a44-b8a1-ca564bd6c756",
+  "independent_request_id": "c5e4eb08-4c69-46cc-96db-89f14e397999",
+  "original_initial": {
+    "topic": "usability",
+    "intent": "complaint",
+    "severity": 2
+  },
+  "planted_test_copy": {
+    "topic": "other",
+    "intent": "praise",
+    "severity": 1
+  },
+  "saved_blind_prediction": {
+    "topic": "usability",
+    "intent": "complaint",
+    "severity": 2
+  },
+  "detected_fields": [
+    "topic",
+    "intent",
+    "severity"
+  ],
+  "passed": true,
+  "mode": "offline replay of actual independently generated blind predictions; no new inference",
+  "business_records_modified": false,
+  "new_model_calls": 0,
+  "verification_artifact_sha256": "62bd714c49543ce73e1fedccce164b61b4471a423fd68cdc55eb986a6213fbe0"
+}

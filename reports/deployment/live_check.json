@@ -1,0 +1,30 @@
+{
+  "live_url": "https://spotify-review-analysis-one.vercel.app",
+  "deployment_id": "dpl_3TEzyzBm9psap3Bha7WxQ4YHE8Db",
+  "paths": {
+    "/": {
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://spotify-review-analysis-one.vercel.app/"
+    },
+    "/api/dashboard": {
+      "status": 200,
+      "content_type": "application/json",
+      "final_url": "https://spotify-review-analysis-one.vercel.app/api/dashboard"
+    },
+    "/dashboard.js": {
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "final_url": "https://spotify-review-analysis-one.vercel.app/dashboard.js"
+    },
+    "/styles.css": {
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "final_url": "https://spotify-review-analysis-one.vercel.app/styles.css"
+    }
+  },
+  "database_artifact_equal": true,
+  "scope": "checkpoint10000",
+  "completed_reviews": 10000,
+  "is_full_corpus": false
+}

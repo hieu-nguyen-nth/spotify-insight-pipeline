@@ -1,0 +1,27 @@
+{
+  "saved_actual_requests_checked": [
+    {
+      "request_id": "0ac08662-b424-4e79-b490-474ff4698bfa",
+      "original_review_count": 22,
+      "review_state_fields": [
+        "reviews",
+        "rubric"
+      ],
+      "text_source_match": true
+    },
+    {
+      "request_id": "db5e834b-519b-4588-be88-5e040d1fb8e0",
+      "original_review_count": 49,
+      "review_state_fields": [
+        "reviews",
+        "rubric"
+      ],
+      "text_source_match": true
+    }
+  ],
+  "human_csv_unchanged": true,
+  "human_answer_fields_in_state": false,
+  "metadata_in_review_inputs": false,
+  "label_config": "jev-1.13.0:conditional-severity-v3:85b52f8b7a8e04f3ee9f",
+  "validation": "Saved request bodies matched original review text by original ID; state contained only reviews and fixed rubric."
+}

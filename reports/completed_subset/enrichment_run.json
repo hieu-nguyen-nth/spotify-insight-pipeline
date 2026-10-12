@@ -1,0 +1,17 @@
+{
+  "scope": "completed_subset",
+  "scope_mode": "user_stopped_subset",
+  "run_id": "freeze-ae4ec5cf-a604-411b-81c6-40d9ca9237f9",
+  "stop_reason": "completed",
+  "pipeline_state": "frozen_completed_scope_downstream_pending",
+  "label_config": "jev-1.13.0:conditional-severity-v3:85b52f8b7a8e04f3ee9f",
+  "nonempty_reviews": 244582,
+  "source_rows": 244582,
+  "enrichment_completed": 244582,
+  "paid_execution": false,
+  "new_model_calls": 0,
+  "reused_saved_records": 244582,
+  "pilot_cap_absolute_usd": 3.7393490359999944,
+  "note": "Completed means this explicitly frozen subset is complete; original full run remains user-stopped and incomplete.",
+  "verification_additional_reservation_allowance_usd": 0.03
+}

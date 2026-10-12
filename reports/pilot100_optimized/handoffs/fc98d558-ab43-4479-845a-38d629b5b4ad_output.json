@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"recommendations\": {\n    \"issue_other\": {\n      \"action\": \"Collect specific feedback before diagnosing this issue.\",\n      \"claim_ids\": [\"issue_other_complaint_count\"],\n      \"evidence_review_ids\": [\"06a45bd5-3ed9-43af-b7f2-8b9487e2ffff\"],\n      \"reason\": \"The quoted reviews express dissatisfaction without describing a defect.\"\n    }\n  }\n}"
+      }
+    }
+  ],
+  "created": 1791757406,
+  "model": "qwen2.5:3b-instruct-q4_K_M",
+  "system_fingerprint": "b1-631109b34",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 122,
+    "prompt_tokens": 419,
+    "total_tokens": 541,
+    "prompt_tokens_details": {
+      "cached_tokens": 88
+    }
+  },
+  "id": "chatcmpl-aL1jrlpiEPfAGuVBYGatEzPmkc1Iz9Ei",
+  "timings": {
+    "cache_n": 88,
+    "prompt_n": 331,
+    "prompt_ms": 6262.289,
+    "prompt_per_token_ms": 18.919302114803624,
+    "prompt_per_second": 52.85607227644716,
+    "predicted_n": 122,
+    "predicted_ms": 7946.024,
+    "predicted_per_token_ms": 65.66961983471074,
+    "predicted_per_second": 15.227741572388908
+  }
+}

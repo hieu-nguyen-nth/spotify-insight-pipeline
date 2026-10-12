@@ -1,0 +1,23 @@
+{
+  "run_id": "4fecf827-e917-47ee-9957-a3479e0064fe",
+  "scope": "completed_subset",
+  "is_full_corpus": false,
+  "verification_sample_size": 1000,
+  "stage_seconds": {
+    "verify": 35.902749666944146,
+    "rank": 0.25184366665780544,
+    "group": 74.279565542005,
+    "memo": 135.24466850003228
+  },
+  "wall_seconds": 248.24987504212186,
+  "model_calls": 24,
+  "api_usd": 0.009579654000000002,
+  "local_compute_usd": null,
+  "cache_hits": {
+    "verify": false,
+    "group": false,
+    "memo": false
+  },
+  "pipeline_state": "downstream_complete",
+  "scope_mode": "user_stopped_subset"
+}

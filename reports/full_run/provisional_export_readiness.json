@@ -1,0 +1,10 @@
+{
+  "observed_at_utc": "2026-10-12T03:34:10.828883+00:00",
+  "implementation": "cost/export_full.py --provisional",
+  "offline_tests_passed": 78,
+  "actual_full_export": "not_exported",
+  "actual_guard_result": "Missing production_run.json: full processing has not completed.",
+  "full_checker_result": "not_run_yet",
+  "anticipated_usage_flag": "Checker flags unavailable usage; do not invent token fields.",
+  "new_model_calls": 0
+}

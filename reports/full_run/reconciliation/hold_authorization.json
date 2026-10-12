@@ -1,0 +1,16 @@
+{
+  "request_id": "03cb9c58-d8c1-4500-864e-4b9049ddbe6d",
+  "source": "explicit_user_instruction",
+  "explicit_user_authorization": true,
+  "user_instruction": "Resume with the failed charge still marked unknown and hold $0.05 for it within the unchanged $4.80 cap; final cost remains provisional until reconciled.",
+  "observed_at_utc": "2026-10-12T03:23:28.228852+00:00",
+  "held_usd": 0.05,
+  "project_cap_usd": 4.8,
+  "scope": "Only the existing failed request. New unresolved usage must stop further paid dispatch.",
+  "balance_observation": {
+    "usd": 3.52,
+    "source": "user_reported_rounded_provider_balance",
+    "used_as_actual_charge_evidence": false
+  },
+  "original_missing_usage_preserved": true
+}

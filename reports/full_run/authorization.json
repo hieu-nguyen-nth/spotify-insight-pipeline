@@ -1,0 +1,12 @@
+{
+  "user_approved": true,
+  "approval_text": "Approve the full run within $4.80 total",
+  "destination": "https://api.typesafe.ai/v1/systemone",
+  "remaining_distinct_review_texts_max": 475741,
+  "blind_verification_texts_max": 1000,
+  "synthetic_test_texts": 2,
+  "absolute_project_api_cap_usd": 4.8,
+  "synthetic_additional_cap_usd": 0.003,
+  "additional_purchase_authorized": false,
+  "recorded_at_unix": 1791766341.981427
+}

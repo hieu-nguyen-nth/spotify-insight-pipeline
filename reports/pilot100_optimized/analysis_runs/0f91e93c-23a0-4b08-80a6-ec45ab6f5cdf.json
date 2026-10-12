@@ -1,0 +1,20 @@
+{
+  "run_id": "0f91e93c-23a0-4b08-80a6-ec45ab6f5cdf",
+  "scope": "pilot100_optimized",
+  "stage_seconds": {
+    "verify": 0.003892000298947096,
+    "rank": 0.00011154217645525932,
+    "group": 0.06758050015196204,
+    "memo": 0.007501374930143356
+  },
+  "wall_seconds": 0.0887134587392211,
+  "model_calls": 0,
+  "api_usd": 0,
+  "local_compute_usd": null,
+  "cache_hits": {
+    "verify": true,
+    "group": true,
+    "memo": true
+  },
+  "pipeline_state": "downstream_complete"
+}

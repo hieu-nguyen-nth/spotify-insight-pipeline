@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"recommendations\": {\n    \"issue_usability\": {\n      \"action\": \"Revert recent feature changes and restore basic music player functions.\",\n      \"claim_ids\": [\"issue_usability_complaint_count\"],\n      \"evidence_review_ids\": [\"7084ced1-0428-4093-9328-442f74719b4f\"],\n      \"reason\": \"Users report dissatisfaction with recent feature changes, especially the removal of basic music player functions.\"\n    }\n  }\n}"
+      }
+    }
+  ],
+  "created": 1791757374,
+  "model": "qwen2.5:3b-instruct-q4_K_M",
+  "system_fingerprint": "b1-631109b34",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 526,
+    "total_tokens": 655,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-ZxZMou5QLsD8WLDQqI9BQaMKShqCJYP6",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 526,
+    "prompt_ms": 9208.111,
+    "prompt_per_token_ms": 17.505914448669202,
+    "prompt_per_second": 57.123551182213156,
+    "predicted_n": 129,
+    "predicted_ms": 8359.278,
+    "predicted_per_token_ms": 65.306859375,
+    "predicted_per_second": 15.312327212948295
+  }
+}

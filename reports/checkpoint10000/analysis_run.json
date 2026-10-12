@@ -1,0 +1,20 @@
+{
+  "run_id": "0e5d0eaa-9b34-4c4a-a2ae-27e5515e18ab",
+  "scope": "checkpoint10000",
+  "stage_seconds": {
+    "verify": 0.1728722918778658,
+    "rank": 0.008855542168021202,
+    "group": 54.50532574998215,
+    "memo": 56.33064891723916
+  },
+  "wall_seconds": 111.09275154210627,
+  "model_calls": 5,
+  "api_usd": 0.000124152,
+  "local_compute_usd": null,
+  "cache_hits": {
+    "verify": false,
+    "group": false,
+    "memo": false
+  },
+  "pipeline_state": "downstream_complete"
+}

@@ -1,0 +1,159 @@
+{
+  "grouping_policy": "One issue per common topic; broad categories, not fine-grained root-cause clusters.",
+  "issues": [
+    {
+      "issue_id": "issue_usability",
+      "complaint_count": 69,
+      "severity_sum": 184,
+      "rank": 1,
+      "mean_severity": "2.666667",
+      "priority_score": 184,
+      "evidence": [
+        {
+          "review_id": "08d3a5a9-1ec1-4b10-a5c8-393da33843e1",
+          "quote": "For free subscription I find this to be a cancerous and even dangerous app while driving. Will try to make your life difficult finding your songs, esp. while on the go, e.g. will not let you go to any random song in a playlist while on mobile, except for the first few uses. For the paid plan, no such ugly surprises, just still not as easy to find your stuff as it should be."
+        },
+        {
+          "review_id": "11ad400f-4487-4dfa-a9da-c8d624f4f107",
+          "quote": "This app is very very frustrating, you only get 6 skips a day, you can't pick the song you want from your playlist, you can't skip forward it's absolutely ridiculous getting premium is the only way you could actually enjoy this app it's absolutely garbage and whenever I try and search for a song I click on it I get 5 ads then after the ads I don't even get the song I wanted."
+        },
+        {
+          "review_id": "7f27bbab-ef19-4fb1-80d8-cd014da3e002",
+          "quote": "I HATE the new update , the app is also not showing lyrics and I also can't add songs to queue. Listening to music on Spotify is now a painful experience."
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_playback",
+      "complaint_count": 38,
+      "severity_sum": 141,
+      "rank": 2,
+      "mean_severity": "3.710526",
+      "priority_score": 141,
+      "evidence": [
+        {
+          "review_id": "039112fc-bbed-4540-83cc-890fcb129751",
+          "quote": "keeps stopping mid show"
+        },
+        {
+          "review_id": "05fa5b8a-a49b-43be-bab5-38af789a65a7",
+          "quote": "Very bad doesn't work properly even if you network connection is best"
+        },
+        {
+          "review_id": "065c418e-7f18-42a3-b241-fe693b7a2b0c",
+          "quote": "Black screen of death. Having to Uninstaller and reinstall after closing and opening app 5x to see if it would work."
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_other",
+      "complaint_count": 58,
+      "severity_sum": 117,
+      "rank": 3,
+      "mean_severity": "2.017241",
+      "priority_score": 117,
+      "evidence": [
+        {
+          "review_id": "83e0e3fb-c641-483d-8b6a-16dff7c2ab24",
+          "quote": "New update made me delete this app"
+        },
+        {
+          "review_id": "00363dc8-2117-4565-9af9-efadf8fa90cf",
+          "quote": "Worst"
+        },
+        {
+          "review_id": "0575ce08-ab04-46f0-aa8a-fbf9cd27e8da",
+          "quote": "I hate this application .. 👎"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_billing",
+      "complaint_count": 38,
+      "severity_sum": 115,
+      "rank": 4,
+      "mean_severity": "3.026316",
+      "priority_score": 115,
+      "evidence": [
+        {
+          "review_id": "16929558-ce1e-4b87-8738-a1de3f557f66",
+          "quote": "I paid my subscription and im still getting a pause subscription screen and can't access my music...... help me"
+        },
+        {
+          "review_id": "1d1480fb-0142-46da-8570-45bf3983bf6d",
+          "quote": "Good app but. I cant sign up for individual premium.. Whenever i click on the plan it doesnt give me the prompt to pay :/"
+        },
+        {
+          "review_id": "398566f7-2519-40e6-a2f4-6676657a18a7",
+          "quote": "It's need to skip any song without premium pack, and when I wanna purchase subscription it's show me a blank page"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_catalog",
+      "complaint_count": 21,
+      "severity_sum": 54,
+      "rank": 5,
+      "mean_severity": "2.571429",
+      "priority_score": 54,
+      "evidence": [
+        {
+          "review_id": "10775595-01b9-4623-9163-51619e2a0fa9",
+          "quote": "One star for the songs availability, I like underrated songs which sometimes not available on other app but this app have, otherwise this app is worst it have adds every sec"
+        },
+        {
+          "review_id": "384008ad-eb79-4525-a794-b0b67f7fb3f5",
+          "quote": "Canvas not available after recent update, what's the point of having premium -______-"
+        },
+        {
+          "review_id": "47becad0-8ae5-4a10-9731-fde8f2091862",
+          "quote": "It is good but there is a problem that in some songs there is no lyrics and in some songs there is lyrics it's so confusing. However it is good 😊😊."
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_access",
+      "complaint_count": 10,
+      "severity_sum": 40,
+      "rank": 6,
+      "mean_severity": "4.000000",
+      "priority_score": 40,
+      "evidence": [
+        {
+          "review_id": "0a7f2420-1b49-41fa-8cfc-0b2e178bea6b",
+          "quote": "I was using the app normally with the phone in my pocket, and out of nowhere log me out, and now I'm not able to log in, it's appearing some kind of error all the time, and the up is up to date, and also I can still loogin in the PC 🙃"
+        },
+        {
+          "review_id": "12efd15d-4d4f-4a71-8e71-69d03b6f983a",
+          "quote": "I can't login to the app, it keep saying that there's no internet connection, whereas everything else on my phone is connected to the internet."
+        },
+        {
+          "review_id": "1f13c3a2-e57b-460c-b569-964e6b2b1f31",
+          "quote": "Can no longer listen to music off line or even log in. The app is broken. Stop telling people to reinstall the app. Just fix it. Maybe if all of your dissatisfied customers were to canal their subscriptions, you might listen. Without them, you have nothing."
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_downloads",
+      "complaint_count": 5,
+      "severity_sum": 18,
+      "rank": 7,
+      "mean_severity": "3.600000",
+      "priority_score": 18,
+      "evidence": [
+        {
+          "review_id": "394b1e3e-205a-48a7-a9ca-64170fa5f6a0",
+          "quote": "No download"
+        },
+        {
+          "review_id": "5be3399d-dcd2-405b-a931-29b02ffc966e",
+          "quote": "I spend ages downloading my favourite content, then every couple of months, usually when I'm out of data range, i go to listen to downloaded content and it's ALL GONE. What's the point in paying for the Premium service?? Loads of complaints about this online. I will soon be moving elsewhere 😡"
+        },
+        {
+          "review_id": "dcff57c6-abd6-413b-b255-aec3dc34fcbd",
+          "quote": "Offline not workjng"
+        }
+      ]
+    }
+  ]
+}

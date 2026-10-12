@@ -1,0 +1,9 @@
+request_id,run_id,role,provider,model,outcome,input_tokens,output_tokens,input_billing_unit,output_billing_unit,currency,calculated_api_usd,elapsed_seconds
+e0b8f85a-8830-42c6-8a90-87fd3f5a6746,86a24e5a-ee8a-46b4-addd-19b392fcf03f,enrich,typesafe,jev-1.13.0,succeeded,8640,6808,input_token,output_token,USD,0.00036288000000000005,0.23351845797151327
+3f116cc1-3c4b-4bad-99f1-17777e737b40,5d4b277b-6bcb-47dc-a459-bd211768552e,enrich,typesafe,jev-1.13.0,succeeded,8707,6814,input_token,output_token,USD,0.00036569400000000007,0.20515024987980723
+eebca714-1b18-409e-bc95-c258204f1865,5d4b277b-6bcb-47dc-a459-bd211768552e,enrich,typesafe,jev-1.13.0,succeeded,4983,2639,input_token,output_token,USD,0.00020928600000000002,0.16851008404046297
+55143a92-9959-4b0c-95cf-b1f5f88f4d47,6da2ec45-0b18-4249-8cdd-c72d2dbb89f4,verify,typesafe,jev-1.13.0,succeeded,2883,1879,input_token,output_token,USD,0.00012108600000000001,0.1540131252259016
+be98d0dd-36d6-428e-8836-fbd64b0bf621,6da2ec45-0b18-4249-8cdd-c72d2dbb89f4,group,local_llamacpp,qwen2.5:3b-instruct-q4_K_M,succeeded,1722,162,input_token,output_token,USD,0,50.51969962473959
+dd6ccd6b-ef6e-447f-86d6-b0b320be12a8,6da2ec45-0b18-4249-8cdd-c72d2dbb89f4,memo,local_llamacpp,qwen2.5:3b-instruct-q4_K_M,succeeded,526,129,input_token,output_token,USD,0,17.712542458903044
+8cf9b083-3c75-411f-bbe4-427fdf2c6bbc,6da2ec45-0b18-4249-8cdd-c72d2dbb89f4,memo,local_llamacpp,qwen2.5:3b-instruct-q4_K_M,succeeded,490,126,input_token,output_token,USD,0,17.185422957874835
+fc98d558-ab43-4479-845a-38d629b5b4ad,6da2ec45-0b18-4249-8cdd-c72d2dbb89f4,memo,local_llamacpp,qwen2.5:3b-instruct-q4_K_M,succeeded,419,122,input_token,output_token,USD,0,14.239897583145648

@@ -1,0 +1,24 @@
+{
+  "backend_database_artifact_equal": true,
+  "completed_reviews": 10000,
+  "scope": "checkpoint10000",
+  "raw_tables": {
+    "processed_reviews": {
+      "status": 401,
+      "read_denied": true
+    },
+    "review_texts": {
+      "status": 401,
+      "read_denied": true
+    },
+    "label_configs": {
+      "status": 401,
+      "read_denied": true
+    },
+    "issue_membership": {
+      "status": 401,
+      "read_denied": true
+    }
+  },
+  "raw_tables_private": true
+}

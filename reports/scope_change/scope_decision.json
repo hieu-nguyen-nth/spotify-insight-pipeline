@@ -1,0 +1,39 @@
+{
+  "observed_at_utc": "2026-10-12T05:42:03.455986+00:00",
+  "decision": "Finalize all currently fully classified original reviews; do not target exactly 100000 and do not continue full classification.",
+  "completed_reviews": 244582,
+  "source_rows_ingested": 660622,
+  "nonempty_source_reviews": 660609,
+  "empty_text_quarantines": 13,
+  "uncompleted_nonempty_reviews": 416027,
+  "known_project_api_usd": 3.6593490359999947,
+  "unknown_charge_hold_usd": 0.05,
+  "api_total_usd": null,
+  "api_ceiling_usd": 4.8,
+  "credit_purchase_usd": 5,
+  "automation_status": "PAUSED",
+  "source_scope": "Complete input preserved; final analysis uses completed subset only.",
+  "selection_warning": "Completion depends on intent and stage: many praise/request/unclear reviews completed first, while complaint/cancellation reviews await severity. This subset is not a random or representative sample.",
+  "requirements": [
+    {
+      "source": "Supplied local assignment",
+      "finding": "At-least-100000 option exists in delivery bullet and Definition of Done; other sections retain full-corpus wording."
+    },
+    {
+      "source": "User-provided bCourses announcement",
+      "finding": "Instructor mentions 100k runs under $10 and an October 20 midnight extension; not independently accessed; exact deadline interpretation and coverage grading remain to confirm."
+    },
+    {
+      "source": "https://haas-ai-classes-fall-26.vercel.app/assignment5.html",
+      "finding": "Accessible page still specifies full-corpus processing and October 13 deadline. Sources are inconsistent; do not claim all requirements or the grading formula are definitively updated."
+    }
+  ],
+  "remaining_work": [
+    "Freeze completed IDs, original hashes, source CSV and saved classification provenance.",
+    "Blind verification on a declared completed-subset sample; no new enrichment.",
+    "Recompute issue membership and deterministic ranking, then write local-model recommendations with selection limitations.",
+    "Export grading and provisional project usage; retain unchanged full-corpus checker result and independent subset integrity checks.",
+    "Upload completed subset privately to the database within Free allowance; publish aggregate artifacts and selected source quotes.",
+    "Deploy and verify backend/dashboard with actual subset counts; update README and prepare repository/evidence delivery."
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "grouping_policy": "One issue per common topic; broad categories, not fine-grained root-cause clusters.",
+  "issues": [
+    {
+      "issue_id": "issue_usability",
+      "complaint_count": 5862,
+      "severity_sum": 15949,
+      "rank": 1,
+      "mean_severity": "2.720744",
+      "priority_score": 15949,
+      "evidence": [
+        {
+          "review_id": "183a4585-a071-467d-80d4-316bdcaa8a4c",
+          "quote": "I would like to EXIT Spotify to when I close the app. Instead it keeps playing in the background. I continually have to find the app, scroll thru 50 settings to exit the app. I understand why Spotify does that..... As long as the app is open, Spotify can see all your contacts, texts, Personal data, etc. Spotify, keep your nose out of my phone and exit the app when I say so, not when you want"
+        },
+        {
+          "review_id": "37c2d3d7-9ee2-45e4-83dd-2f6a22e798a4",
+          "quote": "Why is everything so zoomed in now? It makes it much harder to use. Also, Spotify is recognizing audio files on my phone despite it not having permission to look at my files."
+        },
+        {
+          "review_id": "4011e2d3-9eba-4a42-8dc6-f33f1b127946",
+          "quote": "For some reason this app is now trying to open all of my personal audio without my permission and there is no option to stop it. It is not my default audio player and I can not open it any other way. Horrible."
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_playback",
+      "complaint_count": 4157,
+      "severity_sum": 15278,
+      "rank": 2,
+      "mean_severity": "3.675247",
+      "priority_score": 15278,
+      "evidence": [
+        {
+          "review_id": "450434fc-6242-4c3d-b688-89a11f43bf71",
+          "quote": "The apps keeps crashing for some reason. Also account got data breached last time, talk about broken security."
+        },
+        {
+          "review_id": "82160961-72d8-47c1-b322-4257c94f0ab5",
+          "quote": "Other devices has been connecting to my phone.. my bluetooth isnt even on. \nHow is this even happening?"
+        },
+        {
+          "review_id": "ab09a91d-546f-4b72-9e89-60105f3f529f",
+          "quote": "Today I was driving and streaming some podcasts, and somehow Spotify managed to EAT UP 10 GBs OF DATA in less than 3 hours!! 10!!! Completely unacceptable 😡 Now I have very limited data left for 2 weeks until my next billing period."
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_billing",
+      "complaint_count": 1656,
+      "severity_sum": 4906,
+      "rank": 3,
+      "mean_severity": "2.962560",
+      "priority_score": 4906,
+      "evidence": [
+        {
+          "review_id": "01bc38c1-0d0b-4716-a3ed-a7fc3a0aa362",
+          "quote": "It charged me after I canceled my plan long story short don't put your card on here"
+        },
+        {
+          "review_id": "0327424f-5ab1-42d7-aefa-b021dc049420",
+          "quote": "Taking money out my bank without permission I'm ripping"
+        },
+        {
+          "review_id": "0c52d3c7-401e-4b55-b051-5837924840b3",
+          "quote": "I cancelled my free trial but they still charged my credit card"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_other",
+      "complaint_count": 1843,
+      "severity_sum": 3857,
+      "rank": 4,
+      "mean_severity": "2.092784",
+      "priority_score": 3857,
+      "evidence": [
+        {
+          "review_id": "00bc487c-fd41-493d-991a-2b23d49980da",
+          "quote": "I listen this is unsecure app"
+        },
+        {
+          "review_id": "19624a6c-e065-4155-a7ba-5b1d4ad98988",
+          "quote": "It's impossible to click on one particular song. It's also impossible to create a playlist, without Spotify messing it up. I have no clue, why anyone would use the app. Tenecent is also invested in Spotify, and that means, that all collected data, is being passed on to the chinese government. Not just your taste in music, but also EVERYTHING else, you do on your phone. Due to chinese laws, there i"
+        },
+        {
+          "review_id": "21ddfe12-8433-4bad-b0f8-e7f605c056ae",
+          "quote": "Collects too much personal information"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_catalog",
+      "complaint_count": 1084,
+      "severity_sum": 3027,
+      "rank": 5,
+      "mean_severity": "2.792435",
+      "priority_score": 3027,
+      "evidence": [
+        {
+          "review_id": "01e2b320-1c22-492d-84b4-13644ff5cc9e",
+          "quote": "Deleted. You became a defender of Apartheid when you removed \"Dammi Filistini\" from the app citing anti-Semitism. Shame on you."
+        },
+        {
+          "review_id": "7a9422f5-7266-4f53-adf3-7cc65803e8bf",
+          "quote": "Was about stop listening to music but now spotify using same shuffle and same artist over over and OVER. I gladly using gift card for subscription but its ok . Turn out be wrong... why? When couple of months or week i have looked my unknown (2) follower... i look at them then search on reddit about them they are BOTS or hacker i look into detail like i have follow favorite artists this track you d"
+        },
+        {
+          "review_id": "dc1bc630-5867-44b0-8b93-4130cdb8d478",
+          "quote": "Pushing sexual material on children. It goes against their own community standards and also is abhorrent to be targeted at children. Just search 'audio for kids' on their platform if you need any clarification."
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_access",
+      "complaint_count": 603,
+      "severity_sum": 2378,
+      "rank": 6,
+      "mean_severity": "3.943615",
+      "priority_score": 2378,
+      "evidence": [
+        {
+          "review_id": "05a01915-9a30-4ae5-89a1-d17a57634eac",
+          "quote": "Ive used spotify for the better part of a decade. As a premium user for a majority of that time. When a couple months ago apparently my account was compromised. Spotify didn't clarify how this happened, and when i asked to have my credit card details removed along with my subscription they refused, indicating that my details would automatically be removed when my remaining month ran out. No apolog"
+        },
+        {
+          "review_id": "0f374db1-725d-4057-b3e8-334a447065df",
+          "quote": "I opened my app to find some random stranger called Sam Phillips listening on my living room speaker. Who is he???? Contacted support and said they would check if my accouns been hacked.........said they will look into it... No reply......what shall I do????"
+        },
+        {
+          "review_id": "141ab8fb-aa14-4488-98c6-1a6e5f6bc5ab",
+          "quote": "My premium account was HACKED. No way to retrieve ..bank has Blocked spotify."
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_downloads",
+      "complaint_count": 572,
+      "severity_sum": 2001,
+      "rank": 7,
+      "mean_severity": "3.498252",
+      "priority_score": 2001,
+      "evidence": [
+        {
+          "review_id": "2efe7abc-3bda-4a44-b820-32d2e83564ad",
+          "quote": "Downloads my personal files. You didnt ask to do that and i cant get it off the app"
+        },
+        {
+          "review_id": "412557a0-f6fb-4db6-9849-4dc52c009bc7",
+          "quote": "Does not save songs and charged after 3 months after deleting account. Not happy."
+        },
+        {
+          "review_id": "47edef7f-6e6b-4e2f-8e74-9b1d244d275a",
+          "quote": "I just lost over 700 of my downloaded songs for seemingly no reason!! What just happened?"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_support",
+      "complaint_count": 48,
+      "severity_sum": 143,
+      "rank": 8,
+      "mean_severity": "2.979167",
+      "priority_score": 143,
+      "evidence": [
+        {
+          "review_id": "463520ca-719e-4492-8bef-2aa73512ecbf",
+          "quote": "My 17 year old son said that he unleaded Spotify but he was listening to a bunch of songs I would never let him listen to I've taken app away from him and sent 27 emails to them and they haven't got back to me about banning the app yet so do not use it so I can win"
+        },
+        {
+          "review_id": "46a27071-3806-44a4-bd95-5a0640dda825",
+          "quote": "No one is available to assist with my premium account that was stolen. I really like the music platform but customer service sucks only bots."
+        },
+        {
+          "review_id": "c21ba2ca-b541-453d-8be7-096a6c144b13",
+          "quote": "Horrible customer service. Poor ethics and incompetent employees. After 4 years of asking Spotify to cancel my account, they are still charging my card and ignoring my requests. Amazon music and and pandora is just so much better."
+        }
+      ]
+    }
+  ]
+}

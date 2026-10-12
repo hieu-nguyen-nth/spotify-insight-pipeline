@@ -1,0 +1,38 @@
+[
+  {
+    "action": "Revert recent feature changes and restore basic music player functions.",
+    "claim_ids": [
+      "issue_usability_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "7084ced1-0428-4093-9328-442f74719b4f"
+    ],
+    "reason": "Users report dissatisfaction with recent feature changes, especially the removal of basic music player functions.",
+    "issue_id": "issue_usability"
+  },
+  {
+    "action": "Prioritize crash bug fixes and improve internet connectivity for premium users.",
+    "claim_ids": [
+      "issue_playback_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "46ff0c74-5e86-4e5b-b4cd-36201aab0f9e",
+      "4ab2089a-ffa8-49e7-a8a3-aeb583a96796",
+      "55cc3abf-c295-4591-8c3a-78085cfdefaa"
+    ],
+    "reason": "Quoted examples relate to app crashes and internet issues, impacting user experience and satisfaction.",
+    "issue_id": "issue_playback",
+    "editorial_note": "Removed an unmeasured frequency claim and cited all supplied examples. Raw model output is retained."
+  },
+  {
+    "action": "Collect specific feedback before diagnosing this issue.",
+    "claim_ids": [
+      "issue_other_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "06a45bd5-3ed9-43af-b7f2-8b9487e2ffff"
+    ],
+    "reason": "The quoted reviews express dissatisfaction without describing a defect.",
+    "issue_id": "issue_other"
+  }
+]

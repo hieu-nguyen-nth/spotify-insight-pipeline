@@ -1,0 +1,53 @@
+{
+  "source": "/Users/hieunguyen/Documents/Codex/2026-10-11/i/outputs/spotify-insight-pipeline/dataset/samples/analysis_10000.csv",
+  "profile": {
+    "file_sha256": "eaa62ca6d44d717302904a9c922e99b0b4584d174309cb45295ecbc2ba2a91b5",
+    "parsed_rows_sha256": "3a21df52adbf2ab3185b73e93b30a9539c1806379e097b0f4a904c869ed40e20",
+    "counts": {
+      "records": 10000,
+      "duplicate_review_ids": 0,
+      "empty_review_text": 0,
+      "missing_app_version": 2447
+    },
+    "reviews_by_month": {
+      "2023-07": 1246,
+      "2023-02": 337,
+      "2023-09": 625,
+      "2023-04": 359,
+      "2022-10": 412,
+      "2023-10": 1381,
+      "2023-11": 502,
+      "2022-12": 520,
+      "2022-09": 438,
+      "2023-06": 391,
+      "2023-03": 425,
+      "2022-07": 506,
+      "2023-05": 423,
+      "2023-08": 459,
+      "2022-06": 421,
+      "2023-01": 451,
+      "2022-08": 466,
+      "2022-11": 406,
+      "2022-05": 232
+    },
+    "reviews_by_rating": {
+      "3": 498,
+      "5": 4512,
+      "1": 3685,
+      "2": 469,
+      "4": 836
+    },
+    "first_review": "2022-05-17 02:29:15",
+    "last_review": "2023-11-15 22:13:05"
+  },
+  "stored_rows": 10000,
+  "nonempty_rows": 10000,
+  "distinct_nonempty_texts": 8448,
+  "reusable_duplicate_rows": 1552,
+  "expected_manifest_match": null,
+  "ingestion_seconds": 0.32855583261698484,
+  "classification_completed": 0,
+  "classification_pending": 10000,
+  "stage": "ingestion_only",
+  "api_calls": 0
+}

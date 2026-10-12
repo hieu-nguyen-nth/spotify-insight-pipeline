@@ -1,0 +1,15 @@
+{
+  "version": "lean-development-v2",
+  "scope": "golden50",
+  "source_rows": 50,
+  "nonempty_reviews": 50,
+  "label_config": "jev-1.13.0:conditional-severity-v3:85b52f8b7a8e04f3ee9f",
+  "batch_size": 50,
+  "workers": 1,
+  "project_api_cap_usd": 4.8,
+  "incremental_pilot_cap_usd": 0.05,
+  "user_reported_credit_purchase_usd": 5,
+  "paid_execution": false,
+  "sentiment_quality": "not_yet_human_validated",
+  "stronger_fallbacks": 0
+}

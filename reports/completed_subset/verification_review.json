@@ -1,0 +1,186 @@
+{
+  "sample_size": 1000,
+  "blind": true,
+  "same_provider_separate_blind_task": true,
+  "any_disagreement_count": 193,
+  "field_agreement": {
+    "topic": 0.907,
+    "intent": 0.928,
+    "severity": 0.923
+  },
+  "severity_mean_absolute_difference": 0.099,
+  "reviewed_case_count": 8,
+  "reviewed_cases": [
+    {
+      "review_id": "4327188d-1316-4de0-b330-7d64435b3fc5",
+      "request_id": "10a5aa1c-5b26-4ef3-8b23-f65493778eda",
+      "fields": {
+        "topic": {
+          "initial": "usability",
+          "independent": "other"
+        },
+        "intent": {
+          "initial": "request",
+          "independent": "complaint"
+        },
+        "severity": {
+          "initial": 1,
+          "independent": 3
+        }
+      },
+      "disagrees": true,
+      "source_text": "So far good ...once I get it work with my Garmin ot would be great",
+      "editorial_assessment": "Garmin integration is desired, but a concrete failing operation is not described. The complaint/severity interpretation remains ambiguous."
+    },
+    {
+      "review_id": "44b5d20f-0d93-42a2-8f03-dac9cc31bb19",
+      "request_id": "a82e62dc-3a58-4e57-b9df-a95cce2c1a1d",
+      "fields": {
+        "topic": {
+          "initial": "playback",
+          "independent": "playback"
+        },
+        "intent": {
+          "initial": "request",
+          "independent": "complaint"
+        },
+        "severity": {
+          "initial": 1,
+          "independent": 4
+        }
+      },
+      "disagrees": true,
+      "source_text": "I don't know why I can't use the app with mobile data except WiFi, HTF is that? Please I need solutions",
+      "editorial_assessment": "The explicit mobile-data failure supports complaint precedence over a request for help. Severity depends on whether Wi-Fi availability makes the core task degraded or blocked; original severity 1 underestimates the reported problem."
+    },
+    {
+      "review_id": "36b1f685-917d-4072-8b20-c5798d7db12f",
+      "request_id": "9ff95a1b-4fe9-40f1-bf1a-79df28bec882",
+      "fields": {
+        "topic": {
+          "initial": "downloads",
+          "independent": "playback"
+        },
+        "intent": {
+          "initial": "praise",
+          "independent": "complaint"
+        },
+        "severity": {
+          "initial": 1,
+          "independent": 3
+        }
+      },
+      "disagrees": true,
+      "source_text": "Works great again... I wish someone would have mentioned this fix before all the troubleshooting things i did. I didn't use it for months! Fixed... It was on the external storage of my phone and at some point i uninstalled it and reinstalled it but then it stopped working. I just moved it back to my phone's internal storage.",
+      "editorial_assessment": "The review reports a past failure and a successful storage fix. Current praise versus historical complaint is ambiguous; neither prediction is silently substituted."
+    },
+    {
+      "review_id": "405b8525-0f4b-4bff-8ddb-21d580c682db",
+      "request_id": "d81571e5-b31a-4f3d-aadf-e74f23211888",
+      "fields": {
+        "topic": {
+          "initial": "downloads",
+          "independent": "downloads"
+        },
+        "intent": {
+          "initial": "request",
+          "independent": "request"
+        },
+        "severity": {
+          "initial": 1,
+          "independent": 3
+        }
+      },
+      "disagrees": true,
+      "source_text": "I like it, but make it all offline I live in the woods and can't pay for premium. 😭",
+      "editorial_assessment": "This asks for offline availability and states affordability constraints. Severity 1 for a pure request is better supported than verifier severity 3 without a reported malfunction."
+    },
+    {
+      "review_id": "3f6cc453-a264-4c15-acfb-841b97a046df",
+      "request_id": "1b670f37-603f-48d3-a40a-19cce446b73a",
+      "fields": {
+        "topic": {
+          "initial": "billing",
+          "independent": "billing"
+        },
+        "intent": {
+          "initial": "request",
+          "independent": "complaint"
+        },
+        "severity": {
+          "initial": 1,
+          "independent": 3
+        }
+      },
+      "disagrees": true,
+      "source_text": "The new update of premiuim for even playing songs in order is disgusting....pls change it.",
+      "editorial_assessment": "An explicit negative report about premium restrictions supports complaint precedence over the request to change the policy."
+    },
+    {
+      "review_id": "0f373398-f109-4674-9d69-43589d541d8b",
+      "request_id": "5d4e40d2-0a61-45ba-985b-6f4228014aaa",
+      "fields": {
+        "topic": {
+          "initial": "playback",
+          "independent": "billing"
+        },
+        "intent": {
+          "initial": "praise",
+          "independent": "complaint"
+        },
+        "severity": {
+          "initial": 1,
+          "independent": 3
+        }
+      },
+      "disagrees": true,
+      "source_text": "Fantastic app. Had it for years, only sucks when your broke for a bit you lose playlist but they do keep it until your back on top. Great quality sound.",
+      "editorial_assessment": "Mixed praise and a reported playlist-access limitation make the intent/topic disagreement understandable. No evidence confirms permanent data loss."
+    },
+    {
+      "review_id": "0e473cf4-cc90-4c6a-9f03-dea48845875b",
+      "request_id": "5ff5ea64-de12-4597-ae79-a294b5edb087",
+      "fields": {
+        "topic": {
+          "initial": "catalog",
+          "independent": "catalog"
+        },
+        "intent": {
+          "initial": "request",
+          "independent": "complaint"
+        },
+        "severity": {
+          "initial": 1,
+          "independent": 3
+        }
+      },
+      "disagrees": true,
+      "source_text": "What can i do about the \"couldn't load the lyrics for this song\" thing ?? I tried to reinstall the app and nothing seemed to work out !",
+      "editorial_assessment": "The review explicitly reports missing lyrics despite reinstalling. Complaint precedence is better supported than a pure feature request; the broader topic can be ambiguous."
+    },
+    {
+      "review_id": "f7f4231f-9301-416d-9b65-e07d4b79bde1",
+      "request_id": "c965df4b-465e-4e41-a8d5-89ef0c0735fd",
+      "fields": {
+        "topic": {
+          "initial": "access",
+          "independent": "access"
+        },
+        "intent": {
+          "initial": "request",
+          "independent": "complaint"
+        },
+        "severity": {
+          "initial": 1,
+          "independent": 4
+        }
+      },
+      "disagrees": true,
+      "source_text": "I logged out mistakenly and I couldn't log in back cause the app keeps telling me to check my phone number, helpp",
+      "editorial_assessment": "An explicit inability to log back in supports complaint intent and blocked-access severity; the initial help-request interpretation misses the reported failure."
+    }
+  ],
+  "classifications_modified": false,
+  "prompt_modified": false,
+  "interpretation": "Model agreement is a diagnostic, not human accuracy. Request-versus-complaint precedence can understate problem severity. Completion-based selection and incomplete complaint labels prevent population conclusions."
+}

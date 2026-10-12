@@ -1,0 +1,564 @@
+{
+  "answers": {
+    "r0_intent": {
+      "choice": "praise",
+      "confidence": 1.0,
+      "probabilities": {
+        "cancellation": 0.0,
+        "complaint": 0.0,
+        "praise": 1.0,
+        "request": 0.0,
+        "unclear": 0.0
+      }
+    },
+    "r0_severity": {
+      "choice": "1",
+      "confidence": 1.0,
+      "probabilities": {
+        "1": 1.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0
+      }
+    },
+    "r0_topic": {
+      "choice": "other",
+      "confidence": 1.0,
+      "probabilities": {
+        "access": 0.0,
+        "billing": 0.0,
+        "catalog": 0.0,
+        "downloads": 0.0,
+        "other": 1.0,
+        "playback": 0.0,
+        "support": 0.0,
+        "usability": 0.0
+      }
+    },
+    "r1_intent": {
+      "choice": "cancellation",
+      "confidence": 0.89,
+      "probabilities": {
+        "cancellation": 0.91,
+        "complaint": 0.09,
+        "praise": 0.0,
+        "request": 0.0,
+        "unclear": 0.0
+      }
+    },
+    "r1_severity": {
+      "choice": "2",
+      "confidence": 0.64,
+      "probabilities": {
+        "1": 0.04,
+        "2": 0.71,
+        "3": 0.22,
+        "4": 0.03,
+        "5": 0.0
+      }
+    },
+    "r1_topic": {
+      "choice": "other",
+      "confidence": 0.69,
+      "probabilities": {
+        "access": 0.0,
+        "billing": 0.0,
+        "catalog": 0.01,
+        "downloads": 0.0,
+        "other": 0.73,
+        "playback": 0.04,
+        "support": 0.0,
+        "usability": 0.22
+      }
+    },
+    "r2_intent": {
+      "choice": "complaint",
+      "confidence": 1.0,
+      "probabilities": {
+        "cancellation": 0.0,
+        "complaint": 1.0,
+        "praise": 0.0,
+        "request": 0.0,
+        "unclear": 0.0
+      }
+    },
+    "r2_severity": {
+      "choice": "4",
+      "confidence": 0.61,
+      "probabilities": {
+        "1": 0.01,
+        "2": 0.01,
+        "3": 0.29,
+        "4": 0.69,
+        "5": 0.0
+      }
+    },
+    "r2_topic": {
+      "choice": "playback",
+      "confidence": 1.0,
+      "probabilities": {
+        "access": 0.0,
+        "billing": 0.0,
+        "catalog": 0.0,
+        "downloads": 0.0,
+        "other": 0.0,
+        "playback": 1.0,
+        "support": 0.0,
+        "usability": 0.0
+      }
+    },
+    "r3_intent": {
+      "choice": "complaint",
+      "confidence": 1.0,
+      "probabilities": {
+        "cancellation": 0.0,
+        "complaint": 1.0,
+        "praise": 0.0,
+        "request": 0.0,
+        "unclear": 0.0
+      }
+    },
+    "r3_severity": {
+      "choice": "2",
+      "confidence": 0.66,
+      "probabilities": {
+        "1": 0.01,
+        "2": 0.73,
+        "3": 0.19,
+        "4": 0.07,
+        "5": 0.0
+      }
+    },
+    "r3_topic": {
+      "choice": "usability",
+      "confidence": 0.89,
+      "probabilities": {
+        "access": 0.0,
+        "billing": 0.0,
+        "catalog": 0.0,
+        "downloads": 0.0,
+        "other": 0.1,
+        "playback": 0.0,
+        "support": 0.0,
+        "usability": 0.9
+      }
+    },
+    "r4_intent": {
+      "choice": "praise",
+      "confidence": 1.0,
+      "probabilities": {
+        "cancellation": 0.0,
+        "complaint": 0.0,
+        "praise": 1.0,
+        "request": 0.0,
+        "unclear": 0.0
+      }
+    },
+    "r4_severity": {
+      "choice": "1",
+      "confidence": 1.0,
+      "probabilities": {
+        "1": 1.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0
+      }
+    },
+    "r4_topic": {
+      "choice": "other",
+      "confidence": 1.0,
+      "probabilities": {
+        "access": 0.0,
+        "billing": 0.0,
+        "catalog": 0.0,
+        "downloads": 0.0,
+        "other": 1.0,
+        "playback": 0.0,
+        "support": 0.0,
+        "usability": 0.0
+      }
+    },
+    "r5_intent": {
+      "choice": "praise",
+      "confidence": 0.87,
+      "probabilities": {
+        "cancellation": 0.0,
+        "complaint": 0.0,
+        "praise": 0.9,
+        "request": 0.0,
+        "unclear": 0.1
+      }
+    },
+    "r5_severity": {
+      "choice": "1",
+      "confidence": 0.99,
+      "probabilities": {
+        "1": 0.99,
+        "2": 0.01,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0
+      }
+    },
+    "r5_topic": {
+      "choice": "other",
+      "confidence": 0.73,
+      "probabilities": {
+        "access": 0.0,
+        "billing": 0.0,
+        "catalog": 0.24,
+        "downloads": 0.0,
+        "other": 0.76,
+        "playback": 0.0,
+        "support": 0.0,
+        "usability": 0.0
+      }
+    },
+    "r6_intent": {
+      "choice": "praise",
+      "confidence": 1.0,
+      "probabilities": {
+        "cancellation": 0.0,
+        "complaint": 0.0,
+        "praise": 1.0,
+        "request": 0.0,
+        "unclear": 0.0
+      }
+    },
+    "r6_severity": {
+      "choice": "1",
+      "confidence": 1.0,
+      "probabilities": {
+        "1": 1.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0
+      }
+    },
+    "r6_topic": {
+      "choice": "other",
+      "confidence": 1.0,
+      "probabilities": {
+        "access": 0.0,
+        "billing": 0.0,
+        "catalog": 0.0,
+        "downloads": 0.0,
+        "other": 1.0,
+        "playback": 0.0,
+        "support": 0.0,
+        "usability": 0.0
+      }
+    },
+    "r7_intent": {
+      "choice": "praise",
+      "confidence": 1.0,
+      "probabilities": {
+        "cancellation": 0.0,
+        "complaint": 0.0,
+        "praise": 1.0,
+        "request": 0.0,
+        "unclear": 0.0
+      }
+    },
+    "r7_severity": {
+      "choice": "1",
+      "confidence": 1.0,
+      "probabilities": {
+        "1": 1.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0
+      }
+    },
+    "r7_topic": {
+      "choice": "other",
+      "confidence": 1.0,
+      "probabilities": {
+        "access": 0.0,
+        "billing": 0.0,
+        "catalog": 0.0,
+        "downloads": 0.0,
+        "other": 1.0,
+        "playback": 0.0,
+        "support": 0.0,
+        "usability": 0.0
+      }
+    },
+    "r8_intent": {
+      "choice": "praise",
+      "confidence": 1.0,
+      "probabilities": {
+        "cancellation": 0.0,
+        "complaint": 0.0,
+        "praise": 1.0,
+        "request": 0.0,
+        "unclear": 0.0
+      }
+    },
+    "r8_severity": {
+      "choice": "1",
+      "confidence": 1.0,
+      "probabilities": {
+        "1": 1.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0
+      }
+    },
+    "r8_topic": {
+      "choice": "other",
+      "confidence": 1.0,
+      "probabilities": {
+        "access": 0.0,
+        "billing": 0.0,
+        "catalog": 0.0,
+        "downloads": 0.0,
+        "other": 1.0,
+        "playback": 0.0,
+        "support": 0.0,
+        "usability": 0.0
+      }
+    },
+    "r9_intent": {
+      "choice": "complaint",
+      "confidence": 1.0,
+      "probabilities": {
+        "cancellation": 0.0,
+        "complaint": 1.0,
+        "praise": 0.0,
+        "request": 0.0,
+        "unclear": 0.0
+      }
+    },
+    "r9_severity": {
+      "choice": "3",
+      "confidence": 0.41,
+      "probabilities": {
+        "1": 0.05,
+        "2": 0.34,
+        "3": 0.53,
+        "4": 0.07,
+        "5": 0.01
+      }
+    },
+    "r9_topic": {
+      "choice": "catalog",
+      "confidence": 0.68,
+      "probabilities": {
+        "access": 0.0,
+        "billing": 0.0,
+        "catalog": 0.72,
+        "downloads": 0.0,
+        "other": 0.27,
+        "playback": 0.0,
+        "support": 0.0,
+        "usability": 0.01
+      }
+    }
+  },
+  "blind": true,
+  "request_id": "e1524991-4657-4bd9-bab6-a7ea131b4efb",
+  "sample_ids": [
+    "54fdf931-7807-4af4-9c9b-d87845129bcb",
+    "b47c203f-366e-4409-922d-cd52aa8bbef6",
+    "179d79f7-d052-490f-a9d6-f97525b32642",
+    "cc7b79ef-bf37-40fc-a02e-4917b86e422c",
+    "7432a371-0b24-4052-b22d-729bd2607822",
+    "ad718533-a53f-475b-b200-58ab07d07d5b",
+    "9f46904c-4ed3-4799-8949-379b949c7344",
+    "59039057-3b95-4ec8-bc1e-5b5e7d538fb7",
+    "a7aebec4-11e0-40d6-abf5-7a4798ebbb98",
+    "9f3626e0-1bcb-4788-a412-f812102502d1"
+  ],
+  "seed": "spotify-blind-verifier-v1",
+  "cache_hit": false,
+  "comparisons": [
+    {
+      "review_id": "54fdf931-7807-4af4-9c9b-d87845129bcb",
+      "fields": {
+        "topic": {
+          "initial": "other",
+          "independent": "other"
+        },
+        "intent": {
+          "initial": "praise",
+          "independent": "praise"
+        },
+        "severity": {
+          "initial": 1,
+          "independent": 1
+        }
+      },
+      "disagrees": false
+    },
+    {
+      "review_id": "b47c203f-366e-4409-922d-cd52aa8bbef6",
+      "fields": {
+        "topic": {
+          "initial": "usability",
+          "independent": "other"
+        },
+        "intent": {
+          "initial": "complaint",
+          "independent": "cancellation"
+        },
+        "severity": {
+          "initial": 2,
+          "independent": 2
+        }
+      },
+      "disagrees": true
+    },
+    {
+      "review_id": "179d79f7-d052-490f-a9d6-f97525b32642",
+      "fields": {
+        "topic": {
+          "initial": "playback",
+          "independent": "playback"
+        },
+        "intent": {
+          "initial": "complaint",
+          "independent": "complaint"
+        },
+        "severity": {
+          "initial": 4,
+          "independent": 4
+        }
+      },
+      "disagrees": false
+    },
+    {
+      "review_id": "cc7b79ef-bf37-40fc-a02e-4917b86e422c",
+      "fields": {
+        "topic": {
+          "initial": "usability",
+          "independent": "usability"
+        },
+        "intent": {
+          "initial": "complaint",
+          "independent": "complaint"
+        },
+        "severity": {
+          "initial": 2,
+          "independent": 2
+        }
+      },
+      "disagrees": false
+    },
+    {
+      "review_id": "7432a371-0b24-4052-b22d-729bd2607822",
+      "fields": {
+        "topic": {
+          "initial": "other",
+          "independent": "other"
+        },
+        "intent": {
+          "initial": "praise",
+          "independent": "praise"
+        },
+        "severity": {
+          "initial": 1,
+          "independent": 1
+        }
+      },
+      "disagrees": false
+    },
+    {
+      "review_id": "ad718533-a53f-475b-b200-58ab07d07d5b",
+      "fields": {
+        "topic": {
+          "initial": "catalog",
+          "independent": "other"
+        },
+        "intent": {
+          "initial": "praise",
+          "independent": "praise"
+        },
+        "severity": {
+          "initial": 1,
+          "independent": 1
+        }
+      },
+      "disagrees": true
+    },
+    {
+      "review_id": "9f46904c-4ed3-4799-8949-379b949c7344",
+      "fields": {
+        "topic": {
+          "initial": "other",
+          "independent": "other"
+        },
+        "intent": {
+          "initial": "praise",
+          "independent": "praise"
+        },
+        "severity": {
+          "initial": 1,
+          "independent": 1
+        }
+      },
+      "disagrees": false
+    },
+    {
+      "review_id": "59039057-3b95-4ec8-bc1e-5b5e7d538fb7",
+      "fields": {
+        "topic": {
+          "initial": "other",
+          "independent": "other"
+        },
+        "intent": {
+          "initial": "praise",
+          "independent": "praise"
+        },
+        "severity": {
+          "initial": 1,
+          "independent": 1
+        }
+      },
+      "disagrees": false
+    },
+    {
+      "review_id": "a7aebec4-11e0-40d6-abf5-7a4798ebbb98",
+      "fields": {
+        "topic": {
+          "initial": "other",
+          "independent": "other"
+        },
+        "intent": {
+          "initial": "praise",
+          "independent": "praise"
+        },
+        "severity": {
+          "initial": 1,
+          "independent": 1
+        }
+      },
+      "disagrees": false
+    },
+    {
+      "review_id": "9f3626e0-1bcb-4788-a412-f812102502d1",
+      "fields": {
+        "topic": {
+          "initial": "catalog",
+          "independent": "catalog"
+        },
+        "intent": {
+          "initial": "complaint",
+          "independent": "complaint"
+        },
+        "severity": {
+          "initial": 2,
+          "independent": 3
+        }
+      },
+      "disagrees": true
+    }
+  ],
+  "disagreement_count": 3,
+  "note": "Model agreement is a diagnostic, not human accuracy; initial labels are unchanged."
+}

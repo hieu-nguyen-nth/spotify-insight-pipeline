@@ -1,0 +1,38 @@
+{
+  "observed_at_utc": "2026-10-12T06:14:39.241097+00:00",
+  "status": "pass",
+  "live_url": "https://spotify-review-analysis-one.vercel.app",
+  "deployment_id": "dpl_4SZGjTLVJ2SE8B2waBWcrdBKjU5e",
+  "project_id": "prj_mf4A3BW6lUDDB6sy2SuywXwlRHed",
+  "supabase_dataset_id": 5,
+  "scope": "completed_subset",
+  "completed_reviews": 244582,
+  "live_api_equals_checked_artifact": true,
+  "published_database_equals_checked_artifact": true,
+  "http_checks": {
+    "/": {
+      "status": 200,
+      "bytes": 4102
+    },
+    "/dashboard.js": {
+      "status": 200,
+      "bytes": 6117
+    },
+    "/styles.css": {
+      "status": 200,
+      "bytes": 5681
+    },
+    "/api/dashboard": {
+      "status": 200,
+      "completed": 244582
+    }
+  },
+  "anonymous_raw_table_statuses": {
+    "processed_reviews": 401,
+    "review_texts": 401,
+    "label_configs": 401,
+    "issue_membership": 401
+  },
+  "login_required": false,
+  "new_model_calls": 0
+}

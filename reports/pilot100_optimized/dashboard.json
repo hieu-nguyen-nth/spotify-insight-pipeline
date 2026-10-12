@@ -1,0 +1,456 @@
+{
+  "dataset": {
+    "scope": "pilot100_optimized",
+    "is_full_corpus": false,
+    "analysis_count": 100,
+    "source_sha256": "c884ac3b9be5066995d5063f96ad9af6e5e082975788c1684c4f6b6ea661dd0e",
+    "label_config": "jev-1.13.0:conditional-severity-v3:85b52f8b7a8e04f3ee9f"
+  },
+  "overview": {
+    "completed": 100,
+    "quarantined_in_analysis": 0,
+    "intent_counts": {
+      "unclear": 6,
+      "praise": 42,
+      "complaint": 41,
+      "cancellation": 8,
+      "request": 3
+    },
+    "topic_counts": {
+      "other": 50,
+      "billing": 6,
+      "catalog": 15,
+      "usability": 18,
+      "playback": 7,
+      "downloads": 2,
+      "access": 2
+    },
+    "severity_counts": {
+      "1": 51,
+      "3": 24,
+      "2": 18,
+      "4": 7
+    },
+    "needs_review_count": 25
+  },
+  "ranking": [
+    {
+      "issue_id": "issue_usability",
+      "complaint_count": 17,
+      "severity_sum": 46,
+      "rank": 1,
+      "mean_severity": "2.705882",
+      "priority_score": 46
+    },
+    {
+      "issue_id": "issue_playback",
+      "complaint_count": 7,
+      "severity_sum": 25,
+      "rank": 2,
+      "mean_severity": "3.571429",
+      "priority_score": 25
+    },
+    {
+      "issue_id": "issue_other",
+      "complaint_count": 10,
+      "severity_sum": 20,
+      "rank": 3,
+      "mean_severity": "2.000000",
+      "priority_score": 20
+    },
+    {
+      "issue_id": "issue_billing",
+      "complaint_count": 6,
+      "severity_sum": 17,
+      "rank": 4,
+      "mean_severity": "2.833333",
+      "priority_score": 17
+    },
+    {
+      "issue_id": "issue_catalog",
+      "complaint_count": 5,
+      "severity_sum": 13,
+      "rank": 5,
+      "mean_severity": "2.600000",
+      "priority_score": 13
+    },
+    {
+      "issue_id": "issue_access",
+      "complaint_count": 2,
+      "severity_sum": 8,
+      "rank": 6,
+      "mean_severity": "4.000000",
+      "priority_score": 8
+    },
+    {
+      "issue_id": "issue_downloads",
+      "complaint_count": 2,
+      "severity_sum": 7,
+      "rank": 7,
+      "mean_severity": "3.500000",
+      "priority_score": 7
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "issue_usability_complaint_count",
+      "issue_id": "issue_usability",
+      "metric": "complaint_count",
+      "value": "17"
+    },
+    {
+      "claim_id": "issue_usability_severity_sum",
+      "issue_id": "issue_usability",
+      "metric": "severity_sum",
+      "value": "46"
+    },
+    {
+      "claim_id": "issue_usability_mean_severity",
+      "issue_id": "issue_usability",
+      "metric": "mean_severity",
+      "value": "2.705882"
+    },
+    {
+      "claim_id": "issue_usability_priority_score",
+      "issue_id": "issue_usability",
+      "metric": "priority_score",
+      "value": "46"
+    },
+    {
+      "claim_id": "issue_playback_complaint_count",
+      "issue_id": "issue_playback",
+      "metric": "complaint_count",
+      "value": "7"
+    },
+    {
+      "claim_id": "issue_playback_severity_sum",
+      "issue_id": "issue_playback",
+      "metric": "severity_sum",
+      "value": "25"
+    },
+    {
+      "claim_id": "issue_playback_mean_severity",
+      "issue_id": "issue_playback",
+      "metric": "mean_severity",
+      "value": "3.571429"
+    },
+    {
+      "claim_id": "issue_playback_priority_score",
+      "issue_id": "issue_playback",
+      "metric": "priority_score",
+      "value": "25"
+    },
+    {
+      "claim_id": "issue_other_complaint_count",
+      "issue_id": "issue_other",
+      "metric": "complaint_count",
+      "value": "10"
+    },
+    {
+      "claim_id": "issue_other_severity_sum",
+      "issue_id": "issue_other",
+      "metric": "severity_sum",
+      "value": "20"
+    },
+    {
+      "claim_id": "issue_other_mean_severity",
+      "issue_id": "issue_other",
+      "metric": "mean_severity",
+      "value": "2.000000"
+    },
+    {
+      "claim_id": "issue_other_priority_score",
+      "issue_id": "issue_other",
+      "metric": "priority_score",
+      "value": "20"
+    },
+    {
+      "claim_id": "issue_billing_complaint_count",
+      "issue_id": "issue_billing",
+      "metric": "complaint_count",
+      "value": "6"
+    },
+    {
+      "claim_id": "issue_billing_severity_sum",
+      "issue_id": "issue_billing",
+      "metric": "severity_sum",
+      "value": "17"
+    },
+    {
+      "claim_id": "issue_billing_mean_severity",
+      "issue_id": "issue_billing",
+      "metric": "mean_severity",
+      "value": "2.833333"
+    },
+    {
+      "claim_id": "issue_billing_priority_score",
+      "issue_id": "issue_billing",
+      "metric": "priority_score",
+      "value": "17"
+    },
+    {
+      "claim_id": "issue_catalog_complaint_count",
+      "issue_id": "issue_catalog",
+      "metric": "complaint_count",
+      "value": "5"
+    },
+    {
+      "claim_id": "issue_catalog_severity_sum",
+      "issue_id": "issue_catalog",
+      "metric": "severity_sum",
+      "value": "13"
+    },
+    {
+      "claim_id": "issue_catalog_mean_severity",
+      "issue_id": "issue_catalog",
+      "metric": "mean_severity",
+      "value": "2.600000"
+    },
+    {
+      "claim_id": "issue_catalog_priority_score",
+      "issue_id": "issue_catalog",
+      "metric": "priority_score",
+      "value": "13"
+    },
+    {
+      "claim_id": "issue_access_complaint_count",
+      "issue_id": "issue_access",
+      "metric": "complaint_count",
+      "value": "2"
+    },
+    {
+      "claim_id": "issue_access_severity_sum",
+      "issue_id": "issue_access",
+      "metric": "severity_sum",
+      "value": "8"
+    },
+    {
+      "claim_id": "issue_access_mean_severity",
+      "issue_id": "issue_access",
+      "metric": "mean_severity",
+      "value": "4.000000"
+    },
+    {
+      "claim_id": "issue_access_priority_score",
+      "issue_id": "issue_access",
+      "metric": "priority_score",
+      "value": "8"
+    },
+    {
+      "claim_id": "issue_downloads_complaint_count",
+      "issue_id": "issue_downloads",
+      "metric": "complaint_count",
+      "value": "2"
+    },
+    {
+      "claim_id": "issue_downloads_severity_sum",
+      "issue_id": "issue_downloads",
+      "metric": "severity_sum",
+      "value": "7"
+    },
+    {
+      "claim_id": "issue_downloads_mean_severity",
+      "issue_id": "issue_downloads",
+      "metric": "mean_severity",
+      "value": "3.500000"
+    },
+    {
+      "claim_id": "issue_downloads_priority_score",
+      "issue_id": "issue_downloads",
+      "metric": "priority_score",
+      "value": "7"
+    }
+  ],
+  "issue_evidence": [
+    {
+      "issue_id": "issue_usability",
+      "complaint_count": 17,
+      "severity_sum": 46,
+      "rank": 1,
+      "mean_severity": "2.705882",
+      "priority_score": 46,
+      "evidence": [
+        {
+          "review_id": "035213ba-b1b9-411c-b028-70296e5f0e73",
+          "quote": "I m using this app from 5 to 6 year but now m uninstald this app cz his premium adds are everywhere now ."
+        },
+        {
+          "review_id": "5c9c17d3-9d6a-4fa1-a2a4-ae98eefbbd25",
+          "quote": "Your new features are really bad thing that I found because it plays any song of the Playlist randomly it really really disappointing for and listeners who don't need disturbance in their song patterns. I apologise to your team for reverse your updated or change the new features to old features . Thanks 😊"
+        },
+        {
+          "review_id": "7084ced1-0428-4093-9328-442f74719b4f",
+          "quote": "I am using Spotify from past two years From last update they removed basic features of music player"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_playback",
+      "complaint_count": 7,
+      "severity_sum": 25,
+      "rank": 2,
+      "mean_severity": "3.571429",
+      "priority_score": 25,
+      "evidence": [
+        {
+          "review_id": "46ff0c74-5e86-4e5b-b4cd-36201aab0f9e",
+          "quote": "I am unable to use my Google assistant on the app.it says playing your Spotify playlist but do not play the songs"
+        },
+        {
+          "review_id": "4ab2089a-ffa8-49e7-a8a3-aeb583a96796",
+          "quote": "Iam a premium user. But this app if i using wifi not able to connect Internet. But if using mobile data it will work. Some songs quality also very poor comparing to the YouTube music."
+        },
+        {
+          "review_id": "55cc3abf-c295-4591-8c3a-78085cfdefaa",
+          "quote": "The latest update has caused my app to crash I cant open the app please fix."
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_other",
+      "complaint_count": 10,
+      "severity_sum": 20,
+      "rank": 3,
+      "mean_severity": "2.000000",
+      "priority_score": 20,
+      "evidence": [
+        {
+          "review_id": "06a45bd5-3ed9-43af-b7f2-8b9487e2ffff",
+          "quote": "Worst app"
+        },
+        {
+          "review_id": "178c3b49-b689-4fe4-92a2-2257a58e6d95",
+          "quote": "Worst app."
+        },
+        {
+          "review_id": "2d5cdd20-3094-40a5-bc6e-653302b59b56",
+          "quote": "Noob app"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_billing",
+      "complaint_count": 6,
+      "severity_sum": 17,
+      "rank": 4,
+      "mean_severity": "2.833333",
+      "priority_score": 17,
+      "evidence": [
+        {
+          "review_id": "21915fcd-9a35-48ba-b277-6296c4154603",
+          "quote": "This app the new update has made everthing premium and so usless i thought this app is good but no. Youtube music is better than this usless app. This has become premium just for the creator of spotify to earn money anyways it is a very bad app usless since this new update! Worthless app"
+        },
+        {
+          "review_id": "88439ec2-7c49-4c57-bedb-c5e098692aff",
+          "quote": "I would request to remove all the new features .what's the point if we dont get to go back to the same song or skip songs..or choose .its not fair ..to restrict all the features jst so people would purchase premium ..its like forcing ..to do it ..and day by day it's getting more annoying..I g I'll switch to some other apps .if it remains like this forever.!"
+        },
+        {
+          "review_id": "a78d831a-69f4-428a-9235-cfdd9775c509",
+          "quote": "You can't even listen to music you want it just shuffles it, like what the hell? This app is killing it self and forcing you to pay premium for basic things like just listening to music."
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_catalog",
+      "complaint_count": 5,
+      "severity_sum": 13,
+      "rank": 5,
+      "mean_severity": "2.600000",
+      "priority_score": 13,
+      "evidence": [
+        {
+          "review_id": "47becad0-8ae5-4a10-9731-fde8f2091862",
+          "quote": "It is good but there is a problem that in some songs there is no lyrics and in some songs there is lyrics it's so confusing. However it is good 😊😊."
+        },
+        {
+          "review_id": "618d1dbb-0186-4537-923a-7b4dabf19afb",
+          "quote": "Please stop with the recommendations! I use the premium family sub and I want to listen to my playlist without your recommendation adds. I am not interested in new music based on my preferences. If I wanted these songs I'd use a random playlist not not make my own! I'll start using Amazon music or apple if you don't."
+        },
+        {
+          "review_id": "e0127547-4edd-44a0-8d5e-e8398bc07086",
+          "quote": "sometime the lyrics don't show"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_access",
+      "complaint_count": 2,
+      "severity_sum": 8,
+      "rank": 6,
+      "mean_severity": "4.000000",
+      "priority_score": 8,
+      "evidence": [
+        {
+          "review_id": "32fb340f-4f9f-4551-8dae-755221e58d6a",
+          "quote": "It not letting me into my account and there are to many ads"
+        },
+        {
+          "review_id": "de0a9cdf-8974-48bc-802f-331228df4619",
+          "quote": "Will not except my password"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_downloads",
+      "complaint_count": 2,
+      "severity_sum": 7,
+      "rank": 7,
+      "mean_severity": "3.500000",
+      "priority_score": 7,
+      "evidence": [
+        {
+          "review_id": "dcff57c6-abd6-413b-b255-aec3dc34fcbd",
+          "quote": "Offline not workjng"
+        },
+        {
+          "review_id": "2ffdf599-a0d5-4c01-bf26-025215d44c06",
+          "quote": "I like the app, but I don't like that it is always stuck downloading songs in the background and gets stuck until I open Spotify. Idk if it's clever marketing to get the user to open the app, or if it's a bug...either way it is very annoying and has forced me to consider canceling my premium after years of being a subscriber to Hulu/Spotify. I'm sure no one reads these reviews after reading a few "
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "action": "Revert recent feature changes and restore basic music player functions.",
+      "claim_ids": [
+        "issue_usability_complaint_count"
+      ],
+      "evidence_review_ids": [
+        "7084ced1-0428-4093-9328-442f74719b4f"
+      ],
+      "reason": "Users report dissatisfaction with recent feature changes, especially the removal of basic music player functions.",
+      "issue_id": "issue_usability"
+    },
+    {
+      "action": "Prioritize crash bug fixes and improve internet connectivity for premium users.",
+      "claim_ids": [
+        "issue_playback_complaint_count"
+      ],
+      "evidence_review_ids": [
+        "46ff0c74-5e86-4e5b-b4cd-36201aab0f9e",
+        "4ab2089a-ffa8-49e7-a8a3-aeb583a96796",
+        "55cc3abf-c295-4591-8c3a-78085cfdefaa"
+      ],
+      "reason": "Quoted examples relate to app crashes and internet issues, impacting user experience and satisfaction.",
+      "issue_id": "issue_playback",
+      "editorial_note": "Removed an unmeasured frequency claim and cited all supplied examples. Raw model output is retained."
+    },
+    {
+      "action": "Collect specific feedback before diagnosing this issue.",
+      "claim_ids": [
+        "issue_other_complaint_count"
+      ],
+      "evidence_review_ids": [
+        "06a45bd5-3ed9-43af-b7f2-8b9487e2ffff"
+      ],
+      "reason": "The quoted reviews express dissatisfaction without describing a defect.",
+      "issue_id": "issue_other"
+    }
+  ],
+  "limitations": [
+    "Development checkpoint, not full-corpus results.",
+    "Broad topic groups are not root-cause clusters.",
+    "Sentiment is local VADER; human agreement diagnostics remain separate.",
+    "Local AI prose was reviewed against source quotes; editorial corrections are disclosed."
+  ]
+}

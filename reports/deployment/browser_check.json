@@ -1,0 +1,15 @@
+{
+  "live_url": "https://spotify-review-analysis-one.vercel.app",
+  "scope": "checkpoint10000",
+  "displayed_completed": 10000,
+  "displayed_complaints_cancellations": 4494,
+  "displayed_flags": 2783,
+  "displayed_quarantines_in_checkpoint": 0,
+  "filter_preserved_rank": true,
+  "billing_original_rank": 3,
+  "billing_priority": 2208,
+  "recommendation_button_showed_cited_original_ids": true,
+  "viewport_observed": "responsive narrow app viewport",
+  "screenshot": "dashboard-live.jpg",
+  "new_model_calls": 0
+}

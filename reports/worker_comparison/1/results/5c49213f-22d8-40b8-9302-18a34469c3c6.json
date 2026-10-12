@@ -1,0 +1,55 @@
+{
+  "request_id": "5c49213f-22d8-40b8-9302-18a34469c3c6",
+  "predictions": {
+    "0a5ff524-27b1-4f3b-a761-17ca48ee731d": {
+      "topic": "other",
+      "intent": "praise",
+      "severity": 1
+    },
+    "47becad0-8ae5-4a10-9731-fde8f2091862": {
+      "topic": "catalog",
+      "intent": "complaint",
+      "severity": 2
+    },
+    "a1a28752-3256-4f81-b888-3e943343529f": {
+      "topic": "catalog",
+      "intent": "complaint",
+      "severity": 2
+    },
+    "a7aebec4-11e0-40d6-abf5-7a4798ebbb98": {
+      "topic": "other",
+      "intent": "praise",
+      "severity": 1
+    },
+    "aeee488a-2077-489d-8914-1e01d5f7672f": {
+      "topic": "other",
+      "intent": "praise",
+      "severity": 1
+    },
+    "884e8712-da13-4890-a39e-731b69f42d6c": {
+      "topic": "other",
+      "intent": "praise",
+      "severity": 1
+    },
+    "c1ab120a-f91f-4ee3-87f5-66f352e2d47f": {
+      "topic": "other",
+      "intent": "complaint",
+      "severity": 2
+    },
+    "9f3794ed-4f4b-4430-a548-9cfd2d0c0084": {
+      "topic": "other",
+      "intent": "praise",
+      "severity": 1
+    },
+    "def34476-7bdc-443a-ab3d-475cdd5ca2f6": {
+      "topic": "other",
+      "intent": "unclear",
+      "severity": 1
+    },
+    "e5e6c55f-3069-4b7c-9807-f8b5d5bf2726": {
+      "topic": "usability",
+      "intent": "complaint",
+      "severity": 3
+    }
+  }
+}

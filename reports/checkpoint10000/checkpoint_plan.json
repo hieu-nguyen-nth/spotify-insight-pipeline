@@ -1,0 +1,22 @@
+{
+  "version": "lean-development-v2",
+  "scope": "checkpoint10000",
+  "source_rows": 10000,
+  "nonempty_reviews": 10000,
+  "label_config": "jev-1.13.0:conditional-severity-v3:85b52f8b7a8e04f3ee9f",
+  "batch_size": 50,
+  "workers": 1,
+  "project_api_cap_usd": 4.8,
+  "incremental_pilot_cap_usd": 0.2,
+  "user_reported_credit_purchase_usd": 5,
+  "paid_execution": true,
+  "sentiment_quality": "golden50_diagnostics_recorded_student_accepted_variation",
+  "stronger_fallbacks": 0,
+  "execute_paid": true,
+  "additional_cap_usd": 0.2,
+  "absolute_project_cap_usd": 0.210886988,
+  "reused_rows_this_preparation": 479,
+  "verification_sample_size": 10,
+  "classifier_quality_decision": "Student reviewed golden disagreements and accepted the frozen configuration; original scores/labels retained.",
+  "status": "completed"
+}

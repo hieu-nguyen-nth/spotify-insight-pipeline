@@ -1,0 +1,9 @@
+{
+  "observed_at_utc": "2026-10-12T04:05:31.273438+00:00",
+  "state": "implemented_full_execution_pending",
+  "offline_tests_passed": 84,
+  "full_checker": "not_run_yet",
+  "full_database_upload": "not_started",
+  "actual_incomplete_guard": "blocked: production_run.json unavailable",
+  "new_model_calls": 0
+}

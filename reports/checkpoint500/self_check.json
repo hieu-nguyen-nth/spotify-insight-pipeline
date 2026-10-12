@@ -1,0 +1,108 @@
+{
+  "audit_version": "a5-audit-v1",
+  "audit_script_sha256": "d60bd66d84922d934c65b3d42b2c7d36cc738e8c75e2d6f2b2f58bca3141c26d",
+  "reference_sha256": "208362e9cc8eb1526b04ae6bcf9214cc8b35dbddb4d00f96c1b5c14c56584257",
+  "hash_convention": "Reference/benchmark: canonical UTF-8 JSON via canonical(); input files and audit script: exact bytes.",
+  "input_files_sha256": {
+    "calls.jsonl": "125db5170dcc78b17beb8481617a82aca755697c05d0f39f3be8659d56bf9156",
+    "checkpoint_after.json": "846219173a7e929e343e7b8e79c24f61e695c83785b624f522b7aaa9d4d18c7f",
+    "checkpoint_before.json": "68b8fdb2c9b7df2ab3b47149afab0c29114ad7dc6734a2868ff45cd8988499ef",
+    "claims.csv": "1a642f722c2cdbe7f36991db154f45da9ddc21acdfed5dd98a5f26a1dd29b877",
+    "ingestion.json": "3e5e01083c3d0a338bb584f71b3a5420485783f5ca9d085b8cac89a51b42752a",
+    "membership.csv": "72db1877fa3b647ec61318b5e4bf8201475a5dfead39ae56d079bcb57c8a72fd",
+    "ranking.csv": "a4958bd6c9c1667b6a4238644021c2b4d5edfeb7e66aaa953026f3fb1acc5652",
+    "records.jsonl": "8a8b9f7a13d0c0bef1fb68533c3b5f79adb19b9c3f50d7eda74bbb6cc7f6b49e",
+    "run.json": "aa3680fd3dd896bb85db2280da3a79ba8e5613d00144f0d0d1f0cf884bcdb3b9"
+  },
+  "status": "pass",
+  "automatic_grade": null,
+  "working_coverage_point_candidate": 1.0,
+  "coverage": {
+    "expected": 500,
+    "received_lines": 500,
+    "unique_expected_ids": 500,
+    "missing": 0,
+    "duplicate_ids": 0,
+    "valid_completed": 500,
+    "quarantined": 0,
+    "invalid_or_unresolved": 0,
+    "labelable": 500,
+    "valid_cache_reuses": 21,
+    "labelable_completion_fraction": 1.0,
+    "accounted_fraction": 1.0,
+    "valid_completion_fraction": 1.0
+  },
+  "issue_counts": {},
+  "examples": [],
+  "quality": {
+    "status": "not_supplied",
+    "official": false
+  },
+  "calculated_ranking": [
+    {
+      "issue_id": "issue_usability",
+      "complaint_count": 69,
+      "severity_sum": 184,
+      "mean_severity": "2.666667",
+      "priority_score": 184,
+      "rank": 1
+    },
+    {
+      "issue_id": "issue_playback",
+      "complaint_count": 38,
+      "severity_sum": 141,
+      "mean_severity": "3.710526",
+      "priority_score": 141,
+      "rank": 2
+    },
+    {
+      "issue_id": "issue_other",
+      "complaint_count": 58,
+      "severity_sum": 117,
+      "mean_severity": "2.017241",
+      "priority_score": 117,
+      "rank": 3
+    },
+    {
+      "issue_id": "issue_billing",
+      "complaint_count": 38,
+      "severity_sum": 115,
+      "mean_severity": "3.026316",
+      "priority_score": 115,
+      "rank": 4
+    },
+    {
+      "issue_id": "issue_catalog",
+      "complaint_count": 21,
+      "severity_sum": 54,
+      "mean_severity": "2.571429",
+      "priority_score": 54,
+      "rank": 5
+    },
+    {
+      "issue_id": "issue_access",
+      "complaint_count": 10,
+      "severity_sum": 40,
+      "mean_severity": "4.000000",
+      "priority_score": 40,
+      "rank": 6
+    },
+    {
+      "issue_id": "issue_downloads",
+      "complaint_count": 5,
+      "severity_sum": 18,
+      "mean_severity": "3.600000",
+      "priority_score": 18,
+      "rank": 7
+    }
+  ],
+  "reported_calls": 20,
+  "reported_input_tokens": 113051,
+  "reported_output_tokens": 80338,
+  "limits": [
+    "Artifacts do not prove actual model execution, authorship, cost, or independent verification.",
+    "Exact quote membership does not prove that the quote supports the label.",
+    "Claims export checks numbers; a person must check that all memo claims are represented.",
+    "Benchmark agreement is diagnostic; final 4/3/3 grades require rubric review."
+  ]
+}

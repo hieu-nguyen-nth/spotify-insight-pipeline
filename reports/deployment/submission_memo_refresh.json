@@ -1,0 +1,18 @@
+{
+  "observed_at_utc": "2026-10-12T08:04:28.866194+00:00",
+  "status": "pass",
+  "dataset_id": 5,
+  "updated_artifact": "memo",
+  "memo_sha256": "d68ab026c74581a517b06ffe5559808f7004c34605c09af06b5172cf5ac88e4f",
+  "change": "Added existing mean-severity claim IDs; original AI prose retained.",
+  "completed_rows": 244582,
+  "membership_rows": 15825,
+  "stored_artifacts": 6,
+  "other_artifact_values_unchanged": true,
+  "live_api_equals_checked_dashboard": true,
+  "anonymous_private_select_grants": 0,
+  "database_bytes": 162453171,
+  "new_model_calls": 0,
+  "new_rows_uploaded": 0,
+  "schema_changes": 0
+}

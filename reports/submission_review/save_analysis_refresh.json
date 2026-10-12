@@ -1,0 +1,8 @@
+{
+  "scope": "completed_subset",
+  "stored_artifacts": 6,
+  "stored_membership_rows": 15825,
+  "completed_records": 244582,
+  "new_model_calls": 0,
+  "database": "local shared SQLite; live deployment pending"
+}

@@ -1,0 +1,55 @@
+{
+  "request_id": "8aa71ffe-2f5e-4cce-b969-e588ae2c6375",
+  "predictions": {
+    "9e5f9745-f8be-48d3-b9de-4d118507d94a": {
+      "topic": "usability",
+      "intent": "cancellation",
+      "severity": 3
+    },
+    "0658feaa-5bec-416e-b6b0-3de2a4c14580": {
+      "topic": "catalog",
+      "intent": "complaint",
+      "severity": 3
+    },
+    "b9a3e661-0eac-4cc9-a30e-7b1e11ef1315": {
+      "topic": "catalog",
+      "intent": "cancellation",
+      "severity": 1
+    },
+    "85ccf50b-7e85-4068-8765-5c122d61580f": {
+      "topic": "other",
+      "intent": "praise",
+      "severity": 1
+    },
+    "23d905f8-8684-41b3-8faa-42571f3eaeee": {
+      "topic": "other",
+      "intent": "praise",
+      "severity": 1
+    },
+    "2b57a12b-bbbe-457c-83a8-1bec297a5f63": {
+      "topic": "other",
+      "intent": "praise",
+      "severity": 1
+    },
+    "89ea2c30-db8b-459d-8ab7-bbcb7f92c774": {
+      "topic": "usability",
+      "intent": "complaint",
+      "severity": 3
+    },
+    "d7b04025-054b-4929-a507-15b751c39fdc": {
+      "topic": "catalog",
+      "intent": "request",
+      "severity": 1
+    },
+    "7a833667-4fcb-4a40-a88d-c55cfeca3d16": {
+      "topic": "other",
+      "intent": "praise",
+      "severity": 1
+    },
+    "89a8e180-7846-4421-a2b6-fa7787e9d0d2": {
+      "topic": "billing",
+      "intent": "complaint",
+      "severity": 3
+    }
+  }
+}

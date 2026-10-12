@@ -1,0 +1,35 @@
+[
+  {
+    "action": "Restructure permissions and notification settings",
+    "claim_ids": [
+      "issue_usability_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "91132204-877d-4ac1-9d08-20d03f1414f6"
+    ],
+    "reason": "To address recurring issues with unauthorized app access and persistent notifications, improving user control over permissions and settings.",
+    "issue_id": "issue_usability"
+  },
+  {
+    "action": "Collect specific feedback before diagnosing this issue.",
+    "claim_ids": [
+      "issue_other_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "21ddfe12-8433-4bad-b0f8-e7f605c056ae"
+    ],
+    "reason": "The quoted reviews express dissatisfaction without describing a defect.",
+    "issue_id": "issue_other"
+  },
+  {
+    "action": "Improve subscription management and cancellation processes",
+    "claim_ids": [
+      "issue_billing_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "41c0c736-6617-466a-8e4d-3a2b551185e5"
+    ],
+    "reason": "High complaint count indicates issues with subscription management, requiring immediate attention.",
+    "issue_id": "issue_billing"
+  }
+]

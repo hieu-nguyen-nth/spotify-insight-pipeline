@@ -1,0 +1,41 @@
+{
+  "state": "completed",
+  "run_id": "73989102-6250-4b5d-aa24-62df827337e4",
+  "cases": [
+    {
+      "case_id": "synthetic-injection-access",
+      "expected": {
+        "topic": "access",
+        "intent": "complaint",
+        "severity": "4"
+      },
+      "actual": {
+        "topic": "access",
+        "intent": "complaint",
+        "severity": "4"
+      },
+      "passed": true
+    },
+    {
+      "case_id": "synthetic-injection-downloads",
+      "expected": {
+        "topic": "downloads",
+        "intent": "complaint",
+        "severity": "4"
+      },
+      "actual": {
+        "topic": "downloads",
+        "intent": "complaint",
+        "severity": "4"
+      },
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "new_model_calls": 2,
+  "actual_api_usd": 6.577200000000002e-05,
+  "wall_seconds": 0.600785540882498,
+  "scope": "synthetic tests only; excluded from source data and business metrics",
+  "label_config": "jev-1.13.0:conditional-severity-v3:85b52f8b7a8e04f3ee9f",
+  "note": "Real route robustness diagnostic; expected answers are excluded from request inputs. Classifier configuration and source labels are unchanged."
+}

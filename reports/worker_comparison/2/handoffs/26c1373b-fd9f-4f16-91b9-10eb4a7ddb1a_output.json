@@ -1,0 +1,399 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "r0_topic": {
+      "type": "choice",
+      "choice": "other",
+      "confidence": 1.0,
+      "probabilities": {
+        "other": 1.0,
+        "support": 0.0,
+        "billing": 0.0,
+        "catalog": 0.0,
+        "downloads": 0.0,
+        "playback": 0.0,
+        "usability": 0.0,
+        "access": 0.0
+      }
+    },
+    "r0_intent": {
+      "type": "choice",
+      "choice": "unclear",
+      "confidence": 0.8,
+      "probabilities": {
+        "unclear": 0.84,
+        "praise": 0.14,
+        "request": 0.0,
+        "complaint": 0.02,
+        "cancellation": 0.0
+      }
+    },
+    "r0_severity": {
+      "type": "choice",
+      "choice": "1",
+      "confidence": 0.73,
+      "probabilities": {
+        "5": 0.0,
+        "4": 0.0,
+        "3": 0.01,
+        "2": 0.21,
+        "1": 0.78
+      }
+    },
+    "r1_topic": {
+      "type": "choice",
+      "choice": "other",
+      "confidence": 1.0,
+      "probabilities": {
+        "other": 1.0,
+        "support": 0.0,
+        "billing": 0.0,
+        "catalog": 0.0,
+        "downloads": 0.0,
+        "playback": 0.0,
+        "usability": 0.0,
+        "access": 0.0
+      }
+    },
+    "r1_intent": {
+      "type": "choice",
+      "choice": "praise",
+      "confidence": 0.7,
+      "probabilities": {
+        "unclear": 0.17,
+        "praise": 0.76,
+        "request": 0.0,
+        "complaint": 0.07,
+        "cancellation": 0.0
+      }
+    },
+    "r1_severity": {
+      "type": "choice",
+      "choice": "1",
+      "confidence": 0.89,
+      "probabilities": {
+        "5": 0.0,
+        "4": 0.01,
+        "3": 0.01,
+        "2": 0.07,
+        "1": 0.91
+      }
+    },
+    "r2_topic": {
+      "type": "choice",
+      "choice": "other",
+      "confidence": 1.0,
+      "probabilities": {
+        "other": 1.0,
+        "support": 0.0,
+        "billing": 0.0,
+        "catalog": 0.0,
+        "downloads": 0.0,
+        "playback": 0.0,
+        "usability": 0.0,
+        "access": 0.0
+      }
+    },
+    "r2_intent": {
+      "type": "choice",
+      "choice": "praise",
+      "confidence": 1.0,
+      "probabilities": {
+        "unclear": 0.0,
+        "praise": 1.0,
+        "request": 0.0,
+        "complaint": 0.0,
+        "cancellation": 0.0
+      }
+    },
+    "r2_severity": {
+      "type": "choice",
+      "choice": "1",
+      "confidence": 1.0,
+      "probabilities": {
+        "5": 0.0,
+        "4": 0.0,
+        "3": 0.0,
+        "2": 0.0,
+        "1": 1.0
+      }
+    },
+    "r3_topic": {
+      "type": "choice",
+      "choice": "billing",
+      "confidence": 0.81,
+      "probabilities": {
+        "other": 0.0,
+        "support": 0.0,
+        "billing": 0.83,
+        "catalog": 0.0,
+        "downloads": 0.0,
+        "playback": 0.03,
+        "usability": 0.14,
+        "access": 0.0
+      }
+    },
+    "r3_intent": {
+      "type": "choice",
+      "choice": "complaint",
+      "confidence": 1.0,
+      "probabilities": {
+        "unclear": 0.0,
+        "praise": 0.0,
+        "request": 0.0,
+        "complaint": 1.0,
+        "cancellation": 0.0
+      }
+    },
+    "r3_severity": {
+      "type": "choice",
+      "choice": "3",
+      "confidence": 0.81,
+      "probabilities": {
+        "5": 0.0,
+        "4": 0.13,
+        "3": 0.85,
+        "2": 0.01,
+        "1": 0.01
+      }
+    },
+    "r4_topic": {
+      "type": "choice",
+      "choice": "billing",
+      "confidence": 0.9,
+      "probabilities": {
+        "other": 0.0,
+        "support": 0.0,
+        "billing": 0.91,
+        "catalog": 0.0,
+        "downloads": 0.0,
+        "playback": 0.01,
+        "usability": 0.08,
+        "access": 0.0
+      }
+    },
+    "r4_intent": {
+      "type": "choice",
+      "choice": "complaint",
+      "confidence": 0.99,
+      "probabilities": {
+        "unclear": 0.0,
+        "praise": 0.0,
+        "request": 0.01,
+        "complaint": 0.99,
+        "cancellation": 0.0
+      }
+    },
+    "r4_severity": {
+      "type": "choice",
+      "choice": "3",
+      "confidence": 0.94,
+      "probabilities": {
+        "5": 0.0,
+        "4": 0.05,
+        "3": 0.95,
+        "2": 0.0,
+        "1": 0.0
+      }
+    },
+    "r5_topic": {
+      "type": "choice",
+      "choice": "other",
+      "confidence": 1.0,
+      "probabilities": {
+        "other": 1.0,
+        "support": 0.0,
+        "billing": 0.0,
+        "catalog": 0.0,
+        "downloads": 0.0,
+        "playback": 0.0,
+        "usability": 0.0,
+        "access": 0.0
+      }
+    },
+    "r5_intent": {
+      "type": "choice",
+      "choice": "praise",
+      "confidence": 1.0,
+      "probabilities": {
+        "unclear": 0.0,
+        "praise": 1.0,
+        "request": 0.0,
+        "complaint": 0.0,
+        "cancellation": 0.0
+      }
+    },
+    "r5_severity": {
+      "type": "choice",
+      "choice": "1",
+      "confidence": 1.0,
+      "probabilities": {
+        "5": 0.0,
+        "4": 0.0,
+        "3": 0.0,
+        "2": 0.0,
+        "1": 1.0
+      }
+    },
+    "r6_topic": {
+      "type": "choice",
+      "choice": "other",
+      "confidence": 1.0,
+      "probabilities": {
+        "other": 1.0,
+        "support": 0.0,
+        "billing": 0.0,
+        "catalog": 0.0,
+        "downloads": 0.0,
+        "playback": 0.0,
+        "usability": 0.0,
+        "access": 0.0
+      }
+    },
+    "r6_intent": {
+      "type": "choice",
+      "choice": "praise",
+      "confidence": 1.0,
+      "probabilities": {
+        "unclear": 0.0,
+        "praise": 1.0,
+        "request": 0.0,
+        "complaint": 0.0,
+        "cancellation": 0.0
+      }
+    },
+    "r6_severity": {
+      "type": "choice",
+      "choice": "1",
+      "confidence": 1.0,
+      "probabilities": {
+        "5": 0.0,
+        "4": 0.0,
+        "3": 0.0,
+        "2": 0.0,
+        "1": 1.0
+      }
+    },
+    "r7_topic": {
+      "type": "choice",
+      "choice": "other",
+      "confidence": 0.6,
+      "probabilities": {
+        "other": 0.65,
+        "support": 0.0,
+        "billing": 0.0,
+        "catalog": 0.34,
+        "downloads": 0.0,
+        "playback": 0.01,
+        "usability": 0.0,
+        "access": 0.0
+      }
+    },
+    "r7_intent": {
+      "type": "choice",
+      "choice": "praise",
+      "confidence": 1.0,
+      "probabilities": {
+        "unclear": 0.0,
+        "praise": 1.0,
+        "request": 0.0,
+        "complaint": 0.0,
+        "cancellation": 0.0
+      }
+    },
+    "r7_severity": {
+      "type": "choice",
+      "choice": "1",
+      "confidence": 1.0,
+      "probabilities": {
+        "5": 0.0,
+        "4": 0.0,
+        "3": 0.0,
+        "2": 0.0,
+        "1": 1.0
+      }
+    },
+    "r8_topic": {
+      "type": "choice",
+      "choice": "other",
+      "confidence": 0.68,
+      "probabilities": {
+        "other": 0.72,
+        "support": 0.0,
+        "billing": 0.0,
+        "catalog": 0.23,
+        "downloads": 0.0,
+        "playback": 0.04,
+        "usability": 0.01,
+        "access": 0.0
+      }
+    },
+    "r8_intent": {
+      "type": "choice",
+      "choice": "praise",
+      "confidence": 1.0,
+      "probabilities": {
+        "unclear": 0.0,
+        "praise": 1.0,
+        "request": 0.0,
+        "complaint": 0.0,
+        "cancellation": 0.0
+      }
+    },
+    "r8_severity": {
+      "type": "choice",
+      "choice": "1",
+      "confidence": 1.0,
+      "probabilities": {
+        "5": 0.0,
+        "4": 0.0,
+        "3": 0.0,
+        "2": 0.0,
+        "1": 1.0
+      }
+    },
+    "r9_topic": {
+      "type": "choice",
+      "choice": "other",
+      "confidence": 1.0,
+      "probabilities": {
+        "other": 1.0,
+        "support": 0.0,
+        "billing": 0.0,
+        "catalog": 0.0,
+        "downloads": 0.0,
+        "playback": 0.0,
+        "usability": 0.0,
+        "access": 0.0
+      }
+    },
+    "r9_intent": {
+      "type": "choice",
+      "choice": "praise",
+      "confidence": 0.97,
+      "probabilities": {
+        "unclear": 0.02,
+        "praise": 0.98,
+        "request": 0.0,
+        "complaint": 0.0,
+        "cancellation": 0.0
+      }
+    },
+    "r9_severity": {
+      "type": "choice",
+      "choice": "1",
+      "confidence": 1.0,
+      "probabilities": {
+        "5": 0.0,
+        "4": 0.0,
+        "3": 0.0,
+        "2": 0.0,
+        "1": 1.0
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 2851,
+    "output_tokens": 1873
+  }
+}

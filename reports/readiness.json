@@ -1,0 +1,89 @@
+{
+  "observed_at_utc": "2026-10-12T08:04:30.730786+00:00",
+  "scope": "user_stopped_completed_subset",
+  "status": "local_artifacts_database_and_live_dashboard_verified",
+  "full_source_rows": 660622,
+  "full_nonempty_reviews": 660609,
+  "completed_original_reviews": 244582,
+  "uncompleted_nonempty_reviews": 416027,
+  "source_empty_quarantines": 13,
+  "classification_stopped": true,
+  "classification_restart_authorized": false,
+  "scheduled_followups": "PAUSED",
+  "active_run_id": null,
+  "in_flight_calls": 0,
+  "selection": "completion_based_not_random",
+  "selection_warning": "Many complaints/cancellations await severity; do not generalize this subset to the full corpus.",
+  "frozen_config": "jev-1.13.0:conditional-severity-v3:85b52f8b7a8e04f3ee9f",
+  "workers_measured": [
+    1,
+    2
+  ],
+  "max_reviews_per_request": 50,
+  "stronger_fallbacks": 0,
+  "independent_subset_integrity": "pass",
+  "offline_ranking_replay": "byte_identical",
+  "instructor_full_source_checker": "review_required",
+  "instructor_issue_counts": {
+    "invalid_usage": 2,
+    "missing_records": 1,
+    "unfinished_classification": 1
+  },
+  "instructor_grade": null,
+  "blind_verification_sample": 1000,
+  "blind_verification_any_field_disagreements": 193,
+  "blind_field_agreement": {
+    "topic": 0.907,
+    "intent": 0.928,
+    "severity": 0.923
+  },
+  "known_project_api_usd": "3.671408118000",
+  "total_project_api_usd": null,
+  "unknown_charge_hold_usd": 0.05,
+  "unknown_paid_request_ids": [
+    "03cb9c58-d8c1-4500-864e-4b9049ddbe6d"
+  ],
+  "api_ceiling_usd": 4.8,
+  "user_reported_credit_purchase_usd": 5,
+  "cost_status": "provisional",
+  "recorded_project_attempts": 10118,
+  "typesafe_attempts": 10093,
+  "offline_tests_passed": 98,
+  "local_database_analysis_scopes": [
+    "pilot100_optimized",
+    "checkpoint500",
+    "checkpoint10000",
+    "completed_subset"
+  ],
+  "live_url": "https://spotify-review-analysis-one.vercel.app",
+  "login_required": false,
+  "live_dashboard_scope": "completed_subset",
+  "live_deployment_id": "dpl_4SZGjTLVJ2SE8B2waBWcrdBKjU5e",
+  "supabase_dataset_id": 5,
+  "private_database_completed_rows": 244582,
+  "database_memberships": 15825,
+  "stored_artifacts": 6,
+  "database_bytes": 164075187,
+  "live_backend_verified": true,
+  "browser_verified": true,
+  "anonymous_raw_table_statuses": {
+    "processed_reviews": 401,
+    "review_texts": 401,
+    "label_configs": 401,
+    "issue_membership": 401
+  },
+  "new_model_calls_during_upload_deployment_verification": 0,
+  "requirements_pending_confirmation": [
+    "coverage grading for >=100000 option vs full-source checker",
+    "exact extended submission deadline"
+  ],
+  "delivery_remaining": [
+    "authorized repository publication",
+    "student course submission",
+    "genuine provider reconciliation for unknown failed request"
+  ],
+  "full_corpus_completion_claimed": false,
+  "production_workers": 1,
+  "worker_comparison": "reports/worker_comparison/report.json",
+  "submission_gap_fixes": "submission/requirement-audit.md"
+}

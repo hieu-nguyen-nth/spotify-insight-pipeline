@@ -1,0 +1,16 @@
+{
+  "source": "explicit_user_instruction",
+  "user_instruction": "Approve the live Jev comparison within $0.01",
+  "observed_at_utc": "2026-10-12T07:35:43.893860+00:00",
+  "endpoint": "api.typesafe.ai/v1/systemone",
+  "input": "dataset/cost_100.csv",
+  "input_reviews_per_condition": 100,
+  "worker_conditions": [
+    1,
+    2
+  ],
+  "additional_cap_usd": 0.01,
+  "unchanged_project_api_ceiling_usd": 4.8,
+  "classification_updates_authorized": false,
+  "resolved_input_path": "dataset/samples/cost_100.csv"
+}

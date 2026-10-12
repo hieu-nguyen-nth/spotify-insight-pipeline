@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"recommendations\": {\n    \"issue_playback\": {\n      \"action\": \"Prioritize crash bug fixes and improve internet connectivity for premium users.\",\n      \"claim_ids\": [\"issue_playback_complaint_count\"],\n      \"evidence_review_ids\": [\"46ff0c74-5e86-4e5b-b4cd-36201aab0f9e\"],\n      \"reason\": \"Most complaints relate to app crashes and internet issues, impacting user experience and satisfaction.\"\n    }\n  }\n}"
+      }
+    }
+  ],
+  "created": 1791757391,
+  "model": "qwen2.5:3b-instruct-q4_K_M",
+  "system_fingerprint": "b1-631109b34",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 490,
+    "total_tokens": 616,
+    "prompt_tokens_details": {
+      "cached_tokens": 88
+    }
+  },
+  "id": "chatcmpl-74X4ckinGtSKXvRbcejXiyfNdAmopSl8",
+  "timings": {
+    "cache_n": 88,
+    "prompt_n": 402,
+    "prompt_ms": 7812.489,
+    "prompt_per_token_ms": 19.434052238805968,
+    "prompt_per_second": 51.45607245015002,
+    "predicted_n": 126,
+    "predicted_ms": 9345.997,
+    "predicted_per_token_ms": 74.76797599999999,
+    "predicted_per_second": 13.374710049660834
+  }
+}

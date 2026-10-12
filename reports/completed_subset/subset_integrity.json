@@ -1,0 +1,46 @@
+{
+  "status": "pass",
+  "scope": "only the frozen completed subset",
+  "completed_count": 244582,
+  "checks": [
+    "Original ID, exact source row hash and quote validation",
+    "Exact committed model result and real bounded-request provenance",
+    "Deterministic membership, ranking and claims recalculated from all completed records"
+  ],
+  "instructor_checker_status": "review_required",
+  "instructor_checker_issue_counts": {
+    "invalid_usage": 2,
+    "missing_records": 1,
+    "unfinished_classification": 1
+  },
+  "full_source_coverage": {
+    "expected": 660622,
+    "received_lines": 244595,
+    "unique_expected_ids": 244595,
+    "missing": 416027,
+    "duplicate_ids": 0,
+    "valid_completed": 244582,
+    "quarantined": 13,
+    "invalid_or_unresolved": 0,
+    "labelable": 660609,
+    "valid_cache_reuses": 0,
+    "labelable_completion_fraction": 0.370237,
+    "accounted_fraction": 0.37025,
+    "valid_completion_fraction": 0.37023
+  },
+  "scope_limitations": "Completion-based subset, not a random sample. Praise/request/unclear records finished earlier; many complaints/cancellations remain without severity. Metrics and rankings apply only to these completed records.",
+  "new_model_calls": 0,
+  "instructor_checker_sha256": "d60bd66d84922d934c65b3d42b2c7d36cc738e8c75e2d6f2b2f58bca3141c26d",
+  "checker_report_sha256": "8d1a25ff234e76a0323d285d458cd1e038a2b610f556ad0e180963b510df5ead",
+  "grading_sha256": {
+    "claims.csv": "703051e93d7193c9d0e4c0e11827a5d868567e5b36cb4b155c90f6b4a025a8f1",
+    "membership.csv": "f6f45aa6f503a186fdb4b09f87a544456188b6bf7a0aa74816728b9d19848d92",
+    "checkpoint_after.json": "c857bf17f2262b3b560568c26839de7cb295781be71a743854fb1c9f8be34bc3",
+    "records.jsonl": "10456fc611a0eb420793557a9ea7aece0e2e3b806a032f8d577046f6be401762",
+    "ingestion.json": "3e5e01083c3d0a338bb584f71b3a5420485783f5ca9d085b8cac89a51b42752a",
+    "checkpoint_before.json": "68b8fdb2c9b7df2ab3b47149afab0c29114ad7dc6734a2868ff45cd8988499ef",
+    "ranking.csv": "2cb6cb2cb153dc1759b5a61e82b119482712fe847726c98db1dc3f9f605dd3cf",
+    "calls.jsonl": "989e305021aacbc4333805cae3d3803414d0d1dcb8d36521de1be8ec61c4ecac",
+    "run.json": "30928dab2c17f5a90b106393b90180873eb070eb48a56a8b03191b783de65a0e"
+  }
+}

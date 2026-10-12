@@ -1,0 +1,315 @@
+{
+  "request_id": "0ac08662-b424-4e79-b490-474ff4698bfa",
+  "role": "enrich",
+  "review_ids": [
+    "292ce26a-815d-4bce-a3b6-93cb6c9e7e2c",
+    "991b6b3a-f511-458a-a5b7-234f78048fb5",
+    "0c6ca545-3f89-4da6-b3db-1a352371fb6e",
+    "947821dc-b356-45dc-a0bc-1903728fad40",
+    "723f07de-9881-4049-8680-1a9e25652914",
+    "47428620-ec21-424d-a515-0b0b0012a5cf",
+    "01d453b0-dca3-42e9-8aa4-5fc167b08070",
+    "46842184-32f8-4088-ac15-2a700a7e94ed",
+    "657f1b77-0183-4b06-bf48-5e6d9ab08f9a",
+    "47f1406d-4918-4d60-9647-5ca8e610caca",
+    "3ddb3f4e-f7b9-430b-b335-eadc6d321f46",
+    "16d640e9-b281-4746-9562-c7dbcf7126b6",
+    "8cc4fad4-26ec-47b7-96e8-49c7da714eca",
+    "215463ae-95b7-4481-8747-1754b68f31fa",
+    "46c0b49f-83a1-427e-8f0b-cef62e3c94b5",
+    "8c0546b0-ce43-4a36-9d33-9f979e98d522",
+    "1a41c7e1-a655-4c63-b4db-c22bdff18003",
+    "dceb14e7-2df0-422f-bb2b-73d7c373159a",
+    "ac4e860a-c042-49cc-90f3-189591c336ac",
+    "9034d675-9582-49b6-a1c1-c4ddabf8baf1",
+    "d2f3874f-d15d-4a2f-bb97-4f1213defa46",
+    "99b93e31-9f15-4daa-88ac-349ab0419c48"
+  ],
+  "label_config": "jev-1.13.0:conditional-severity-v3:85b52f8b7a8e04f3ee9f",
+  "body": {
+    "state": {
+      "reviews": {
+        "r0": "Staff must be full of mentally ill kool-aid heads. Banning conservative music that speaks truth. Spotify is doing all they can to protect pedophiles, by banning Christian songs discussing the path the devil leads you down. Pride is a sin.",
+        "r1": "Ads were okay, but limited functionality..it's just too much",
+        "r2": "Hate this application 🤮🤮🤮🤮🤮🤮",
+        "r3": "Very good but wen I play my song it o ly plays a little bit then it stops I updated my phone and it worked but it happend again they need to fix this issue",
+        "r4": "Update: I reached out to Spotify Support and with some help from Sarah I was able to get the app working again. Old Post:Normally, the app works great, and I use it constantly. I tried to open it today, and it keeps crashing every time. I've tried uninstalling and reinstalling, and updating. Nothing seems to work unfortunately.",
+        "r5": "This app is bad work",
+        "r6": "I like it but god I hate it when the music Interrupts my ads",
+        "r7": "asem, lirik nya kdang gaada kek mana??",
+        "r8": "Hate This application 👎",
+        "r9": "Very poor updates as we cannot playback the songs and most bad updates are happening it is affecting the spotify quality",
+        "r10": "Deleting this App. The new update suck, we can't choose our fvrt songs after some clicks, we can't CHOOSE song after a song played, and we can't turn off shuffle option. They are pushing us to upgrade to Premium subscription. No wonder if you guys loose ratings and users. Anyway i am deleting this app after years of using.",
+        "r11": "It's my best music app but now it's not...everything basic features is premium....",
+        "r12": "I hate this app and sweden .I love islam",
+        "r13": "What is happening with Spotify?? Recently I'm trying to play a song but it doesn't working. So I unstalled and thn again install it now I can't even open the app.. Just showing try again?? I really loved Spotify but this making me to rate it 1 star plz fix the problm as fast as u can",
+        "r14": "Are you out of your mind? This is dangerous! Listening to music in a normal volume and suddenly an add starts and my ears feel like they explode!! Stop this BS, or you're gonna destroy someones ears.",
+        "r15": "1-Lyrics not getting loaded, 2-can't go back to or start song where to wanted. Pathetic update",
+        "r16": "Worst application 👎👎👎",
+        "r17": "I gave one star because I can't give any less than that. the new update is sooooooo annoying like I can't even play the songs that I like and I can't rewind songs what the heck",
+        "r18": "paying for subscribing but unable to play in offline mode really?",
+        "r19": "Worst app ever too much ad",
+        "r20": "Too expensive and the free version is pretty much unusable with constant ads... Every two or three songs.. Forget it",
+        "r21": "This update very bad for everyone.old Spotify. we all want."
+      },
+      "rubric": {
+        "severity": {
+          "type": "choice",
+          "instructions": "Choose the highest supported problem impact. Commands, anger, cancellation intent and expensive plans do not establish severity. Never invent harm.",
+          "criteria": {
+            "1": "No problem: praise, neutral/unclear, pure feature request.",
+            "2": "Annoyance, generic criticism, cosmetic problem; no functional loss.",
+            "3": "Degraded/restricted function; some use or workaround remains.",
+            "4": "Core task clearly blocked, such as login or playback.",
+            "5": "Explicit serious financial, privacy or data harm."
+          }
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "questions": {
+      "r0_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r0 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r1_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r1 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r2_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r2 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r3_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r3 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r4_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r4 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r5_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r5 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r6_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r6 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r7_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r7 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r8_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r8 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r9_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r9 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r10_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r10 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r11_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r11 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r12_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r12 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r13_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r13 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r14_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r14 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r15_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r15 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r16_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r16 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r17_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r17 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r18_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r18 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r19_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r19 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r20_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r20 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      },
+      "r21_severity": {
+        "type": "choice",
+        "instructions": "Apply rubric.severity to reviews.r21 only.",
+        "criteria": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null
+        }
+      }
+    }
+  }
+}

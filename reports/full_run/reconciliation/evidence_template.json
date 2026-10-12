@@ -1,0 +1,11 @@
+{
+  "request_id": "03cb9c58-d8c1-4500-864e-4b9049ddbe6d",
+  "source": null,
+  "observed_at_utc": null,
+  "evidence_description": null,
+  "billing_outcome": null,
+  "actual_charge_usd": null,
+  "input_tokens": null,
+  "output_tokens": null,
+  "instruction": "Fill only with actual provider evidence. Estimates and rounded balances alone do not establish this request charge."
+}

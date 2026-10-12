@@ -1,0 +1,41 @@
+[
+  {
+    "action": "Improve search and skip functionalities",
+    "claim_ids": [
+      "issue_usability_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "08d3a5a9-1ec1-4b10-a5c8-393da33843e1",
+      "11ad400f-4487-4dfa-a9da-c8d624f4f107",
+      "7f27bbab-ef19-4fb1-80d8-cd014da3e002"
+    ],
+    "reason": "Quoted examples describe restricted song selection, limited skips and difficulty finding tracks.",
+    "issue_id": "issue_usability",
+    "editorial_note": "After generation, replaced a satisfaction inference with directly reported difficulties and cited all supplied examples."
+  },
+  {
+    "action": "Improve app stability and error handling",
+    "claim_ids": [
+      "issue_playback_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "039112fc-bbed-4540-83cc-890fcb129751",
+      "05fa5b8a-a49b-43be-bab5-38af789a65a7",
+      "065c418e-7f18-42a3-b241-fe693b7a2b0c"
+    ],
+    "reason": "Quoted examples report interrupted playback, application failures and a black screen requiring reinstallation.",
+    "issue_id": "issue_playback",
+    "editorial_note": "After generation, removed an unmeasured frequency claim and replaced crash wording with reported failures; all supplied examples cited."
+  },
+  {
+    "action": "Collect specific feedback before diagnosing this issue.",
+    "claim_ids": [
+      "issue_other_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "83e0e3fb-c641-483d-8b6a-16dff7c2ab24"
+    ],
+    "reason": "The quoted reviews express dissatisfaction without describing a defect.",
+    "issue_id": "issue_other"
+  }
+]

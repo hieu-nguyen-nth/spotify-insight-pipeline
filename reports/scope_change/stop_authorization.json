@@ -1,0 +1,27 @@
+{
+  "state": "new_dispatch_blocked_current_request_may_settle",
+  "observed_at_utc": "2026-10-12T05:38:42.407225+00:00",
+  "explicit_user_instruction": "Stop after the current request and finalize completed records",
+  "requirement_100000_status": "user_reported_unconfirmed",
+  "active_run_id": "01343219-5d6e-42d6-8c7a-61adf3d9bd20",
+  "in_flight_at_gate_creation": 1,
+  "automation_status": "PAUSED",
+  "stop_method": "SQLite admission trigger rejects increased reservations; completed-request settlements remain permitted",
+  "trigger_name": "user_requested_dispatch_stop",
+  "budget_before": {
+    "singleton": 1,
+    "spent": 3.6591138359999946,
+    "reserved": 0.050918792000000004,
+    "unknown_charges": 1
+  },
+  "budget_after": {
+    "singleton": 1,
+    "spent": 3.6591138359999946,
+    "reserved": 0.050918792000000004,
+    "unknown_charges": 1
+  },
+  "no_signal_delivered": true,
+  "signal_attempt": "sandbox denied earlier idle-boundary signal; no signal was sent",
+  "isolated_gate_test": "passed",
+  "new_model_calls": 0
+}

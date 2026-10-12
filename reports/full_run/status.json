@@ -1,0 +1,16 @@
+{
+  "scope": "full",
+  "source_rows": 660622,
+  "nonempty_reviews": 660609,
+  "empty_quarantines": 13,
+  "saved_partial_rows": 8448,
+  "completed_rows": 8448,
+  "topic_intent_rows": 8448,
+  "nonempty_pending": 652161,
+  "known_project_api_usd": 0.08588537999999993,
+  "reserved_usd": 0.0,
+  "unknown_paid_usage": 0,
+  "active_run_id": null,
+  "new_model_calls": 0,
+  "note": "Includes actually imported completed originals; new full-source dispatch is recorded separately."
+}

@@ -1,0 +1,73 @@
+{
+  "state": "completed",
+  "input_sha256": "c884ac3b9be5066995d5063f96ad9af6e5e082975788c1684c4f6b6ea661dd0e",
+  "input_reviews": 100,
+  "conditions": [
+    {
+      "run_id": "46b8077e-d11a-441b-a079-d11f9d9d99a9",
+      "workers": 1,
+      "completed": 100,
+      "wall_seconds": 20.285182083025575,
+      "reviews_per_second": 4.929706797341441,
+      "attempts": 10,
+      "cache_hits": 0,
+      "known_api_usd": 0.0012397140000000003,
+      "total_api_usd": 0.0012397140000000003,
+      "input_tokens": 29517,
+      "output_tokens": 18786,
+      "peak_inflight_requests": 1,
+      "failed_attempts": 0
+    },
+    {
+      "run_id": "8b2962bb-a1ef-4592-8151-b53faec50870",
+      "workers": 2,
+      "completed": 100,
+      "wall_seconds": 19.352753292303532,
+      "reviews_per_second": 5.167223417236935,
+      "attempts": 10,
+      "cache_hits": 0,
+      "known_api_usd": 0.0012397140000000003,
+      "total_api_usd": 0.0012397140000000003,
+      "input_tokens": 29517,
+      "output_tokens": 18785,
+      "peak_inflight_requests": 2,
+      "failed_attempts": 0
+    }
+  ],
+  "batch_size": 10,
+  "task": "blind topic/intent/severity verification",
+  "cache_conditions": "fresh benchmark result cache in both conditions; no existing result reuse",
+  "shared_limits": {
+    "requests_per_second": 4,
+    "estimated_tokens_per_second": 50000,
+    "api_ceiling_usd": 4.8
+  },
+  "additional_cap_usd": 0.01,
+  "stronger_fallbacks": 0,
+  "retries": 0,
+  "classification_updates": 0,
+  "budget_before": {
+    "singleton": 1,
+    "spent": 3.6689286899999956,
+    "reserved": 0.05,
+    "unknown_charges": 1
+  },
+  "absolute_admission_cap_usd": 3.728928689999995,
+  "budget_after": {
+    "singleton": 1,
+    "spent": 3.6714081179999964,
+    "reserved": 0.05,
+    "unknown_charges": 1
+  },
+  "additional_known_api_usd": 0.002479428000000894,
+  "errors": [],
+  "unknown_charge_hold_usd": 0.05,
+  "inference_destination": "https://api.typesafe.ai/v1/systemone",
+  "model": "jev-1.13.0",
+  "label_config": "jev-1.13.0:conditional-severity-v3:85b52f8b7a8e04f3ee9f",
+  "measurement_scope": "Small live benchmark, not a full-pipeline speedup or provider Batch discount.",
+  "speedup": 1.0481806788232486,
+  "same_input_ids": true,
+  "differing_reviews": 3,
+  "within_additional_cap": true
+}

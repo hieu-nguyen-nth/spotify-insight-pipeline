@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "new_model_calls": 0,
+  "api_keys_required": false,
+  "byte_identical_exports": {
+    "membership.csv": true,
+    "ranking.csv": true,
+    "claims.csv": true
+  }
+}

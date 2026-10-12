@@ -1,0 +1,12 @@
+{
+  "state": "hold_applied",
+  "request_id": "03cb9c58-d8c1-4500-864e-4b9049ddbe6d",
+  "held_usd": 0.05,
+  "original_reservation_usd": 0.0013339620000000002,
+  "actual_charge_usd": null,
+  "tokens": null,
+  "cost_status": "provisional",
+  "authorization_sha256": "8d52a39a8fc4266a20598b70af1548f889f832f3ae0c754e06ff58e027c2e917",
+  "new_model_calls": 0,
+  "note": "Only this failed request is covered. Any new unknown charge stops dispatch."
+}

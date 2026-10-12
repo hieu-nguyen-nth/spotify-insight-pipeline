@@ -1,0 +1,44 @@
+[
+  {
+    "action": "Investigate permission controls and unexpected device activity",
+    "claim_ids": [
+      "issue_usability_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "91132204-877d-4ac1-9d08-20d03f1414f6",
+      "cfcd547a-ba64-4ece-8408-5129e5c11819",
+      "e3ab8023-f0d4-4ef3-beb1-6d0fc554bd05"
+    ],
+    "reason": "Selected examples describe unexpected playback, device connections and changes to listening history.",
+    "issue_id": "issue_usability",
+    "editorial_note": "Post-run evidence review: cite all consumed examples, remove unsupported frequency/cause claims, and describe concerns as review reports rather than verified harm."
+  },
+  {
+    "action": "Collect specific feedback before diagnosing this issue.",
+    "claim_ids": [
+      "issue_other_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "21ddfe12-8433-4bad-b0f8-e7f605c056ae",
+      "60511edc-f704-4572-8589-3409fce25701",
+      "68a5d92a-1dca-40ba-b9f8-fc61a24b12a8"
+    ],
+    "reason": "Selected examples raise privacy concerns; this broad group does not establish one common cause.",
+    "issue_id": "issue_other",
+    "editorial_note": "Post-run evidence review: cite all consumed examples, remove unsupported frequency/cause claims, and describe concerns as review reports rather than verified harm."
+  },
+  {
+    "action": "Improve subscription management and cancellation processes",
+    "claim_ids": [
+      "issue_billing_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "41c0c736-6617-466a-8e4d-3a2b551185e5",
+      "70c10706-cb1c-4623-9c21-bf303e1e6ebe",
+      "e51bcefb-8071-4e36-9c57-87281443bd29"
+    ],
+    "reason": "Selected examples report charges after cancellation attempts and a payment disputed after student-plan rejection.",
+    "issue_id": "issue_billing",
+    "editorial_note": "Post-run evidence review: cite all consumed examples, remove unsupported frequency/cause claims, and describe concerns as review reports rather than verified harm."
+  }
+]

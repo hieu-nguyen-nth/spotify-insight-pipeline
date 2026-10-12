@@ -1,0 +1,18 @@
+{
+  "observed_at_utc": "2026-10-12T03:01:23.567985+00:00",
+  "scope": "stopped partial full-source run; not full grading",
+  "validated_completed_originals": 122621,
+  "expected_saved_completed": 122621,
+  "all_passed": true,
+  "example_errors": [],
+  "wall_seconds": 55.12985795829445,
+  "checks": [
+    "six-field original row hash",
+    "exact text hash and quote",
+    "frozen label configuration",
+    "same-original cache metadata",
+    "successful model request provenance"
+  ],
+  "new_model_calls": 0,
+  "source_rows_not_completed": 537988
+}

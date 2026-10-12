@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"issues\": [\n    {\n      \"issue_id\": \"issue_usability\",\n      \"title\": \"Usability Issues\"\n    },\n    {\n      \"issue_id\": \"issue_playback\",\n      \"title\": \"Playback Issues\"\n    },\n    {\n      \"issue_id\": \"issue_other\",\n      \"title\": \"Other Issues\"\n    },\n    {\n      \"issue_id\": \"issue_billing\",\n      \"title\": \"Billing Issues\"\n    },\n    {\n      \"issue_id\": \"issue_catalog\",\n      \"title\": \"Catalog Issues\"\n    },\n    {\n      \"issue_id\": \"issue_access\",\n      \"title\": \"Access Issues\"\n    },\n    {\n      \"issue_id\": \"issue_downloads\",\n      \"title\": \"Downloads Issues\"\n    }\n  ]\n}"
+      }
+    }
+  ],
+  "created": 1791757356,
+  "model": "qwen2.5:3b-instruct-q4_K_M",
+  "system_fingerprint": "b1-631109b34",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 1722,
+    "total_tokens": 1884,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-nfLRgdkPlA25yaWGKcwm2QMIqdsvaqZb",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1722,
+    "prompt_ms": 36073.761,
+    "prompt_per_token_ms": 20.948757839721253,
+    "prompt_per_second": 47.735527216028295,
+    "predicted_n": 162,
+    "predicted_ms": 13220.958,
+    "predicted_per_token_ms": 82.11775155279503,
+    "predicted_per_second": 12.177634933867878
+  }
+}

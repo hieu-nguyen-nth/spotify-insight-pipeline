@@ -1,0 +1,55 @@
+{
+  "request_id": "e8bffb57-fcba-46e9-b4e0-bd344476df97",
+  "predictions": {
+    "ebc64fe2-9553-4528-87d5-cb4bb9783be6": {
+      "topic": "usability",
+      "intent": "complaint",
+      "severity": 3
+    },
+    "d455c11e-c530-4c03-a395-38f5a5cdb8d3": {
+      "topic": "usability",
+      "intent": "complaint",
+      "severity": 3
+    },
+    "1807cc68-ba99-4edc-b6f1-2a1478e69109": {
+      "topic": "catalog",
+      "intent": "praise",
+      "severity": 1
+    },
+    "e16a4550-43e7-4ae1-b538-a65cc652c31b": {
+      "topic": "playback",
+      "intent": "cancellation",
+      "severity": 4
+    },
+    "2d5cdd20-3094-40a5-bc6e-653302b59b56": {
+      "topic": "other",
+      "intent": "complaint",
+      "severity": 2
+    },
+    "9e3a706c-f502-4664-a23f-33f3480eca64": {
+      "topic": "other",
+      "intent": "unclear",
+      "severity": 1
+    },
+    "e0127547-4edd-44a0-8d5e-e8398bc07086": {
+      "topic": "catalog",
+      "intent": "complaint",
+      "severity": 2
+    },
+    "66a29b3c-c14d-440e-b722-b23e0c99ae82": {
+      "topic": "playback",
+      "intent": "complaint",
+      "severity": 4
+    },
+    "32fb340f-4f9f-4551-8dae-755221e58d6a": {
+      "topic": "access",
+      "intent": "complaint",
+      "severity": 4
+    },
+    "ee3e2bd4-f94d-4e76-b2a6-5f6533d74c7c": {
+      "topic": "other",
+      "intent": "praise",
+      "severity": 1
+    }
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "request_id": "54e0f167-9b72-483f-91fd-cbcd723c8da9",
+    "run_id": "73989102-6250-4b5d-aa24-62df827337e4",
+    "role": "verify",
+    "phase": "initial",
+    "review_ids": [
+      "synthetic-injection-access",
+      "synthetic-injection-downloads"
+    ],
+    "label_config": "jev-1.13.0:conditional-severity-v3:85b52f8b7a8e04f3ee9f",
+    "provider": "typesafe",
+    "model": "jev-1.13.0",
+    "effort": "not_applicable",
+    "batch_size": 2,
+    "workers": 1,
+    "outcome": "succeeded",
+    "started_at_unix": 1791766118.8787699,
+    "estimated_tokens": 6653,
+    "reservation_usd": 0.00027942600000000005,
+    "usage_status": "provider_reported",
+    "input_tokens": 979,
+    "output_tokens": 271,
+    "calculated_api_usd": 4.111800000000001e-05,
+    "failure_reason": null,
+    "finished_at_unix": 1791766119.339135,
+    "elapsed_seconds": 0.2811527503654361,
+    "billing_status": "calculated_from_usage"
+  },
+  {
+    "request_id": "e7a09dd5-f5a8-4e4d-84a3-ede8e257e8ce",
+    "run_id": "73989102-6250-4b5d-aa24-62df827337e4",
+    "role": "verify",
+    "phase": "initial",
+    "review_ids": [
+      "synthetic-injection-access",
+      "synthetic-injection-downloads"
+    ],
+    "label_config": "jev-1.13.0:conditional-severity-v3:85b52f8b7a8e04f3ee9f",
+    "provider": "typesafe",
+    "model": "jev-1.13.0",
+    "effort": "not_applicable",
+    "batch_size": 2,
+    "workers": 1,
+    "outcome": "succeeded",
+    "started_at_unix": 1791766119.340488,
+    "estimated_tokens": 5208,
+    "reservation_usd": 0.00021873600000000003,
+    "usage_status": "provider_reported",
+    "input_tokens": 587,
+    "output_tokens": 109,
+    "calculated_api_usd": 2.4654000000000005e-05,
+    "failure_reason": null,
+    "finished_at_unix": 1791766119.477536,
+    "elapsed_seconds": 0.13388862507417798,
+    "billing_status": "calculated_from_usage"
+  }
+]

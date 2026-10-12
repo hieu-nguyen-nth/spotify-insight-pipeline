@@ -1,0 +1,4 @@
+Command: .venv/bin/python -m unittest discover -s tests
+Actual observed result: Ran 89 tests in 0.590s
+OK
+Includes role-stop protection and completed-subset finding guards.

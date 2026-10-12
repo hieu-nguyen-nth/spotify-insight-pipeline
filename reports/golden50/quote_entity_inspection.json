@@ -1,0 +1,15 @@
+{
+  "reviewer": "Codex assistant qualitative inspection of all 50 supplied texts/predictions; not new human labels",
+  "records_inspected": 50,
+  "exact_substring_quotes": 50,
+  "no_additional_concern": 39,
+  "flagged_for_semantic_or_language_review": 11,
+  "returned_entity_terms": 14,
+  "unsupported_returned_entities": 0,
+  "omission_examples_recorded": 7,
+  "labels_scores_prompts_modified": false,
+  "new_model_calls": 0,
+  "note": "Judgment-based support inspection is distinct from literal matching and human accuracy. Short/foreign-language and temporal cases remain uncertain.",
+  "original_evaluation_sha256": "8369acbe8fc9f1722f3736ab5cdb2a61280491678d514b8e00539d918a8d7707",
+  "prediction_sha256": "bd09807b0b510528f98f707f58ddcd234390ad65ff29b35d326065b752fbbdc1"
+}

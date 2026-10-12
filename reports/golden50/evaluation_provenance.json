@@ -1,0 +1,9 @@
+{
+  "label_config": "jev-1.13.0:conditional-severity-v3:85b52f8b7a8e04f3ee9f",
+  "human_csv_sha256": "e995e8ed5998ada610fe70a805c3cbc76e1e338515a48c9d3a187140c7c56ce9",
+  "human_rows": 50,
+  "human_answers_sent_to_provider": false,
+  "source_input": "Original golden_50_to_label.csv, not the human answer CSV",
+  "evaluation_approval_cap_usd": 0.003,
+  "configuration_changed_after_human_scoring": false
+}

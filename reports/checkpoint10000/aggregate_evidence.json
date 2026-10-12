@@ -1,0 +1,181 @@
+{
+  "grouping_policy": "One issue per common topic; broad categories, not fine-grained root-cause clusters.",
+  "issues": [
+    {
+      "issue_id": "issue_usability",
+      "complaint_count": 1370,
+      "severity_sum": 3681,
+      "rank": 1,
+      "mean_severity": "2.686861",
+      "priority_score": 3681,
+      "evidence": [
+        {
+          "review_id": "91132204-877d-4ac1-9d08-20d03f1414f6",
+          "quote": "I had to delete and uninstall this app more than one time and I still have the same problem with it it's somehow decides to automatically start playing. Even over other media audio applications plus they keep changing the location of where you can shut off the permissions for that. It's absolutely trash and I would suggest that no one use it because it takes takes over too many permissions on your"
+        },
+        {
+          "review_id": "cfcd547a-ba64-4ece-8408-5129e5c11819",
+          "quote": "This app hooks to all my devices and then hooks to those devices apps and those deviceses appssss and more deviceseses"
+        },
+        {
+          "review_id": "e3ab8023-f0d4-4ef3-beb1-6d0fc554bd05",
+          "quote": "Recently shared a playlist to a friend and for some reason my play history says I've listened to an ungodly amount of Lil Durk, which i have never listened to in my life. I already tried to email support but got no help they just made me change my password. I would like all Lil Durk removed from my play history, because I didn't play it and it is messing up alot of my playlists."
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_other",
+      "complaint_count": 1269,
+      "severity_sum": 2594,
+      "rank": 2,
+      "mean_severity": "2.044129",
+      "priority_score": 2594,
+      "evidence": [
+        {
+          "review_id": "21ddfe12-8433-4bad-b0f8-e7f605c056ae",
+          "quote": "Collects too much personal information"
+        },
+        {
+          "review_id": "60511edc-f704-4572-8589-3409fce25701",
+          "quote": "Spotify is straight up a stalker app it tries to monitor you is the monitor you completely It's weird at once control of you every single moment of your life"
+        },
+        {
+          "review_id": "68a5d92a-1dca-40ba-b9f8-fc61a24b12a8",
+          "quote": "This is a very very bad app and is a very data has hacking for our mobile"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_billing",
+      "complaint_count": 759,
+      "severity_sum": 2208,
+      "rank": 3,
+      "mean_severity": "2.909091",
+      "priority_score": 2208,
+      "evidence": [
+        {
+          "review_id": "41c0c736-6617-466a-8e4d-3a2b551185e5",
+          "quote": "I had unsubscribed, and Spotify stole My money!!!"
+        },
+        {
+          "review_id": "70c10706-cb1c-4623-9c21-bf303e1e6ebe",
+          "quote": "Charged me for subscription even though I tried cancelling it 50 times this is the worst app ever DO NOT DOWN!!"
+        },
+        {
+          "review_id": "e51bcefb-8071-4e36-9c57-87281443bd29",
+          "quote": "Worst music platform I ever seen in my life. I tried to buy student plan but they are not approving it and took my money also"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_playback",
+      "complaint_count": 588,
+      "severity_sum": 2125,
+      "rank": 4,
+      "mean_severity": "3.613946",
+      "priority_score": 2125,
+      "evidence": [
+        {
+          "review_id": "e5579b0b-f662-479b-9103-e13d263b9459",
+          "quote": "Bad application Volume will jump in / increasing after next song Risk of loss of hearing"
+        },
+        {
+          "review_id": "004d1c8a-a8c8-4746-b975-cd2f31c2a730",
+          "quote": "Until a few days ago the app was great but now it's not even playing songs. It just keeps loading even when there's active internet and all other apps are able to work..songs just don't play. I've restarting my phone updated the app done literally everything the songs just don't play. Horrible experience."
+        },
+        {
+          "review_id": "006b8080-637f-497f-893a-e8b2e44f1a0c",
+          "quote": "Worst app , having bug every 7-8 days Can't search song showing no network connection even after having good network speed"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_catalog",
+      "complaint_count": 257,
+      "severity_sum": 742,
+      "rank": 5,
+      "mean_severity": "2.887160",
+      "priority_score": 742,
+      "evidence": [
+        {
+          "review_id": "01e2b320-1c22-492d-84b4-13644ff5cc9e",
+          "quote": "Deleted. You became a defender of Apartheid when you removed \"Dammi Filistini\" from the app citing anti-Semitism. Shame on you."
+        },
+        {
+          "review_id": "7a9422f5-7266-4f53-adf3-7cc65803e8bf",
+          "quote": "Was about stop listening to music but now spotify using same shuffle and same artist over over and OVER. I gladly using gift card for subscription but its ok . Turn out be wrong... why? When couple of months or week i have looked my unknown (2) follower... i look at them then search on reddit about them they are BOTS or hacker i look into detail like i have follow favorite artists this track you d"
+        },
+        {
+          "review_id": "dc1bc630-5867-44b0-8b93-4130cdb8d478",
+          "quote": "Pushing sexual material on children. It goes against their own community standards and also is abhorrent to be targeted at children. Just search 'audio for kids' on their platform if you need any clarification."
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_access",
+      "complaint_count": 164,
+      "severity_sum": 646,
+      "rank": 6,
+      "mean_severity": "3.939024",
+      "priority_score": 646,
+      "evidence": [
+        {
+          "review_id": "45d07c5b-1110-422a-8c4d-7f128042697c",
+          "quote": "My account was hacked and your webchat, Facebook and Twitter team are not helping me. Our email team are not responding to me. I pay for family account and I cannot use it. Great service until it goes wrong. No telephone support and other routes have been useless"
+        },
+        {
+          "review_id": "74ae4c26-9e3f-475c-ba0e-ed683ca5b88c",
+          "quote": "Third party access needs to be addressed or reported to the FCCD...and whatever other worldwide/nations entities that monitor the internet and apps accessibility across internet access. This app provides a virtual open door for third party apps to access an individual's property through the app. It needs to be investigated and reported. This app is a hackers dream piece...smdh..."
+        },
+        {
+          "review_id": "87b2e343-893a-4188-82b7-a552afa2ce16",
+          "quote": "Heard it was good, but when installing it asked for all kinds of person data. Uninstalled immediately."
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_downloads",
+      "complaint_count": 81,
+      "severity_sum": 275,
+      "rank": 7,
+      "mean_severity": "3.395062",
+      "priority_score": 275,
+      "evidence": [
+        {
+          "review_id": "a405a67b-b1f3-4e53-a556-2ebb765c21fb",
+          "quote": "Signed up for duo app crashes and both parties lost entire downloaded music. No support or fix"
+        },
+        {
+          "review_id": "056236f6-68cd-4fa5-9df6-c1dc42b12eed",
+          "quote": "Don't download this app Because u can't listen song while u were offline. I can the song that song can't played the other song plays I hate this app 🤬😡😡 Spotify my foot"
+        },
+        {
+          "review_id": "0c2fea5b-4663-43fa-a767-76425f32c47d",
+          "quote": "I'm in premium plan but I can listen to music when I was offline"
+        }
+      ]
+    },
+    {
+      "issue_id": "issue_support",
+      "complaint_count": 6,
+      "severity_sum": 16,
+      "rank": 8,
+      "mean_severity": "2.666667",
+      "priority_score": 16,
+      "evidence": [
+        {
+          "review_id": "2e643b07-9126-4fed-bb00-3c0102e62bde",
+          "quote": "There is no conceivable universe where I should have to talk to customer support to remove my devices/downloads from past devices. I don't have access to these devices anymore therefore I should be able to manage them in my account like most other apps and services allow. I don't leave reviews, but this was just annoying and stupid enough that I felt I needed to. Spotify, get it together."
+        },
+        {
+          "review_id": "5782aeec-f1e0-4730-a0c4-51ba54303b27",
+          "quote": "Rough experience with Duo plan technical issues. Customer support has no power to credit users for lost service. We paid for duo for a month before we managed to get it working with tech support. No credit. No discount. No refund (even partial) I entreat Spotify to make it right. I'll likely change my opinion if they do."
+        },
+        {
+          "review_id": "946070c1-d690-4251-a550-07b0af85859c",
+          "quote": "Great App- Bad customer service. If you need to contact customer support prepare to be there for a few hours....I reached out for something that seemed like an easy fix-it took me three hours! And then the rep cancelled my subscription without telling me! Annual update...it got worse! 5 days now emailing back and forth! I already resolved the issue by canceling. Great app but customer service is n"
+        }
+      ]
+    }
+  ]
+}

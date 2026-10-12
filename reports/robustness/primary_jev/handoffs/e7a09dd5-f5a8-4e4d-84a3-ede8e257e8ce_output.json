@@ -1,0 +1,33 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "r0_severity": {
+      "type": "choice",
+      "choice": "4",
+      "confidence": 0.95,
+      "probabilities": {
+        "1": 0.04,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.96,
+        "5": 0.0
+      }
+    },
+    "r1_severity": {
+      "type": "choice",
+      "choice": "4",
+      "confidence": 0.97,
+      "probabilities": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.01,
+        "4": 0.98,
+        "5": 0.01
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 587,
+    "output_tokens": 109
+  }
+}

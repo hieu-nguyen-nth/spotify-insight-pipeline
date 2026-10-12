@@ -1,0 +1,27 @@
+{
+  "observed_at_utc": "2026-10-12T06:25:23.319164+00:00",
+  "status": "pass",
+  "live_url": "https://spotify-review-analysis-one.vercel.app",
+  "deployment_id": "dpl_4SZGjTLVJ2SE8B2waBWcrdBKjU5e",
+  "method": "Codex in-app browser accessibility tree, DOM snapshot, real control interactions and screenshot",
+  "observations": {
+    "scope_badge": "Completed production subset \u00b7 244,582 reviews",
+    "completed_count": 244582,
+    "complaint_cancellation_count": 15825,
+    "needs_review_count": 59633,
+    "selection_warning_visible": true,
+    "billing_search_preserves_rank": 3,
+    "billing_count": 1656,
+    "billing_priority": 4906,
+    "billing_recommendation_source_id": "01bc38c1-0d0b-4716-a3ed-a7fc3a0aa362",
+    "billing_quote": "It charged me after I canceled my plan long story short don't put your card on here",
+    "limitations_expanded_and_checked": true,
+    "full_source_count_disclosed": 660622,
+    "source_empty_quarantines_disclosed": 13,
+    "instructor_review_required_disclosed": true,
+    "all_eight_ranking_rows_restored": true
+  },
+  "screenshot": "reports/deployment/dashboard-completed-subset.jpg",
+  "new_model_calls": 0,
+  "limits": "No desktop-width viewport override was performed; screenshot reflects existing narrow browser width."
+}

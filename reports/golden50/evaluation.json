@@ -1,0 +1,480 @@
+{
+  "state": "scored",
+  "official_instructor_benchmark": false,
+  "benchmark_source": "student human labels",
+  "denominator": 50,
+  "valid_predictions": 50,
+  "classification_metrics": {
+    "topic": {
+      "accuracy": 0.68,
+      "macro_f1": 0.31444991789819376,
+      "per_class": {
+        "access": {
+          "support": 1,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "usability": {
+          "support": 6,
+          "precision": 0.375,
+          "recall": 0.5,
+          "f1": 0.42857142857142855
+        },
+        "playback": {
+          "support": 7,
+          "precision": 0.4,
+          "recall": 0.2857142857142857,
+          "f1": 0.3333333333333333
+        },
+        "downloads": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0,
+          "f1": 0.0
+        },
+        "catalog": {
+          "support": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "billing": {
+          "support": 3,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571
+        },
+        "support": {
+          "support": 0,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        "other": {
+          "support": 32,
+          "precision": 1.0,
+          "recall": 0.8125,
+          "f1": 0.896551724137931
+        }
+      }
+    },
+    "intent": {
+      "accuracy": 0.92,
+      "macro_f1": 0.8035772357723576,
+      "per_class": {
+        "complaint": {
+          "support": 20,
+          "precision": 0.9523809523809523,
+          "recall": 1.0,
+          "f1": 0.975609756097561
+        },
+        "request": {
+          "support": 2,
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "f1": 0.8
+        },
+        "praise": {
+          "support": 20,
+          "precision": 0.9523809523809523,
+          "recall": 1.0,
+          "f1": 0.975609756097561
+        },
+        "cancellation": {
+          "support": 2,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666
+        },
+        "unclear": {
+          "support": 6,
+          "precision": 0.75,
+          "recall": 0.5,
+          "f1": 0.6
+        }
+      }
+    }
+  },
+  "severity_mae_valid_predictions": 0.24,
+  "sentiment_mae_valid_predictions": 0.4739,
+  "severity_exact_agreement": 0.76,
+  "needs_review_agreement": 0.72,
+  "exact_source_quote_count": 50,
+  "quote_semantic_support": "manual review pending",
+  "human_rubric_conflicts_for_review": [
+    {
+      "review_id": "ac6cd66d-a9d2-42a4-afb8-2f84beff7fd1",
+      "field": "severity",
+      "human_value": "2",
+      "rule": "Pure request, praise or unclear/no-problem is severity 1; review the source and intent before changing a label."
+    },
+    {
+      "review_id": "44129679-31a0-4108-9314-086a3456f6ae",
+      "field": "severity",
+      "human_value": "2",
+      "rule": "Pure request, praise or unclear/no-problem is severity 1; review the source and intent before changing a label."
+    },
+    {
+      "review_id": "372d4e67-59cc-4c54-879f-3e8a202ee554",
+      "field": "severity",
+      "human_value": "2",
+      "rule": "Pure request, praise or unclear/no-problem is severity 1; review the source and intent before changing a label."
+    },
+    {
+      "review_id": "36609c5c-fe48-4459-86b8-cc78fd3c77cd",
+      "field": "severity",
+      "human_value": "2",
+      "rule": "Pure request, praise or unclear/no-problem is severity 1; review the source and intent before changing a label."
+    },
+    {
+      "review_id": "8cc4fad4-26ec-47b7-96e8-49c7da714eca",
+      "field": "severity",
+      "human_value": "2",
+      "rule": "Pure request, praise or unclear/no-problem is severity 1; review the source and intent before changing a label."
+    }
+  ],
+  "human_labels_modified": false,
+  "disagreements": [
+    {
+      "review_id": "292ce26a-815d-4bce-a3b6-93cb6c9e7e2c",
+      "human": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": "3"
+      },
+      "prediction": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 2
+      }
+    },
+    {
+      "review_id": "991b6b3a-f511-458a-a5b7-234f78048fb5",
+      "human": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": "3"
+      },
+      "prediction": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 2
+      }
+    },
+    {
+      "review_id": "b5ee7834-a0eb-4c15-9c7b-935831021922",
+      "human": {
+        "topic": "other",
+        "intent": "praise",
+        "severity": "1"
+      },
+      "prediction": {
+        "topic": "catalog",
+        "intent": "praise",
+        "severity": 1
+      }
+    },
+    {
+      "review_id": "947821dc-b356-45dc-a0bc-1903728fad40",
+      "human": {
+        "topic": "playback",
+        "intent": "complaint",
+        "severity": "3"
+      },
+      "prediction": {
+        "topic": "playback",
+        "intent": "complaint",
+        "severity": 4
+      }
+    },
+    {
+      "review_id": "723f07de-9881-4049-8680-1a9e25652914",
+      "human": {
+        "topic": "access",
+        "intent": "complaint",
+        "severity": "4"
+      },
+      "prediction": {
+        "topic": "playback",
+        "intent": "complaint",
+        "severity": 4
+      }
+    },
+    {
+      "review_id": "ac6cd66d-a9d2-42a4-afb8-2f84beff7fd1",
+      "human": {
+        "topic": "other",
+        "intent": "unclear",
+        "severity": "2"
+      },
+      "prediction": {
+        "topic": "catalog",
+        "intent": "unclear",
+        "severity": 1
+      }
+    },
+    {
+      "review_id": "44129679-31a0-4108-9314-086a3456f6ae",
+      "human": {
+        "topic": "other",
+        "intent": "unclear",
+        "severity": "2"
+      },
+      "prediction": {
+        "topic": "other",
+        "intent": "unclear",
+        "severity": 1
+      }
+    },
+    {
+      "review_id": "46842184-32f8-4088-ac15-2a700a7e94ed",
+      "human": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": "2"
+      },
+      "prediction": {
+        "topic": "catalog",
+        "intent": "complaint",
+        "severity": 2
+      }
+    },
+    {
+      "review_id": "5de7f95b-ccad-41b2-9f63-a13f7c1d9f09",
+      "human": {
+        "topic": "other",
+        "intent": "cancellation",
+        "severity": "2"
+      },
+      "prediction": {
+        "topic": "other",
+        "intent": "unclear",
+        "severity": 1
+      }
+    },
+    {
+      "review_id": "de48c99b-46fe-4837-8634-e63dbc72a5ea",
+      "human": {
+        "topic": "other",
+        "intent": "praise",
+        "severity": "1"
+      },
+      "prediction": {
+        "topic": "catalog",
+        "intent": "praise",
+        "severity": 1
+      }
+    },
+    {
+      "review_id": "372d4e67-59cc-4c54-879f-3e8a202ee554",
+      "human": {
+        "topic": "playback",
+        "intent": "request",
+        "severity": "2"
+      },
+      "prediction": {
+        "topic": "usability",
+        "intent": "request",
+        "severity": 1
+      }
+    },
+    {
+      "review_id": "47f1406d-4918-4d60-9647-5ca8e610caca",
+      "human": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": "4"
+      },
+      "prediction": {
+        "topic": "playback",
+        "intent": "complaint",
+        "severity": 4
+      }
+    },
+    {
+      "review_id": "36609c5c-fe48-4459-86b8-cc78fd3c77cd",
+      "human": {
+        "topic": "other",
+        "intent": "unclear",
+        "severity": "2"
+      },
+      "prediction": {
+        "topic": "other",
+        "intent": "unclear",
+        "severity": 1
+      }
+    },
+    {
+      "review_id": "f4c8146a-d5c8-4168-b00e-21af666afc6a",
+      "human": {
+        "topic": "other",
+        "intent": "unclear",
+        "severity": "1"
+      },
+      "prediction": {
+        "topic": "other",
+        "intent": "praise",
+        "severity": 1
+      }
+    },
+    {
+      "review_id": "16d640e9-b281-4746-9562-c7dbcf7126b6",
+      "human": {
+        "topic": "billing",
+        "intent": "complaint",
+        "severity": "2"
+      },
+      "prediction": {
+        "topic": "billing",
+        "intent": "complaint",
+        "severity": 3
+      }
+    },
+    {
+      "review_id": "8cc4fad4-26ec-47b7-96e8-49c7da714eca",
+      "human": {
+        "topic": "other",
+        "intent": "unclear",
+        "severity": "2"
+      },
+      "prediction": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 2
+      }
+    },
+    {
+      "review_id": "215463ae-95b7-4481-8747-1754b68f31fa",
+      "human": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": "4"
+      },
+      "prediction": {
+        "topic": "playback",
+        "intent": "complaint",
+        "severity": 4
+      }
+    },
+    {
+      "review_id": "46c0b49f-83a1-427e-8f0b-cef62e3c94b5",
+      "human": {
+        "topic": "playback",
+        "intent": "complaint",
+        "severity": "3"
+      },
+      "prediction": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 2
+      }
+    },
+    {
+      "review_id": "283b5843-a992-464f-b1dc-9dc7281ff390",
+      "human": {
+        "topic": "other",
+        "intent": "unclear",
+        "severity": "1"
+      },
+      "prediction": {
+        "topic": "billing",
+        "intent": "request",
+        "severity": 1
+      }
+    },
+    {
+      "review_id": "2aa566c6-b98d-4513-b900-83702a8db8eb",
+      "human": {
+        "topic": "other",
+        "intent": "praise",
+        "severity": "1"
+      },
+      "prediction": {
+        "topic": "usability",
+        "intent": "praise",
+        "severity": 1
+      }
+    },
+    {
+      "review_id": "8c0546b0-ce43-4a36-9d33-9f979e98d522",
+      "human": {
+        "topic": "playback",
+        "intent": "complaint",
+        "severity": "4"
+      },
+      "prediction": {
+        "topic": "catalog",
+        "intent": "complaint",
+        "severity": 3
+      }
+    },
+    {
+      "review_id": "b58dd6f0-ad88-4319-b6db-58afb60c37c1",
+      "human": {
+        "topic": "catalog",
+        "intent": "request",
+        "severity": "1"
+      },
+      "prediction": {
+        "topic": "usability",
+        "intent": "request",
+        "severity": 1
+      }
+    },
+    {
+      "review_id": "5fba12ea-4980-4f25-a129-f830a3974fd2",
+      "human": {
+        "topic": "playback",
+        "intent": "praise",
+        "severity": "1"
+      },
+      "prediction": {
+        "topic": "catalog",
+        "intent": "praise",
+        "severity": 1
+      }
+    },
+    {
+      "review_id": "ac4e860a-c042-49cc-90f3-189591c336ac",
+      "human": {
+        "topic": "playback",
+        "intent": "complaint",
+        "severity": "4"
+      },
+      "prediction": {
+        "topic": "downloads",
+        "intent": "complaint",
+        "severity": 4
+      }
+    },
+    {
+      "review_id": "9034d675-9582-49b6-a1c1-c4ddabf8baf1",
+      "human": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": "2"
+      },
+      "prediction": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 2
+      }
+    },
+    {
+      "review_id": "d2f3874f-d15d-4a2f-bb97-4f1213defa46",
+      "human": {
+        "topic": "billing",
+        "intent": "complaint",
+        "severity": "3"
+      },
+      "prediction": {
+        "topic": "billing",
+        "intent": "complaint",
+        "severity": 2
+      }
+    }
+  ],
+  "new_model_calls": 0,
+  "note": "Missing predictions stay in accuracy denominators. Macro F1 uses the full declared label set. If these answers guide tuning, collect a fresh holdout."
+}

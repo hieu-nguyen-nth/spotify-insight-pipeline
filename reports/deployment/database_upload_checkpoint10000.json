@@ -1,0 +1,17 @@
+{
+  "state": "completed",
+  "dataset_id": 1,
+  "scope": "checkpoint10000",
+  "completed_rows": 10000,
+  "quarantined_rows": 0,
+  "source_rows": 10000,
+  "membership_rows": 4494,
+  "stored_artifacts": 6,
+  "initial_database_bytes": 18364083,
+  "database_bytes": 20756147,
+  "public_table_bytes": 7315456,
+  "published": true,
+  "wall_seconds": 9.613436833955348,
+  "new_model_calls": 0,
+  "verification": "Every imported column compared to client staging; coverage and membership counts matched."
+}

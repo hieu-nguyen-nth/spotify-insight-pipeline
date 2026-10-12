@@ -1,0 +1,55 @@
+{
+  "request_id": "86671d15-d69b-41c0-9b92-8eb47647341f",
+  "predictions": {
+    "618d1dbb-0186-4537-923a-7b4dabf19afb": {
+      "topic": "catalog",
+      "intent": "cancellation",
+      "severity": 3
+    },
+    "277c75cb-ec6a-4387-902d-eb721d038db6": {
+      "topic": "other",
+      "intent": "praise",
+      "severity": 1
+    },
+    "45c561b9-cc47-4d80-95d3-f0d20bc84af3": {
+      "topic": "other",
+      "intent": "cancellation",
+      "severity": 4
+    },
+    "ba274609-2cbc-4d6a-9624-276d1c8246e8": {
+      "topic": "other",
+      "intent": "praise",
+      "severity": 1
+    },
+    "a3605554-5c3a-441d-836e-e9fdea83eb2e": {
+      "topic": "usability",
+      "intent": "complaint",
+      "severity": 3
+    },
+    "7e91d976-20e5-40f0-a6f5-7312eadf7e78": {
+      "topic": "other",
+      "intent": "praise",
+      "severity": 1
+    },
+    "8cb9d355-e14c-4f55-b026-c6abd7bbce0d": {
+      "topic": "other",
+      "intent": "praise",
+      "severity": 1
+    },
+    "4ab2089a-ffa8-49e7-a8a3-aeb583a96796": {
+      "topic": "playback",
+      "intent": "complaint",
+      "severity": 3
+    },
+    "b47c203f-366e-4409-922d-cd52aa8bbef6": {
+      "topic": "other",
+      "intent": "cancellation",
+      "severity": 2
+    },
+    "9c9757da-6b99-4c95-a0e7-0661ee858027": {
+      "topic": "playback",
+      "intent": "complaint",
+      "severity": 3
+    }
+  }
+}

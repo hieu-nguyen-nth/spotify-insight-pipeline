@@ -1,0 +1,6 @@
+{"version": 2, "width": 110, "height": 24, "timestamp": 1791757406, "title": "Actual automated SIGINT and resume \u2014 Spotify 100-review pilot"}
+[9.458046406507492e-06, "o", "Starting the measured 100-review pipeline; paid usage capped at $0.05 across this pilot and its earlier route test.\r\n"]
+[0.024339791852980852, "o", "First batch will save validated progress, then receive an actual SIGINT.\r\n"]
+[0.2943150419741869, "o", "SIGINT handled: 27 completed IDs were saved. Resuming the same configuration.\r\n"]
+[1.551525749731809, "o", "Resume completed: 100 IDs; completed records were reused without enrichment calls.\r\n"]
+[102.18757795775309, "o", "Cold pipeline complete. Actual calls: 8; API usage cost: $0.001058946.\r\n"]

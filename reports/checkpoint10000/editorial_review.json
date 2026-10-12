@@ -1,0 +1,34 @@
+{
+  "stage": "Post-run semantic evidence review; no extra model calls",
+  "changes": [
+    {
+      "issue_id": "issue_usability",
+      "raw_action": "Restructure permissions and notification settings",
+      "raw_reason": "To address recurring issues with unauthorized app access and persistent notifications, improving user control over permissions and settings.",
+      "accepted_action": "Investigate permission controls and unexpected device activity",
+      "accepted_reason": "Selected examples describe unexpected playback, device connections and changes to listening history."
+    },
+    {
+      "issue_id": "issue_other",
+      "raw_action": "Collect specific feedback before diagnosing this issue.",
+      "raw_reason": "The quoted reviews express dissatisfaction without describing a defect.",
+      "accepted_action": "Collect specific feedback before diagnosing this issue.",
+      "accepted_reason": "Selected examples raise privacy concerns; this broad group does not establish one common cause."
+    },
+    {
+      "issue_id": "issue_billing",
+      "raw_action": "Improve subscription management and cancellation processes",
+      "raw_reason": "High complaint count indicates issues with subscription management, requiring immediate attention.",
+      "accepted_action": "Improve subscription management and cancellation processes",
+      "accepted_reason": "Selected examples report charges after cancellation attempts and a payment disputed after student-plan rejection."
+    }
+  ],
+  "rationale": [
+    "Notifications and unauthorized access were not established by the supplied usability quotes.",
+    "Other selected examples raise privacy concerns and cannot be described as entirely generic dissatisfaction.",
+    "Billing count alone does not establish subscription-management causes; describe the actual examples instead."
+  ],
+  "raw_outputs_preserved": true,
+  "classifier_labels_changed": false,
+  "quotes_are_user_reports_not_verified_harm": true
+}

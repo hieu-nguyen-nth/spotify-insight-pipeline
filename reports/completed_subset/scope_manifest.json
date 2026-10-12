@@ -1,0 +1,25 @@
+{
+  "scope": "completed_subset",
+  "scope_mode": "user_stopped_subset",
+  "observed_at_utc": "2026-10-12T05:49:00.637319+00:00",
+  "completed_reviews": 244582,
+  "analysis_sha256": "8e759ebeab335812a85f71a2211f84617e2e2bb3c1c22dcd51ee8a80c51aa1d2",
+  "records_sha256": "7838af7f32fe3248c7f3fc3fc5bcb3c5c5973b4cccbc99d378875baab04a579b",
+  "source_corpus_rows": 660622,
+  "source_nonempty_reviews": 660609,
+  "source_empty_quarantines": 13,
+  "source_corpus_sha256": "1fc85de68a304dd8978b537cfa58793d5f41cbaf417fa32cb53899f83a2fcef6",
+  "uncompleted_nonempty_reviews": 416027,
+  "label_config": "jev-1.13.0:conditional-severity-v3:85b52f8b7a8e04f3ee9f",
+  "selection_method": "All completed original records in the safely stopped full scope; no trimming to 100000 and no fabricated severity.",
+  "limitations": "Completion-based subset, not a random sample. Praise/request/unclear records finished earlier; many complaints/cancellations remain without severity. Metrics and rankings apply only to these completed records.",
+  "intent_counts": {
+    "complaint": 14804,
+    "praise": 166913,
+    "request": 22434,
+    "cancellation": 1021,
+    "unclear": 39410
+  },
+  "new_model_calls": 0,
+  "requirement_100000": "Option appears in supplied assignment; conflicting full-corpus wording and coverage grading disclosed."
+}

@@ -1,0 +1,21 @@
+{
+  "stage": "Post-run evidence review; no additional model calls",
+  "changes": [
+    {
+      "issue_id": "issue_usability",
+      "raw_reason": "Users face difficulties in finding and skipping songs, leading to frustration and reduced satisfaction.",
+      "accepted_reason": "Quoted examples describe restricted song selection, limited skips and difficulty finding tracks.",
+      "reason": "Avoid an unmeasured satisfaction outcome."
+    },
+    {
+      "issue_id": "issue_playback",
+      "raw_reason": "Reduce frequent app crashes and malfunctions to enhance user satisfaction",
+      "accepted_reason": "Quoted examples report interrupted playback, application failures and a black screen requiring reinstallation.",
+      "reason": "The examples do not measure crash frequency; retain their actual reported symptoms."
+    }
+  ],
+  "raw_outputs_preserved": true,
+  "classifier_labels_changed": false,
+  "grading_scope": 500,
+  "note": "The automated checker validates coverage/arithmetic, not prose semantics. Recommendations retain local AI actions and reviewed reasons."
+}

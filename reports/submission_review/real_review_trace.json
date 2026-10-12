@@ -1,0 +1,99 @@
+{
+  "review_id": "4da2cf8f-b70a-4a44-b8a1-ca564bd6c756",
+  "source": {
+    "review_id": "4da2cf8f-b70a-4a44-b8a1-ca564bd6c756",
+    "review_text": "Tooo many ads...it is user experience of 4 years",
+    "review_rating": "3",
+    "review_likes": "0",
+    "app_version": "",
+    "review_timestamp": "2022-07-14 16:00:33"
+  },
+  "source_sha256": "8ea655ee001a979dfe089f39e72d0ef94fe6596e0841a703d0d7fcd98c22a56d",
+  "enrichment": {
+    "entities": [
+      "ads"
+    ],
+    "evidence_quote": "Tooo many ads...it is user experience of 4 years",
+    "intent": "complaint",
+    "label_config": "jev-1.13.0:conditional-severity-v3:85b52f8b7a8e04f3ee9f",
+    "model_request_ids": [
+      "6747716d-6d5b-46a9-8586-ea7f373caa08",
+      "a1c2a733-6642-4a95-848f-905d2324c35e"
+    ],
+    "needs_review": true,
+    "review_id": "4da2cf8f-b70a-4a44-b8a1-ca564bd6c756",
+    "sentiment": 0.0,
+    "sentiment_provenance": "vaderSentiment:3.3.2",
+    "severity": 2,
+    "severity_provenance": "jev",
+    "source_sha256": "8ea655ee001a979dfe089f39e72d0ef94fe6596e0841a703d0d7fcd98c22a56d",
+    "status": "completed",
+    "text_sha256": "ceee73d76678bf0f1f59577545621acb8bda5835dbdf0e2503177be691f86486",
+    "topic": "usability"
+  },
+  "verification": {
+    "review_id": "4da2cf8f-b70a-4a44-b8a1-ca564bd6c756",
+    "request_id": "c5e4eb08-4c69-46cc-96db-89f14e397999",
+    "fields": {
+      "topic": {
+        "initial": "usability",
+        "independent": "usability"
+      },
+      "intent": {
+        "initial": "complaint",
+        "independent": "complaint"
+      },
+      "severity": {
+        "initial": 2,
+        "independent": 2
+      }
+    },
+    "disagrees": false
+  },
+  "membership": {
+    "issue_id": "issue_usability",
+    "review_id": "4da2cf8f-b70a-4a44-b8a1-ca564bd6c756"
+  },
+  "ranking": {
+    "rank": "1",
+    "issue_id": "issue_usability",
+    "complaint_count": "5862",
+    "severity_sum": "15949",
+    "mean_severity": "2.720744",
+    "priority_score": "15949"
+  },
+  "memo_claims": [
+    {
+      "claim_id": "issue_usability_complaint_count",
+      "issue_id": "issue_usability",
+      "metric": "complaint_count",
+      "value": "5862"
+    },
+    {
+      "claim_id": "issue_usability_severity_sum",
+      "issue_id": "issue_usability",
+      "metric": "severity_sum",
+      "value": "15949"
+    },
+    {
+      "claim_id": "issue_usability_mean_severity",
+      "issue_id": "issue_usability",
+      "metric": "mean_severity",
+      "value": "2.720744"
+    },
+    {
+      "claim_id": "issue_usability_priority_score",
+      "issue_id": "issue_usability",
+      "metric": "priority_score",
+      "value": "15949"
+    }
+  ],
+  "contribution": {
+    "complaint_count": 1,
+    "severity_sum": 2
+  },
+  "handling": "Retained needs_review=true: generic ad annoyance supports severity two; VADER neutral sentiment is not a correctness guarantee.",
+  "scope_warning": "Trace contributes to the selected subset aggregate, not a full-corpus prevalence estimate.",
+  "new_model_calls": 0,
+  "business_records_modified": false
+}

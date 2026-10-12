@@ -1,0 +1,35 @@
+[
+  {
+    "action": "Implement clear settings for app exit and permission management",
+    "claim_ids": [
+      "issue_usability_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "183a4585-a071-467d-80d4-316bdcaa8a4c"
+    ],
+    "reason": "Users frequently complain about Spotify's background activity and lack of control over app permissions.",
+    "issue_id": "issue_usability"
+  },
+  {
+    "action": "Improve app stability and security features",
+    "claim_ids": [
+      "issue_playback_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "450434fc-6242-4c3d-b688-89a11f43bf71"
+    ],
+    "reason": "Apps crashing and data breaches lead to frequent complaints",
+    "issue_id": "issue_playback"
+  },
+  {
+    "action": "Implement transparent billing policies and immediate dispute resolution mechanisms.",
+    "claim_ids": [
+      "issue_billing_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "01bc38c1-0d0b-4716-a3ed-a7fc3a0aa362"
+    ],
+    "reason": "High complaint count indicates issues with billing practices, necessitating clearer policies and faster dispute handling.",
+    "issue_id": "issue_billing"
+  }
+]

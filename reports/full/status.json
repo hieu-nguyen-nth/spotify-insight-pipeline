@@ -1,0 +1,15 @@
+{
+  "source_rows": 660622,
+  "empty_quarantines": 13,
+  "completed": 0,
+  "nonempty_failures": 0,
+  "pending": 660609,
+  "unique_nonempty_texts": 484189,
+  "budget": {
+    "singleton": 1,
+    "spent": 0.0,
+    "reserved": 0.0,
+    "unknown_charges": 0
+  },
+  "attempted_calls": 0
+}

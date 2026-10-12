@@ -1,0 +1,21 @@
+{
+  "state": "prepared",
+  "input_sha256": "c884ac3b9be5066995d5063f96ad9af6e5e082975788c1684c4f6b6ea661dd0e",
+  "input_reviews": 100,
+  "conditions": [
+    1,
+    2
+  ],
+  "batch_size": 10,
+  "task": "blind topic/intent/severity verification",
+  "cache_conditions": "fresh benchmark result cache in both conditions; no existing result reuse",
+  "shared_limits": {
+    "requests_per_second": 4,
+    "estimated_tokens_per_second": 50000,
+    "api_ceiling_usd": 4.8
+  },
+  "additional_cap_usd": 0.01,
+  "stronger_fallbacks": 0,
+  "retries": 0,
+  "classification_updates": 0
+}
