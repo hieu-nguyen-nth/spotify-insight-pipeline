@@ -4,7 +4,7 @@
     "count": 102,
     "passed": true,
     "socket_connections": "blocked",
-    "reported_seconds": 0.652
+    "reported_seconds": 0.676
   },
   "javascript_syntax": "pass",
   "frozen_artifact_hash_checks": 8,
@@ -22,5 +22,6 @@
     "unavailable_data_retry_state": "pass"
   },
   "new_model_calls": 0,
-  "classification_resumed": false
+  "classification_resumed": false,
+  "live_verification": "live_verification.json"
 }
