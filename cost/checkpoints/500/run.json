@@ -1,0 +1,32 @@
+{
+  "state": "completed",
+  "run_id": "fec24711-1f29-4c44-acba-4bb5f4a35b24",
+  "scope": "checkpoint500",
+  "source_sha256": "a94e31663ee7b7eaa77e23b7a8425b530cc0c866ed5e714953172a0afef6a12f",
+  "input_rows": 500,
+  "completed": 500,
+  "unique_texts": 479,
+  "started_at_unix": 1791759581.5705652,
+  "wall_seconds": 111.70110479090363,
+  "stage_seconds": {
+    "prepare": 0.010345874819904566,
+    "enrich": 9.805809292010963,
+    "verify": 0.14457883359864354,
+    "rank": 0.0012918747961521149,
+    "group": 46.694885208737105,
+    "memo": 54.94639141578227
+  },
+  "model_requests": 17,
+  "new_enrichment_calls": 12,
+  "new_unique_enrichment_work": 379,
+  "enrichment_cache_hits": 100,
+  "api_usd": 0.0036689940000000005,
+  "local_compute_usd": null,
+  "workers": 1,
+  "batch_size": 50,
+  "fallback_limit": 0,
+  "additional_cap_usd": 0.02,
+  "project_spend_after_usd": 0.010886988,
+  "verification_disagreements": 3,
+  "note": "Measured incremental work with validated earlier-row reuse; not a fully cold run or human accuracy estimate."
+}

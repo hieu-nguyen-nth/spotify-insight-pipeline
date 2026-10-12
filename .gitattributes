@@ -1,0 +1,7 @@
+# Preserve measured artifact fingerprints, quoted whitespace and CSV line endings.
+*.csv -text
+*.json -text
+*.jsonl -text
+*.cast -text
+*.py text eol=lf
+*.sh text eol=lf

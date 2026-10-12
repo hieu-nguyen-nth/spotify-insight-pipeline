@@ -5,7 +5,7 @@ from datetime import datetime,timezone
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE_DIRS=('src','tests','vendor','prompts','docs','scripts','specs','labels','dataset','backend','database')
-ROOT_FILES=('.env.example','.gitignore','README.md','ARCHITECTURE.md','pyproject.toml','requirements.lock.txt','pipeline.py','run.sh')
+ROOT_FILES=('.env.example','.gitignore','.gitattributes','README.md','ARCHITECTURE.md','pyproject.toml','requirements.lock.txt','pipeline.py','run.sh')
 SMALL_REPORT_DIRS=('full','golden50','robustness','worker_comparison','pilot100_optimized','scope_change','deployment','submission_review')
 
 def allowed(path):
@@ -16,7 +16,8 @@ def source_files():
     files={ROOT/n for n in ROOT_FILES}
     for name in SOURCE_DIRS:
         files.update(p for p in (ROOT/name).rglob('*') if allowed(p))
-    files.update(p for p in (ROOT/'cost').glob('*') if allowed(p))
+    files.update(p for p in (ROOT/'cost').rglob('*') if allowed(p) and p.stat().st_size<1024**2)
+    files.update(p for p in (ROOT/'grading').glob('*') if allowed(p) and p.name!='records.jsonl')
     for name in SMALL_REPORT_DIRS:
         files.update(p for p in (ROOT/'reports'/name).rglob('*') if allowed(p))
     for name in ('checkpoint500','checkpoint10000','completed_subset'):
@@ -25,6 +26,7 @@ def source_files():
     files.update(p for p in (ROOT/'reports/full_run/reconciliation').rglob('*') if allowed(p))
     files.add(ROOT/'reports/readiness.json')
     files.update(ROOT/'submission'/n for n in ('README.md','requirement-audit.md'))
+    if (ROOT/'submission/final_run_manifest.json').exists():files.add(ROOT/'submission/final_run_manifest.json')
     return sorted(files)
 
 def scan(files):

@@ -1,0 +1,8 @@
+provider,model,unit,usd_per_unit,currency,checked_date,source_url
+typesafe,jev-1.13.0,input_token,0.000000042,USD,2026-10-11,https://docs.typesafe.ai/models
+typesafe,jev-1.13.0,output_token,0,USD,2026-10-11,https://docs.typesafe.ai/models
+
+local_llamacpp,qwen2.5:3b-instruct-q4_K_M,input_token,0,USD,2026-10-11,https://github.com/ggml-org/llama.cpp/tree/master/tools/server
+local_llamacpp,qwen2.5:3b-instruct-q4_K_M,output_token,0,USD,2026-10-11,https://github.com/ggml-org/llama.cpp/tree/master/tools/server
+local_ollama,qwen2.5:3b-instruct-q4_K_M,input_token,0,USD,2026-10-11,https://github.com/ggml-org/llama.cpp/tree/master/tools/server
+local_ollama,qwen2.5:3b-instruct-q4_K_M,output_token,0,USD,2026-10-11,https://github.com/ggml-org/llama.cpp/tree/master/tools/server
