@@ -1,0 +1,55 @@
+{
+  "new_model_calls": 0,
+  "credentials_copied": false,
+  "persisted_work_database_copied": false,
+  "checks": {
+    "install_dependencies": {
+      "exit_code": 0,
+      "wall_seconds": 3.442499542143196,
+      "socket_connect_blocked": false
+    },
+    "install_source": {
+      "exit_code": 0,
+      "wall_seconds": 2.4876808752305806,
+      "socket_connect_blocked": false
+    },
+    "offline_tests": {
+      "exit_code": 0,
+      "wall_seconds": 1.0960457497276366,
+      "socket_connect_blocked": false
+    },
+    "calculator_default": {
+      "exit_code": 0,
+      "wall_seconds": 0.08706570789217949,
+      "socket_connect_blocked": true
+    },
+    "calculator_doubled_rates": {
+      "exit_code": 0,
+      "wall_seconds": 0.06229208316653967,
+      "socket_connect_blocked": true
+    },
+    "calculator_editable_limits": {
+      "exit_code": 0,
+      "wall_seconds": 0.06341083301231265,
+      "socket_connect_blocked": true
+    },
+    "ranking_saved_records": {
+      "exit_code": 0,
+      "wall_seconds": 3.652656000107527,
+      "socket_connect_blocked": true
+    }
+  },
+  "status": "pass",
+  "byte_identical_exports": {
+    "membership.csv": true,
+    "ranking.csv": true,
+    "claims.csv": true
+  },
+  "doubled_rate_arithmetic": "pass",
+  "changed_limits_preserve_measurements": true,
+  "unpriced_fallback_remains_unknown": true,
+  "python_version": "Python 3.12.14",
+  "offline_socket_policy": "Every calculator and ranking replay process installed a socket.connect-denying audit hook.",
+  "dependency_install_network": "Package index only; dependency install is not claimed offline.",
+  "limitation": "Fresh copy of exact source and saved evidence; public-checkout download verification is a separate delivery check."
+}

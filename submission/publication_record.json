@@ -1,0 +1,14 @@
+{
+  "observed_at_utc": "2026-10-12T08:34:25.868632+00:00",
+  "repository": "https://github.com/hieu-nguyen-nth/spotify-insight-pipeline",
+  "release": "https://github.com/hieu-nguyen-nth/spotify-insight-pipeline/releases/tag/v1.0.0",
+  "publication_approved": true,
+  "repository_visibility": "PUBLIC",
+  "release_is_draft": false,
+  "release_is_immutable": false,
+  "signed_out_downloads_verified": true,
+  "clean_public_checkout_verified": true,
+  "course_portal_submitted": false,
+  "new_model_calls": 0,
+  "source_archive_amendment": "Added mkdir -p work before optional calculator output command; code/records/usage unchanged. Final amended source archive is separately reverified."
+}

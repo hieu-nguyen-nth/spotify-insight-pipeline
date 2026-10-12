@@ -1,7 +1,7 @@
 {
-  "observed_at_utc": "2026-10-12T08:04:30.730786+00:00",
+  "observed_at_utc": "2026-10-12T08:34:25.866939+00:00",
   "scope": "user_stopped_completed_subset",
-  "status": "local_artifacts_database_and_live_dashboard_verified",
+  "status": "submission_source_evidence_database_dashboard_verified",
   "full_source_rows": 660622,
   "full_nonempty_reviews": 660609,
   "completed_original_reviews": 244582,
@@ -78,12 +78,16 @@
     "exact extended submission deadline"
   ],
   "delivery_remaining": [
-    "authorized repository publication",
-    "student course submission",
-    "genuine provider reconciliation for unknown failed request"
+    "Student course portal submission",
+    "Instructor coverage/deadline confirmation"
   ],
   "full_corpus_completion_claimed": false,
   "production_workers": 1,
   "worker_comparison": "reports/worker_comparison/report.json",
-  "submission_gap_fixes": "submission/requirement-audit.md"
+  "submission_gap_fixes": "submission/requirement-audit.md",
+  "public_repository_url": "https://github.com/hieu-nguyen-nth/spotify-insight-pipeline",
+  "public_release_url": "https://github.com/hieu-nguyen-nth/spotify-insight-pipeline/releases/tag/v1.0.0",
+  "public_access_verified": true,
+  "clean_public_checkout_verified": true,
+  "provider_reconciliation": "Optional genuine provider evidence needed to finalize the currently provisional bill."
 }

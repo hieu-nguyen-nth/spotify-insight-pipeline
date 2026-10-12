@@ -13,7 +13,7 @@ Basis: supplied assignment markdown, specs/GRADING_CONTRACT.md and specs/COST_CA
 | Memo claim IDs | Added both existing mean-severity claim IDs, retained raw AI/editorial versions; refreshed checking, local storage and live database artifact. |
 | Explicit rubric map | README D1–D4/T1–T3/W1–W3 links and disclosed limits. |
 | Portable setup/replay | docs/SETUP.md and scripts/verify_offline.py; actual fresh-copy report records results, including dependency install versus network-blocked offline replay. |
-| Versioned public distribution | Prepared source/evidence package and exact code/hash manifest. Public sharing and signed-out download checks must be recorded before delivery is declared complete. Student submits the repository URL through the course portal. |
+| Versioned public distribution | [Public repository](https://github.com/hieu-nguyen-nth/spotify-insight-pipeline), [release](https://github.com/hieu-nguyen-nth/spotify-insight-pipeline/releases/tag/v1.0.0) and exact code/hash manifest published after explicit user approval. Unauthenticated archive downloads matched their prepared SHA-256; a fresh public checkout passed 98 tests and offline arithmetic/ranking replay. Student submits the repository URL through the course portal. |
 
 Still disclosed: unchanged full-source checker remains review_required for 416,027 incomplete nonempty outputs and unavailable input/output tokens on request 03cb9c58-d8c1-4500-864e-4b9049ddbe6d. Completed-subset integrity and deterministic ranking are separately checked. Golden topic/intent/severity agreement 68%/92%/76% and sentiment MAE 0.4739 remain reported. Blind task agreement is not human accuracy. Completion-based selection prevents population conclusions.
 

@@ -7,6 +7,7 @@ python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.lock.txt
 .venv/bin/python -m pip install -e . --no-deps
 .venv/bin/python -m unittest discover -s tests
+mkdir -p work
 .venv/bin/python cost/calculator.py --out work/offline_calculator.json
 ./run.sh replay-ranking --records reports/completed_subset/records.json --out work/offline_ranking
 ```

@@ -1,0 +1,96 @@
+{
+  "observed_at_utc": "2026-10-12T08:27:52.145069+00:00",
+  "repository": "https://github.com/hieu-nguyen-nth/spotify-insight-pipeline",
+  "release": "https://github.com/hieu-nguyen-nth/spotify-insight-pipeline/releases/tag/v1.0.0",
+  "requests_have_authorization_headers_or_cookies": false,
+  "new_model_calls": 0,
+  "checks": {
+    "repository": {
+      "status": 200,
+      "bytes": 351679
+    },
+    "release": {
+      "status": 200,
+      "bytes": 194857
+    },
+    "source_readme": {
+      "status": 200,
+      "bytes": 16521
+    }
+  },
+  "downloads": {
+    "source-code.zip": {
+      "status": 200,
+      "bytes": 20710651,
+      "sha256": "70913f026b04dcae3cc2986e40ba4a0d6e54b169f057afd621787452031e1670",
+      "matches_prepared_archive": true,
+      "zip_integrity": "pass",
+      "wall_seconds": 2.3313328339718282
+    },
+    "submission-evidence.zip": {
+      "status": 200,
+      "bytes": 278118280,
+      "sha256": "3892d0f0653c46a1f38490b2cae5ec1f15bb9b4fa393f2eacdf528b31ba21fb0",
+      "matches_prepared_archive": true,
+      "zip_integrity": "pass",
+      "wall_seconds": 43.01721995789558
+    }
+  },
+  "status": "pass",
+  "public_checkout_offline_reproduction": {
+    "new_model_calls": 0,
+    "credentials_copied": false,
+    "persisted_work_database_copied": false,
+    "checks": {
+      "install_dependencies": {
+        "exit_code": 0,
+        "wall_seconds": 3.442499542143196,
+        "socket_connect_blocked": false
+      },
+      "install_source": {
+        "exit_code": 0,
+        "wall_seconds": 2.4876808752305806,
+        "socket_connect_blocked": false
+      },
+      "offline_tests": {
+        "exit_code": 0,
+        "wall_seconds": 1.0960457497276366,
+        "socket_connect_blocked": false
+      },
+      "calculator_default": {
+        "exit_code": 0,
+        "wall_seconds": 0.08706570789217949,
+        "socket_connect_blocked": true
+      },
+      "calculator_doubled_rates": {
+        "exit_code": 0,
+        "wall_seconds": 0.06229208316653967,
+        "socket_connect_blocked": true
+      },
+      "calculator_editable_limits": {
+        "exit_code": 0,
+        "wall_seconds": 0.06341083301231265,
+        "socket_connect_blocked": true
+      },
+      "ranking_saved_records": {
+        "exit_code": 0,
+        "wall_seconds": 3.652656000107527,
+        "socket_connect_blocked": true
+      }
+    },
+    "status": "pass",
+    "byte_identical_exports": {
+      "membership.csv": true,
+      "ranking.csv": true,
+      "claims.csv": true
+    },
+    "doubled_rate_arithmetic": "pass",
+    "changed_limits_preserve_measurements": true,
+    "unpriced_fallback_remains_unknown": true,
+    "python_version": "Python 3.12.14",
+    "offline_socket_policy": "Every calculator and ranking replay process installed a socket.connect-denying audit hook.",
+    "dependency_install_network": "Package index only; dependency install is not claimed offline.",
+    "limitation": "Fresh copy of exact source and saved evidence; public-checkout download verification is a separate delivery check."
+  },
+  "course_portal_submitted": false
+}
