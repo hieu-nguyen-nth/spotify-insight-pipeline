@@ -5,7 +5,7 @@
   "source_rows_ingested": 660622,
   "empty_quarantines": 13,
   "incomplete_nonempty_reviews": 416027,
-  "final_delivery_code_commit": "cac7cf38336e9b926f31bfcb2820277bada5d30e",
+  "final_delivery_code_commit": "fec47dec06de1964a91dc9c4c2191a2d1affe41e",
   "historical_inference_code_commit": null,
   "code_version_limit": "Classification was executed before the first Git commit. This commit identifies delivered/reviewed code and post-run recovery/calculator fixes; it is not fabricated historical execution metadata. Frozen prompts/configurations and real request handoffs identify actual inference settings.",
   "code_prompt_checker_sha256": {
@@ -51,7 +51,7 @@
     "tests/test_lean.py": "8297bedd9fb54af29f6c46fc637e3e843b4dc07dcadc0c23312292742735465e",
     "tests/test_reconciliation.py": "f0755aed18f927754808fa1ae187d383a4538637ebaee975450d3334a33c721a",
     "scripts/verify_offline.py": "efeb46b33a22c4ff623afafc862b6857500a1af5f822afa85a0a33ca59756865",
-    "scripts/package_submission.py": "f3715ee3df607355f8e9ccc5f3311aa55557f85101dfdebfd2c2d6388638478c",
+    "scripts/package_submission.py": "208a899d30a10166bb589d2dfed4dc618381ccaaca9607383fa62762c1281ff4",
     "backend/local_preview.py": "a3879d4872cf158d2848126fe226c7441949d104a10996c8db7049dea4d6afef",
     "backend/vercel.json": "9643ef6e3f070a47f0a5f420499795044562135a880459d8854c5ca9485ab92e",
     "backend/public/index.html": "88a5ea66352aaedcd9bc8f52af2a50bf55e6f72503df9f7d1ba80306bfd10f59",

@@ -1,0 +1,36 @@
+{
+  "observed_at_utc": "2026-10-12T08:18:58.080111+00:00",
+  "publicly_published": false,
+  "new_model_calls": 0,
+  "source": {
+    "path": "submission/source-code.zip",
+    "bytes": 20710170,
+    "sha256": "5cd964bf7b33a0978d2a0dab44dde4e5deec2ca648c55f15c8afd08b44eade4b",
+    "files": 415,
+    "zip_integrity": "passed"
+  },
+  "evidence": {
+    "path": "submission/submission-evidence.zip",
+    "bytes": 278118280,
+    "sha256": "3892d0f0653c46a1f38490b2cae5ec1f15bb9b4fa393f2eacdf528b31ba21fb0",
+    "files": 20859,
+    "zip_integrity": "passed"
+  },
+  "source_scan": {
+    "configured_credential_scan": "passed",
+    "blank_env_example": "passed",
+    "files_scanned": 415
+  },
+  "evidence_scan": {
+    "configured_credential_scan": "passed",
+    "blank_env_example": "passed",
+    "files_scanned": 20859
+  },
+  "scope": "244582 completed originals; full-source missing outputs disclosed",
+  "contains_source_review_quotes": true,
+  "contains_saved_model_request_response_handoffs": true,
+  "contains_original_raw_csv": false,
+  "contains_work_databases_credentials_or_model_weights": false,
+  "publication_requires_user_scope": "Public evidence includes review quotes beyond the previously published selected dashboard examples.",
+  "delivery_source_commit": "fec47dec06de1964a91dc9c4c2191a2d1affe41e"
+}

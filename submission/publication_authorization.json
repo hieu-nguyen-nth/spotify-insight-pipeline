@@ -1,0 +1,8 @@
+{
+  "observed_at_utc": "2026-10-12T08:21:46.744666+00:00",
+  "source": "explicit_user_instruction",
+  "user_answer": "Approve public source and complete grading evidence",
+  "destination": "https://github.com/hieu-nguyen-nth/spotify-insight-pipeline",
+  "scope": "Source, 244582 completed quotes, complete saved partial-run handoffs, golden evaluation, grading and cost evidence; excludes secrets, private work databases, weights and original full CSV.",
+  "new_inference_authorized": false
+}
