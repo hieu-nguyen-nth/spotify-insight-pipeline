@@ -21,11 +21,11 @@
   "downloads": {
     "source-code.zip": {
       "status": 200,
-      "bytes": 20710651,
-      "sha256": "70913f026b04dcae3cc2986e40ba4a0d6e54b169f057afd621787452031e1670",
+      "bytes": 20713079,
+      "sha256": "469fdf35e26da9a1a1d008236d8d9e8d30e4afa72c3116425955f1d95bac900a",
       "matches_prepared_archive": true,
       "zip_integrity": "pass",
-      "wall_seconds": 2.3313328339718282
+      "setup_output_directory_step_present": true
     },
     "submission-evidence.zip": {
       "status": 200,
@@ -92,5 +92,15 @@
     "dependency_install_network": "Package index only; dependency install is not claimed offline.",
     "limitation": "Fresh copy of exact source and saved evidence; public-checkout download verification is a separate delivery check."
   },
-  "course_portal_submitted": false
+  "course_portal_submitted": false,
+  "source_download_before_documentation_amendment": {
+    "status": 200,
+    "bytes": 20710651,
+    "sha256": "70913f026b04dcae3cc2986e40ba4a0d6e54b169f057afd621787452031e1670",
+    "matches_prepared_archive": true,
+    "zip_integrity": "pass",
+    "wall_seconds": 2.3313328339718282
+  },
+  "source_amendment_reverified_at_utc": "2026-10-12T08:36:54.983452+00:00",
+  "source_amendment_changed_code_records_usage": false
 }

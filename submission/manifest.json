@@ -1,12 +1,12 @@
 {
-  "observed_at_utc": "2026-10-12T08:18:58.080111+00:00",
-  "publicly_published": false,
+  "observed_at_utc": "2026-10-12T08:23:56.056765+00:00",
+  "publicly_published": true,
   "new_model_calls": 0,
   "source": {
     "path": "submission/source-code.zip",
-    "bytes": 20710170,
-    "sha256": "5cd964bf7b33a0978d2a0dab44dde4e5deec2ca648c55f15c8afd08b44eade4b",
-    "files": 415,
+    "bytes": 20713079,
+    "sha256": "469fdf35e26da9a1a1d008236d8d9e8d30e4afa72c3116425955f1d95bac900a",
+    "files": 417,
     "zip_integrity": "passed"
   },
   "evidence": {
@@ -19,7 +19,7 @@
   "source_scan": {
     "configured_credential_scan": "passed",
     "blank_env_example": "passed",
-    "files_scanned": 415
+    "files_scanned": 417
   },
   "evidence_scan": {
     "configured_credential_scan": "passed",
@@ -32,5 +32,9 @@
   "contains_original_raw_csv": false,
   "contains_work_databases_credentials_or_model_weights": false,
   "publication_requires_user_scope": "Public evidence includes review quotes beyond the previously published selected dashboard examples.",
-  "delivery_source_commit": "fec47dec06de1964a91dc9c4c2191a2d1affe41e"
+  "delivery_source_commit": "b1eaea0c01e1adf0f3effc2292ba97308357e63d",
+  "source_archive_amendment": "Create the optional output directory in fresh setup; frozen evidence archive unchanged.",
+  "public_repository": "https://github.com/hieu-nguyen-nth/spotify-insight-pipeline",
+  "public_release": "https://github.com/hieu-nguyen-nth/spotify-insight-pipeline/releases/tag/v1.0.0",
+  "signed_out_downloads_verified": true
 }
