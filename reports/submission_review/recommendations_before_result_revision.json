@@ -1,0 +1,38 @@
+[
+  {
+    "action": "Review background playback and exit controls.",
+    "claim_ids": [
+      "issue_usability_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "183a4585-a071-467d-80d4-316bdcaa8a4c"
+    ],
+    "reason": "A cited reviewer reports unwanted background playback and concerns about permissions.",
+    "issue_id": "issue_usability",
+    "editorial_note": "Reviewed AI-generated wording: removed unmeasured frequency or causal claims and treated reviewer allegations as unverified. Original AI output and model responses are retained."
+  },
+  {
+    "action": "Investigate crashes and account-security concerns.",
+    "claim_ids": [
+      "issue_playback_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "450434fc-6242-4c3d-b688-89a11f43bf71"
+    ],
+    "reason": "A cited reviewer reports crashes and alleges an account breach; neither is independently verified.",
+    "issue_id": "issue_playback",
+    "editorial_note": "Reviewed AI-generated wording: removed unmeasured frequency or causal claims and treated reviewer allegations as unverified. Original AI output and model responses are retained."
+  },
+  {
+    "action": "Review post-cancellation charges and dispute handling.",
+    "claim_ids": [
+      "issue_billing_complaint_count"
+    ],
+    "evidence_review_ids": [
+      "01bc38c1-0d0b-4716-a3ed-a7fc3a0aa362"
+    ],
+    "reason": "A cited reviewer reports a charge after cancellation.",
+    "issue_id": "issue_billing",
+    "editorial_note": "Reviewed AI-generated wording: removed unmeasured frequency or causal claims and treated reviewer allegations as unverified. Original AI output and model responses are retained."
+  }
+]

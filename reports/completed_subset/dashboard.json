@@ -480,28 +480,32 @@
   ],
   "recommendations": [
     {
-      "action": "Review background playback and exit controls.",
+      "action": "Investigate exit, navigation and local-file controls.",
       "claim_ids": [
         "issue_usability_complaint_count"
       ],
       "evidence_review_ids": [
-        "183a4585-a071-467d-80d4-316bdcaa8a4c"
+        "183a4585-a071-467d-80d4-316bdcaa8a4c",
+        "37c2d3d7-9ee2-45e4-83dd-2f6a22e798a4",
+        "4011e2d3-9eba-4a42-8dc6-f33f1b127946"
       ],
-      "reason": "A cited reviewer reports unwanted background playback and concerns about permissions.",
+      "reason": "Three selected reviews describe background playback/exit controls, zoomed navigation and unexpected local-file handling.",
       "issue_id": "issue_usability",
-      "editorial_note": "Reviewed AI-generated wording: removed unmeasured frequency or causal claims and treated reviewer allegations as unverified. Original AI output and model responses are retained."
+      "editorial_note": "Local Qwen supplied the original draft. This follow-up editorial revision uses three saved examples per broad group; it does not measure symptom prevalence or verify alleged harm. Raw AI drafts are retained. No new model calls."
     },
     {
-      "action": "Investigate crashes and account-security concerns.",
+      "action": "Investigate crashes, device connections and streaming data use.",
       "claim_ids": [
         "issue_playback_complaint_count"
       ],
       "evidence_review_ids": [
-        "450434fc-6242-4c3d-b688-89a11f43bf71"
+        "450434fc-6242-4c3d-b688-89a11f43bf71",
+        "82160961-72d8-47c1-b322-4257c94f0ab5",
+        "ab09a91d-546f-4b72-9e89-60105f3f529f"
       ],
-      "reason": "A cited reviewer reports crashes and alleges an account breach; neither is independently verified.",
+      "reason": "Selected reviews report crashes, unexpected device connections and unusually high mobile-data consumption.",
       "issue_id": "issue_playback",
-      "editorial_note": "Reviewed AI-generated wording: removed unmeasured frequency or causal claims and treated reviewer allegations as unverified. Original AI output and model responses are retained."
+      "editorial_note": "Local Qwen supplied the original draft. This follow-up editorial revision uses three saved examples per broad group; it does not measure symptom prevalence or verify alleged harm. Raw AI drafts are retained. No new model calls."
     },
     {
       "action": "Review post-cancellation charges and dispute handling.",
@@ -509,11 +513,13 @@
         "issue_billing_complaint_count"
       ],
       "evidence_review_ids": [
-        "01bc38c1-0d0b-4716-a3ed-a7fc3a0aa362"
+        "01bc38c1-0d0b-4716-a3ed-a7fc3a0aa362",
+        "0327424f-5ab1-42d7-aefa-b021dc049420",
+        "0c52d3c7-401e-4b55-b051-5837924840b3"
       ],
-      "reason": "A cited reviewer reports a charge after cancellation.",
+      "reason": "Two selected reviews report charges after cancellation; another alleges an unauthorized charge. These reports require verification.",
       "issue_id": "issue_billing",
-      "editorial_note": "Reviewed AI-generated wording: removed unmeasured frequency or causal claims and treated reviewer allegations as unverified. Original AI output and model responses are retained."
+      "editorial_note": "Local Qwen supplied the original draft. This follow-up editorial revision uses three saved examples per broad group; it does not measure symptom prevalence or verify alleged harm. Raw AI drafts are retained. No new model calls."
     }
   ],
   "limitations": [
@@ -521,7 +527,9 @@
     "Broad topic groups are not root-cause clusters.",
     "Sentiment is local VADER; human agreement diagnostics remain separate.",
     "Local AI prose was reviewed against source quotes; editorial corrections are disclosed.",
-    "All 660,622 source rows were ingested; 13 empty texts are quarantined separately from this analysis. The original full-source checker remains review_required for missing outputs and unavailable failed-request usage; no full-corpus pass is claimed."
+    "All 660,622 source rows were ingested; 13 empty texts are quarantined separately from this analysis. The original full-source checker remains review_required for missing outputs and unavailable failed-request usage; no full-corpus pass is claimed.",
+    "Sentiment is a local VADER diagnostic (human-50 MAE 0.4739); it does not determine priority or the joint investigation recommendation.",
+    "The student accepted model topics for most reviewed disagreements. Original 68% agreement remains preserved; no case-level human adjudication tally was supplied."
   ],
   "verification": {
     "completed_subset_integrity": "pass",
@@ -547,5 +555,28 @@
       "valid_completion_fraction": 0.37023
     },
     "cost_status": "provisional_pending_failed_request_reconciliation"
+  },
+  "decision_review": {
+    "version": "saved-result-review-v1",
+    "headline": "Investigate usability and playback together before allocating next-quarter effort.",
+    "reason": "Usability leads the baseline by 671 points (4.4% of playback). Excluding reviews marked for review reverses the leading group; that diagnostic has its own bias.",
+    "scenarios": [
+      {
+        "label": "Baseline · all completed complaints",
+        "usability": 15949,
+        "playback": 15278
+      },
+      {
+        "label": "Diagnostic · exclude review flags",
+        "usability": 7482,
+        "playback": 9792
+      }
+    ],
+    "flagged_complaints": 7518,
+    "complaints": 15825,
+    "limitation": "The baseline ranking below is unchanged. Completion and flag exclusion both introduce selection bias; neither scenario estimates priorities across all Spotify reviews.",
+    "provenance": "Post-run editorial review using saved classifications and an offline sensitivity calculation; no new inference.",
+    "memo_url": "https://github.com/hieu-nguyen-nth/spotify-insight-pipeline/blob/main/reports/completed_subset/memo.md",
+    "diagnostic_url": "https://github.com/hieu-nguyen-nth/spotify-insight-pipeline/blob/main/reports/completed_subset/ranking_sensitivity.md"
   }
 }

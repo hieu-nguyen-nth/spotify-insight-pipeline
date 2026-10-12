@@ -12,32 +12,51 @@ Blind verification: 1,000 completed reviews, 193 with at least one differing fie
 
 ## Evidence-grounded investigation candidates
 
-The following symptoms are supported by selected source examples. Their broad-topic totals do not establish how common each symptom is, and no symptom-specific membership/count is claimed.
+The following symptoms are supported by three selected source examples per broad group. The examples were selected by severity then original ID, and do not establish symptom prevalence. [Recommendation evidence](../result_review/recommendation_evidence.csv) verifies all nine review memberships and exact saved quotes.
 
 ### issue_usability
-Review background playback and exit controls. A cited reviewer reports unwanted background playback and concerns about permissions.
+Investigate exit, navigation and local-file controls. Three selected reviews describe background playback/exit controls, zoomed navigation and unexpected local-file handling.
 
-Broad group count: 5862 [issue_usability_complaint_count]; priority: 15949 [issue_usability_priority_score].
+Broad group count: 5862 [issue_usability_complaint_count]; priority: 15949 [issue_usability_priority_score]. These totals are not counts of the symptoms below.
 
 Original review ID: 183a4585-a071-467d-80d4-316bdcaa8a4c
 > I would like to EXIT Spotify to when I close the app. Instead it keeps playing in the background. I continually have to find the app, scroll thru 50 settings to exit the app. I understand why Spotify does that..... As long as the app is open, Spotify can see all your contacts, texts, Personal data, etc. Spotify, keep your nose out of my phone and exit the app when I say so, not when you want
 
-### issue_playback
-Investigate crashes and account-security concerns. A cited reviewer reports crashes and alleges an account breach; neither is independently verified.
+Original review ID: 37c2d3d7-9ee2-45e4-83dd-2f6a22e798a4
+> Why is everything so zoomed in now? It makes it much harder to use. Also, Spotify is recognizing audio files on my phone despite it not having permission to look at my files.
 
-Broad group count: 4157 [issue_playback_complaint_count]; priority: 15278 [issue_playback_priority_score].
+Original review ID: 4011e2d3-9eba-4a42-8dc6-f33f1b127946
+> For some reason this app is now trying to open all of my personal audio without my permission and there is no option to stop it. It is not my default audio player and I can not open it any other way. Horrible.
+
+### issue_playback
+Investigate crashes, device connections and streaming data use. Selected reviews report crashes, unexpected device connections and unusually high mobile-data consumption.
+
+Broad group count: 4157 [issue_playback_complaint_count]; priority: 15278 [issue_playback_priority_score]. These totals are not counts of the symptoms below.
 
 Original review ID: 450434fc-6242-4c3d-b688-89a11f43bf71
 > The apps keeps crashing for some reason. Also account got data breached last time, talk about broken security.
 
-### issue_billing
-Review post-cancellation charges and dispute handling. A cited reviewer reports a charge after cancellation.
+Original review ID: 82160961-72d8-47c1-b322-4257c94f0ab5
+> Other devices has been connecting to my phone.. my bluetooth isnt even on.
+> How is this even happening?
 
-Broad group count: 1656 [issue_billing_complaint_count]; priority: 4906 [issue_billing_priority_score].
+Original review ID: ab09a91d-546f-4b72-9e89-60105f3f529f
+> Today I was driving and streaming some podcasts, and somehow Spotify managed to EAT UP 10 GBs OF DATA in less than 3 hours!! 10!!! Completely unacceptable 😡 Now I have very limited data left for 2 weeks until my next billing period.
+
+### issue_billing
+Review post-cancellation charges and dispute handling. Two selected reviews report charges after cancellation; another alleges an unauthorized charge. These reports require verification.
+
+Broad group count: 1656 [issue_billing_complaint_count]; priority: 4906 [issue_billing_priority_score]. These totals are not counts of the symptoms below.
 
 Original review ID: 01bc38c1-0d0b-4716-a3ed-a7fc3a0aa362
 > It charged me after I canceled my plan long story short don't put your card on here
 
+Original review ID: 0327424f-5ab1-42d7-aefa-b021dc049420
+> Taking money out my bank without permission I'm ripping
+
+Original review ID: 0c52d3c7-401e-4b55-b051-5837924840b3
+> I cancelled my free trial but they still charged my credit card
+
 ## Limits and wording review
 
-Local Qwen generated issue names and recommendation drafts; code rendered the cited metrics. Editorial review produced this final memo, removed unsupported frequency/causal wording, and kept alleged privacy/security or billing harms unverified. The joint investigation priority and sensitivity discussion are post-run editorial additions using saved records, with no new model calls. Raw AI memo/recommendations and provider responses are retained. Selected examples were chosen by severity then original ID; they are not representative defect samples. These historical, self-selected reviews provide no observed revenue loss, confirmed cancellation, causal churn or verified breach evidence. Validate reproducible cases before committing a product roadmap.
+Local Qwen generated issue names and recommendation drafts; code rendered the cited metrics. Editorial review produced this final memo, removed unsupported frequency/causal wording, and kept alleged privacy/security or billing harms unverified. The joint investigation priority, sensitivity discussion and expansion to nine source examples are post-run editorial additions using saved records, with no new model calls. Sentiment does not enter the severity-sum priority formula; its documented errors do not drive this recommendation. Raw AI memo/recommendations and provider responses are retained. Selected examples were chosen by severity then original ID; they are not representative defect samples. These historical, self-selected reviews provide no observed revenue loss, confirmed cancellation, causal churn or verified breach evidence. Validate reproducible cases before committing a product roadmap.

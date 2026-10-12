@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-12",
+  "base_commit": "a207e8de5fc8b9091a7c32a626640993ad3e59fc",
+  "scope": 244582,
+  "new_model_calls": 0,
+  "classification_resumed": false,
+  "changes": "Live interpretation alignment, nine source examples, saved golden-case analysis, offline provenance audit",
+  "preserved": [
+    "all original labels and predictions",
+    "golden scores and prompts",
+    "membership/ranking/claims/verification",
+    "original execution release"
+  ],
+  "files": {
+    "README.md": "07a0463deaf7d585f6c83fce0d086acd4adfe6a345140cad88785e65563ce3ea",
+    "backend/public/dashboard.js": "d0633dba72d72f52038cc764d9d6b496cfe22bc227dbbe7274709bcbde4d41fe",
+    "backend/public/index.html": "c2cd83c07ba362fd0db45c1eaea465909390089f92fb591e9a2aca973e83c76e",
+    "backend/public/styles.css": "c1ff63a2e5384b331d49d0535eb76624819eea8fe2d08c448d1e84ebbef76829",
+    "reports/completed_subset/dashboard.json": "76fe3b75982a8c2d2de774eac56a4f192ae002085db332c82bcbd15e63faf98f",
+    "reports/completed_subset/memo.md": "e944d5ee8b935aa0f6d06b177921a35b3486b40a58b0a48c5214dc8a6a8137af",
+    "reports/completed_subset/recommendations.json": "3dbe505bbc4be8e5d8ea276f7a1dee6404747819a1b76bfb02c45a91cc66e6f4",
+    "reports/golden50/follow_up_case_notes.json": "37f3dfd5c4e1b2f8eeb92f32bb7062c1ebd3703e9566ed25c4ccca7e38622ac4",
+    "reports/golden50/report.md": "7cfb600e276cca4d3b6659f2c1bfe8cbc64620a5eeaada8da88310777844cf4e",
+    "reports/result_review/README.md": "746766550100ec7e75cc66222938b674dab6cbc3a4a2dc155a76f45b7c0d8b1d",
+    "reports/result_review/checks.json": "e336d1bb8bbe5b6925c9c1002134d6f970e0763dc1090904de25dc147bdd5c77",
+    "reports/result_review/desktop.jpg": "809c6e27ca8cf64f9676075cd460a5db58806ea3ad5820a1656c4992122c79e4",
+    "reports/result_review/golden_case_review.json": "4544900842b398b080ed10fa103fdcd3e92c004b1793417f452d21c7222e1fd0",
+    "reports/result_review/mobile.jpg": "b93508531dd31e94ad8c1d3476149d89bc985b0061d0cfb637b8213f68be011e",
+    "reports/result_review/recommendation_evidence.csv": "33cb6c5b0cb101bf35ac30f90e87f7cd7d6f0490ff5958f7e9905e88212a8eeb",
+    "reports/result_review/validation.json": "c83f96c4120ba36f2000bfb37289fe4530037e072e7919df4195a7923bd125ca",
+    "reports/submission_review/dashboard_before_result_revision.json": "fe837ca6b740da1bb9531557dd19d9a8bd16b0816a6d9ddc2a5418c5bee7d807",
+    "reports/submission_review/recommendations_before_result_revision.json": "a490021aade4ce7c8d960071381eeaf01d2c1df2eb88ce52379834e167a7a205",
+    "scripts/audit_saved_evidence.py": "81407c95e09e2cebbb093b7316ecdf1cc5ade3b7a90d134b21d06bd37fc2cbf7",
+    "submission/requirement-audit.md": "5c94bdb277c4b1bf965fc3c536d4714c50838d04c440193b59c1fc6380d164ed",
+    "tests/test_saved_evidence_audit.py": "a598834f57e1c13aafcfac7afd67b6139ca41ce1996da9f56d70ee3123cd9f8f"
+  }
+}
