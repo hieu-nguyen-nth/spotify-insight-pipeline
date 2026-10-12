@@ -25,7 +25,8 @@ def source_files():
     files.update(p for p in (ROOT/'reports/full_run').glob('*') if allowed(p) and p.name!='records.json')
     files.update(p for p in (ROOT/'reports/full_run/reconciliation').rglob('*') if allowed(p))
     files.add(ROOT/'reports/readiness.json')
-    files.update(ROOT/'submission'/n for n in ('README.md','requirement-audit.md'))
+    files.add(ROOT/'reports/dataset_checks.json')
+    files.update(p for p in (ROOT/'submission').glob('*.md') if allowed(p))
     if (ROOT/'submission/final_run_manifest.json').exists():files.add(ROOT/'submission/final_run_manifest.json')
     return sorted(files)
 

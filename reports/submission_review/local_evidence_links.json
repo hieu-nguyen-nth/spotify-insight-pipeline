@@ -1,0 +1,21 @@
+{
+  "missing_local_links": [],
+  "existing_release_attachment_links": [
+    {
+      "file": "README.md",
+      "link": "reports/dataset_checks.json"
+    },
+    {
+      "file": "submission/README.md",
+      "link": "source-code.zip"
+    },
+    {
+      "file": "submission/README.md",
+      "link": "submission-evidence.zip"
+    },
+    {
+      "file": "submission/README.md",
+      "link": "manifest.json"
+    }
+  ]
+}
