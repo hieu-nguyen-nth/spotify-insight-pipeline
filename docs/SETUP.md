@@ -1,6 +1,6 @@
 # Fresh setup and offline reproduction
 
-Python 3.10+ is required. The measured environment used Python 3.12. No database, provider key or model runtime is needed to inspect the saved results or reproduce cost arithmetic and ranking. Download the evidence attachment into the repository root and extract it there, preserving `grading/`, `cost/` and `reports/`.
+Python 3.10+ is required. The measured environment used Python 3.12. No database, provider key or model runtime is needed to inspect the saved results or reproduce cost arithmetic and ranking. Use the current repository source, then download the original v1.0.0 evidence attachment into its root. Extract with `unzip -n submission-evidence.zip -d .`: this fills missing large files under `grading/`, `cost/` and `reports/` while preserving current tracked reports. The original source ZIP contains historical documentation; use the repository for the follow-up review fixes.
 
 ```sh
 python3 -m venv .venv
@@ -10,6 +10,7 @@ python3 -m venv .venv
 mkdir -p work
 .venv/bin/python cost/calculator.py --out work/offline_calculator.json
 ./run.sh replay-ranking --records reports/completed_subset/records.json --out work/offline_ranking
+.venv/bin/python scripts/ranking_sensitivity.py --records grading/records.jsonl --out work/ranking_sensitivity.json
 ```
 
 Compare `membership.csv`, `ranking.csv` and `claims.csv` in work/offline_ranking against reports/completed_subset/. `scripts/verify_offline.py` runs those commands in a temporary clean copy with a fresh virtual environment, no credentials or persisted work database, and records actual outcomes. It additionally tests doubled dated rates and modified volume/limits without changing measured pilot usage/time. Dependency installation uses the package index; subsequent replay uses no network or model calls.

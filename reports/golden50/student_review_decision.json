@@ -6,5 +6,17 @@
   "human_labels_changed": false,
   "model_configuration_changed": false,
   "golden_scores_changed": false,
-  "limitation": "Acceptance does not establish instructor accuracy or multilingual sentiment quality; preserve original benchmark diagnostics."
+  "limitation": "Acceptance does not establish instructor accuracy or multilingual sentiment quality; preserve original benchmark diagnostics.",
+  "follow_up_statement": {
+    "date": "2026-10-12",
+    "source": "Explicit student statement during submission review",
+    "labeler_is_student": true,
+    "topic_interpretation": "After reviewing the model/human disagreements, the student labeler agrees with the model topic classification for the majority of disputed topic cases. This was the reason for continuing the experiment.",
+    "exact_accepted_case_count": null,
+    "basis": "Qualitative self-report; no new case-level tally or independent adjudication supplied.",
+    "original_topic_agreement": 0.68,
+    "human_labels_changed": false,
+    "model_configuration_changed": false,
+    "golden_scores_changed": false
+  }
 }

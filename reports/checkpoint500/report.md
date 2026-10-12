@@ -1,5 +1,7 @@
 # Measured 500-review checkpoint · October 11, 2026
 
+> Historical development checkpoint. Statements about pending dispatch, deployment or injection tests describe the saved checkpoint date. For final scope, completed tests and provisional accounting, see the [current README](../../README.md) and [stopped-project cost summary](../../cost/completed_subset/summary.json). Original measurements and forecasts below are preserved.
+
 **Completed and checked: all 500 original review IDs have valid saved outputs.** The full six-stage incremental checkpoint took **111.701 seconds** and used **$0.003668994** of calculated API usage, below the approved **$0.02 additional cap**. This used existing credit, not a new purchase. Its scope contains 479 distinct texts: 100 original results were reused, 379 new distinct texts were enriched, and 21 additional original IDs reuse exact-text results. One worker, at most 50 reviews per request, unchanged Jev configuration, no stronger fallback and zero automatic retries.
 
 | Stage | Actual seconds | Actual work |

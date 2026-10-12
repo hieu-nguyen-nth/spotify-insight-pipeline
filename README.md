@@ -1,86 +1,104 @@
 # Spotify Insight Pipeline
 
-[Public source repository](https://github.com/hieu-nguyen-nth/spotify-insight-pipeline) · [Submission release](https://github.com/hieu-nguyen-nth/spotify-insight-pipeline/releases/tag/v1.0.0) · [Complete saved evidence ZIP](https://github.com/hieu-nguyen-nth/spotify-insight-pipeline/releases/download/v1.0.0/submission-evidence.zip). Extract the evidence ZIP into the repository root before offline ranking/checker replay. The release includes the source ZIP, archive checksums and final run manifest; no paid rerun is needed to grade it.
+[Live dashboard](https://spotify-review-analysis-one.vercel.app) · [Decision memo](reports/completed_subset/memo.md) · [Saved execution evidence](https://github.com/hieu-nguyen-nth/spotify-insight-pipeline/releases/tag/v1.0.0) · [Fresh setup](docs/SETUP.md)
 
-Final analysis scope: **244,582 fully classified original reviews**, frozen after the user requested a safe stop. All **660,622 source rows** were ingested and preserved; **13 empty texts** are quarantined separately and **416,027 nonempty reviews** remain without complete classifications. Scheduled follow-ups are paused and enrichment is disabled in this workspace. Partial topic/intent results are retained separately.
+**244,582 original reviews are fully classified.** All **660,622** source rows were ingested and preserved, **13** empty texts were quarantined, and **416,027** nonempty reviews remain incomplete. The achieved scope exceeds the supplied assignment's **at least 100,000** option. Other sections and the unchanged checker retain full-corpus wording; [scope and deadline clarification](reports/scope_change/scope_decision.json) remains an instructor decision. This is a stopped production subset, not a complete 660K classification run.
 
-The supplied assignment's delivery bullet and Definition of Done explicitly permit “at least 100,000,” and the user supplied a bCourses announcement discussing 100k runs under $10 and an October 20 midnight extension. Other document sections, the public page and the checker still use full-corpus wording. This project follows the user's achieved-scope decision; it does not claim that the instructor has resolved the deadline or coverage-grade inconsistency. See [scope decision](reports/scope_change/scope_decision.json).
+**Selection limitation:** completion depended on processing stage and intent. Praise/request/unclear reviews often finished before complaints awaiting severity. Counts, complaint share and ranking describe this subset only; they are not population estimates. The [memo](reports/completed_subset/memo.md) recommends investigating usability and playback together before committing next-quarter effort.
 
-**Selection limitation:** this is a completion-based subset, not a random sample. Praise/request/unclear records finished earlier while many complaints/cancellations still awaited severity. Counts and rankings describe this subset only. Do not present its complaint share, sentiment or priorities as estimates for all Spotify reviews.
+## Results and evaluation
 
-## Live dashboard
+| Broad issue | Complaint/cancellation reviews | Baseline priority: severity sum |
+|---|---:|---:|
+| Usability | 5,862 | 15,949 |
+| Playback | 4,157 | 15,278 |
+| Billing | 1,656 | 4,906 |
 
-[Spotify Review Analysis](https://spotify-review-analysis-one.vercel.app) — open directly, with no login or model key. It now shows **244,582 completed reviews**, the selection warning, deterministic issue rankings and grounded recommendations. Search issue groups, select a ranked row, or use “Read source evidence” on a recommendation. Visits make no inference calls. The API and published database artifact exactly match the checked local dashboard: [live verification](reports/deployment/live_completed_subset_check.json), [browser checks](reports/deployment/browser_completed_subset_check.json), [screenshot](reports/deployment/dashboard-completed-subset.jpg). Production deployment: `dpl_4SZGjTLVJ2SE8B2waBWcrdBKjU5e`; Supabase dataset ID: `5`.
+The baseline includes all **15,825** completed complaint/cancellation reviews, one issue per common topic, and equals count × unrounded mean severity. Sort descending by integer severity sum, then ascending issue ID. [Membership](reports/completed_subset/membership.csv), [ranking](reports/completed_subset/ranking.csv) and [claim IDs](reports/completed_subset/claims.csv) trace every number. Broad topic counts do not measure the prevalence of a specific defect; quoted symptoms are investigation candidates, not proven causes.
 
-Processed data and six analysis artifacts are stored locally in SQLite and in Supabase Free. The verified upload stored **244,582 private completed rows**, **15,825 memberships** and **six artifacts**; measured database size was **164,075,187 bytes**. Only approved dashboard aggregates, recommendations and selected quotes are public. Anonymous requests to all four complete review/configuration/membership tables returned 401. Vercel Hobby hosts the Python backend and dashboard, and no provider or database-admin key is deployed. See [upload evidence](reports/deployment/database_upload_completed_subset.json).
+**Sensitivity:** usability's lead is **671 points (4.4% of playback's score)**. Excluding `needs_review` records only in a separate diagnostic reverses the order: playback **9,792**, usability **7,482**. Of complaint/cancellation records, **7,518/15,825 (47.5%)** carry that flag. This exclusion introduces its own bias; it does not replace the required baseline or correct labels. See [reproducible diagnostic](reports/completed_subset/ranking_sensitivity.md).
 
-## Results and evidence
+| Frozen human-50 diagnostic | Result |
+|---|---:|
+| Topic agreement with original human labels | 34/50 · 68% |
+| Intent agreement | 46/50 · 92% |
+| Severity exact agreement / mean absolute error | 38/50 · 76% / 0.24 |
+| Sentiment mean absolute error on −1 to +1 | 0.4739 |
+| Needs-review agreement | 36/50 · 72% |
+| Exact source-substring quotes | 50/50 |
 
-- [Decision memo](reports/completed_subset/memo.md), [ranking](reports/completed_subset/ranking.csv), [membership](reports/completed_subset/membership.csv), [claims](reports/completed_subset/claims.csv), and [frozen scope manifest](reports/completed_subset/scope_manifest.json).
-- [Completed-subset integrity](reports/completed_subset/subset_integrity.json): all 244,582 IDs, source hashes, quotes, committed labels, bounded real call provenance and ranking arithmetic checked. [Offline ranking replay](reports/completed_subset/ranking_replay_check.json) regenerated byte-identical membership, ranking and claims.
-- [Unchanged instructor full-source check](reports/completed_subset/instructor_full_source_check.json): **review_required**, with missing_records and unfinished_classification for the 416,027 incomplete reviews, plus two invalid_usage findings for the documented failed request's unavailable input/output tokens. This is not a full-corpus pass or an automatic grade.
-- [Blind verification](reports/completed_subset/verification.json): 1,000 original completed-review texts, 193 with a differing field. Topic/intent/severity agreement was 90.7%/92.8%/92.3%, and severity mean absolute difference 0.099. This is agreement between two model tasks, not human accuracy. [Eight inspected disagreements](reports/completed_subset/verification_review.json) show request-versus-complaint precedence limitations; original labels were preserved.
-- [Golden human evaluation](reports/golden50/report.md): frozen 50-case diagnostics, original human answers and inspected disagreements. Human answer labels never entered inference payloads and were not used to tune the frozen prompts.
-- [Raw AI recommendations](reports/completed_subset/recommendations_ai_raw.json) and [raw AI memo](reports/completed_subset/memo_ai_raw.md) remain alongside the editorially reviewed versions. Unsupported frequency/causal wording was removed, and alleged harm remains unverified.
-- Real [100 cold/warm pilot and calculator](cost/README.md), [500 checkpoint](reports/checkpoint500/report.md), [10,000 checkpoint](reports/checkpoint10000/report.md), [interruption/resume recording](reports/pilot100_optimized/resume.cast), [primary Jev injection tests](reports/robustness/primary_jev/results.json), and [planted-error/local robustness tests](reports/robustness/results.json).
-- [Full-file ingestion](reports/full/ingestion.json), [13 quarantines](reports/full/quarantine.jsonl), [original manifest](dataset/manifest.json) and [source checks](reports/dataset_checks.json). Full source SHA-256: `1fc85de68a304dd8978b537cfa58793d5f41cbaf417fa32cb53899f83a2fcef6`.
-- [Submission files and manifest](submission/README.md), [fresh setup](docs/SETUP.md), [clean-environment verification](reports/submission_review/clean_environment_check.json), and [real review walkthrough](reports/submission_review/real_review_trace.md). Large grading/record/usage files are distributed as a separate evidence attachment; source code is provided with the submission. Course-portal submission is the student's final step.
+**Why the experiment continued:** topic agreement depends on the human labeler's interpretation of the review and rubric. After inspecting the disagreements, the student who supplied the human labels reports agreeing with the model's topic classification for the majority of disputed cases. The student therefore accepted the frozen classifier and continued. The 68% figure measures agreement with the original labels; it is not an adjudicated accuracy score. This follow-up is qualitative, with no new case-level tally. Original labels, predictions, scores and prompts remain preserved. See [golden results and error analysis](reports/golden50/report.md) and [student decision](reports/golden50/student_review_decision.json). Sentiment and language limitations remain separate from topic acceptance.
 
-The subset contains **15,825 complaint/cancellation reviews**. Baseline priority is the integer severity sum, equivalent to count × unrounded mean severity, with ascending issue ID for ties. Usability ranks first (5,862 reviews; priority 15,949), playback second (4,157; 15,278), and billing third (1,656; 4,906). These broad-topic totals do not establish the prevalence of any particular defect. The memo recommends investigation, with source allegations and selection limits disclosed; no revenue or observed-churn calculation is invented.
+The [blind verifier](reports/completed_subset/verification.json) re-labeled 1,000 completed-review texts without seeing original predictions: **193** had a differing field; topic/intent/severity agreement was **90.7%/92.8%/92.3%**, severity mean absolute difference **0.099**. This is a separate Jev task, not a different model or human accuracy measurement. [Eight inspected disagreements](reports/completed_subset/verification_review.json) include complaint-versus-request precedence failures. Original labels were retained. Human answers were excluded from payloads and prompt tuning; quote/entity support was inspected separately.
 
-## Offline review and reproduction
+## Live result and model responsibilities
 
-Python 3.10+ is required; the measured environment used Python 3.12. Calculator replay needs only the standard library, no API key and no network:
+[Spotify Review Analysis](https://spotify-review-analysis-one.vercel.app) requires no login or model key. Search an issue, select its ranking row, or use “Read source evidence.” The deployed Python backend retrieves saved dashboard data from Supabase; visits make no inference calls. The verified upload stored **244,582 private rows**, **15,825 memberships** and **six artifacts**. Only published aggregates/recommendations/selected quotes are public. [Database setup](database/README.md), [live checks](reports/deployment/live_completed_subset_check.json) and [browser evidence](reports/deployment/browser_completed_subset_check.json) document the baseline. The revised editorial memo and sensitivity diagnostic are repository additions; the baseline dashboard remains the saved execution result.
+
+[Architecture](ARCHITECTURE.md): Python/SQL preparation and exact-text deduplication → Jev topic/intent → conditional severity → separate blind verification → code membership/ranking → local Qwen issue names and recommendation drafts → editorial review. Source ratings remain metadata. Local **VADER** supplies sentiment, and code extracts explicit entity terms and validates quotes. Models interpret language; code owns arithmetic, state and dispatch.
+
+| Role | Saved configuration |
+|---|---|
+| Classify / blind verify | `jev-1.13.0`, frozen `conditional-severity-v3`, ≤50 reviews per request, one production worker, zero stronger fallbacks and zero automatic retries in the saved run. |
+| Local issue naming / writing | `qwen2.5:3b-instruct-q4_K_M`, pinned digests, temperature 0, seed 7, non-thinking, 1,024-token output cap. |
+
+**Local writing:** Qwen generated issue names and recommendation drafts; code rendered metrics and editorial review produced the final memo. [Raw recommendations](reports/completed_subset/recommendations_ai_raw.json) and [raw AI memo](reports/completed_subset/memo_ai_raw.md) are retained. Local API charges are **zero**; hardware/electricity costs are unmeasured. [Setup](docs/SETUP.md) supplies exact runtime/model digests. Suitable local models are permitted by the assignment.
+
+Matching model/prompt/schema/effort is required for exact-text reuse with direct original provenance. The 10K checkpoint demonstrated **1,552** aliases; the final subset contains completed originals only. Pending IDs derive from SQLite; validated batches save atomically and shared rate/spend reservations precede dispatch. [Real interruption/resume](reports/pilot100_optimized/resume.cast) demonstrates no relabeling of saved records. The revised dispatcher allows one known-usage invalid/transient retry with backoff/jitter; [recovery fixtures](reports/submission_review/recovery_controls.md) are distinct from production execution. Unknown charges stop dispatch.
+
+[One/two-worker comparison](reports/worker_comparison/report.md): **20.29/19.35s** on the same 100 texts, equal **$0.001239714** usage per condition. This single trial does not establish sustained speedup or a Batch API discount.
+
+## Offline inspection and reproduction
+
+Use the current repository source. The **v1.0.0 release is the original frozen execution package**; its archived prose predates the follow-up review. Download its [complete evidence ZIP](https://github.com/hieu-nguyen-nth/spotify-insight-pipeline/releases/download/v1.0.0/submission-evidence.zip), then extract with **`unzip -n`** to fill absent large records/handoffs while preserving current tracked reports. [Distribution instructions](submission/README.md) explain current source versus archived execution evidence.
+
+Python **3.10+** is required; recorded runs used **3.12**. Follow [fresh setup](docs/SETUP.md) for dependencies, CSV input and stage commands. The calculator is standard-library-only. These replay commands need no model key, paid call or network:
 
 ```sh
-python3 cost/calculator.py
+mkdir -p work
+python3 cost/calculator.py --out work/cost_replay.json
 ./run.sh replay-ranking --records reports/completed_subset/records.json --out work/ranking_replay
+python3 scripts/ranking_sensitivity.py --records grading/records.jsonl --out work/ranking_sensitivity.json
 ```
 
-The default calculator retains real cold/warm 100 measurements and editable dated rates. Its projections are scenarios, not new executions. Historical pre-full-run cache-aware forecasts are retained under reports/checkpoint10000/. Actual stopped-project accounting is in [cost/completed_subset/summary.json](cost/completed_subset/summary.json), with all project attempts including unused partial work, failed calls and the unknown hold. With local state present, `python3 cost/export_subset.py` refreshes that accounting without inference. `export_full.py` remains blocked because the full corpus was not completed; no full-run cost export is claimed.
+Compare replayed membership/ranking/claims against the saved files. [Subset integrity](reports/completed_subset/subset_integrity.json) checks source IDs/hashes/quotes, committed labels, real bounded-request provenance and arithmetic; [ranking replay](reports/completed_subset/ranking_replay_check.json) is byte-identical. [Clean-environment checks](reports/submission_review/clean_environment_check.json) used no credentials/state, with network blocked during calculator/ranking replay. Model reruns are separately explicit; classification remains stopped and scheduled follow-ups paused.
 
-To rerun the original checker without local classifier state, download the supplied full CSV from the [course dataset page](https://haas-ai-classes-fall-26.vercel.app/assignment5.html), then:
+The [course dataset](https://haas-ai-classes-fall-26.vercel.app/assignment5.html) full CSV SHA-256 is `1fc85de68a304dd8978b537cfa58793d5f41cbaf417fa32cb53899f83a2fcef6`. The [manifest](dataset/manifest.json), [ingestion](reports/full/ingestion.json) and [quarantines](reports/full/quarantine.jsonl) identify the input. To run the unchanged checker:
 
 ```sh
 python3 vendor/check_submission.py reference --full /path/to/spotify_reviews_18months.csv --analysis /path/to/spotify_reviews_18months.csv --out work/full_reference.json
 python3 vendor/check_submission.py check --reference work/full_reference.json --submission grading --out work/full_check.json
 ```
 
-The expected full-source findings remain visible; do not remove failed attempts, invent missing tokens or change the checker to obtain a pass. The root grading/ export contains the completed rows plus the 13 actual empty-text quarantines, original call IDs, source accounting and initial/resume checkpoints.
+Expected result: [**`review_required`**](reports/completed_subset/instructor_full_source_check.json), for **416,027** missing/incomplete outputs and unavailable input/output tokens on one failed request. Subset integrity is a separate check, not a full-corpus pass or automatic grade. The unchanged full-corpus coverage formula gives **0.4962/1**; applying the ≥100K option remains an instructor decision.
 
-## Models, orchestration and deliberate execution
+## Measured time and provisional cost
 
-SQL/Python ingestion and exact-text deduplication → pinned Jev topic/intent → conditional severity → separate blind verification → code membership/aggregation and deterministic ranking → bounded local Qwen issue naming and memo. [Architecture](ARCHITECTURE.md) describes stage boundaries, stored artifacts and stop behavior.
+The actual **100-review cold pilot** took **102.185s** and used **$0.001058946** API credit; the warm repeat took **0.179s**, with **zero new model calls**. [Historical pilot/checkpoint report](cost/report.md), [editable calculator and rates](cost/README.md), [500](reports/checkpoint500/report.md) and [10K](reports/checkpoint10000/report.md) measurements include stage usage and base/conservative projections. Projections are scenarios, not executions.
 
-Jev uses `jev-1.13.0`, frozen `conditional-severity-v3`, at most **50 reviews per request**, **one worker**, zero stronger-model fallbacks and zero automatic retries in the saved production run. The revised dispatcher now supports one known-usage invalid-output/transient retry with backoff/jitter; [isolated recovery tests](reports/submission_review/recovery_controls.md) disclose its synthetic fixtures and unknown-charge stop behavior. Completed exact-text reuse requires matching model/prompt/schema/effort settings and direct original provenance. The 10,000 checkpoint demonstrated 1,552 duplicate aliases; the stopped final subset retains completed originals only. The separately authorized [live one/two-worker comparison](reports/worker_comparison/report.md) measured 20.29 versus 19.35 seconds for the same 100 texts, with peak concurrency 1 versus 2 and identical $0.001239714 consumption per condition. The single-trial 4.6% time reduction is not a sustained full-pipeline speedup. No asynchronous provider Batch discount is claimed. Pending work is derived from persisted SQLite state, results save atomically, and shared transactional rate/spend reservations prevent duplicate or over-budget dispatch. The saved pilot demonstrates actual interruption and resume.
+| Recorded production phase | Wall seconds |
+|---|---:|
+| First classification process, stopped on failed request | 4,341.19 |
+| Resumed classification, stopped at the student's request | 7,348.16 |
+| Completed-subset verification/ranking/local generation | 248.25 |
 
-Local generation uses `qwen2.5:3b-instruct-q4_K_M`, exact runtime digest, temperature zero, seed seven, non-thinking settings and a 1,024-token cap. Local inference has zero API charges; hardware and electricity costs are unmeasured. The assignment permits suitable local models; Luna/Haiku and other named models are recommendations, not a reason to buy another provider.
+These are separately measured phases, not a fabricated uninterrupted full-corpus runtime. Downstream analysis made **20** paid verifier requests and **four** local generation calls, using **$0.009579654** API credit. [Runtime details](reports/submission_review/runtime_summary.md) identify runs and exclusions.
 
-[Exact fresh setup and CSV-to-stages commands](docs/SETUP.md) include dependency installation, offline replay, pinned local runtime/model digests and separately explicit paid commands. The current workspace intentionally blocks the enrich role after the user's stop request. The actual clean-copy test used a fresh virtual environment, no credentials or persisted work database, and blocked socket connections during calculator/ranking replay. Offline calculator/ranking checks make no model calls.
-
-The actual final-subset analysis used the explicit command `./run.sh analyze-subset --execute-paid --verification-size 1000` under a $0.03 additional verification allowance inside the unchanged $4.80 project cap. It made 20 paid blind-verification requests and four local generation calls; measured downstream time was 248.250 seconds and API usage $0.009579654. Its results and raw handoffs are saved. Do not rerun it as an automatic paid default; saved-state analysis can reuse its results.
-
-## Cost and unresolved usage
-
-Known project API consumption: **$3.671408118**, funded from the existing **$5 TypeSafe credit purchase**. The purchase and consumption are not two expenses to add together. One failed request (`03cb9c58-d8c1-4500-864e-4b9049ddbe6d`) still has unknown actual charge and tokens, with the explicitly authorized **$0.05 liability hold** inside the **$4.80 API ceiling**. Final total API cost remains null/provisional until genuine provider reconciliation; no account balance or receipt is inferred from a rounded user observation.
-
-[Hold authorization](reports/full_run/reconciliation/hold_authorization.json), [safe stop authorization](reports/scope_change/stop_authorization.json) and raw failed-call evidence are retained. `./run.sh reconcile-usage --evidence /path/to/real_provider_evidence.json` previews actual evidence; only --apply settles it and releases the hold. Reconciliation does not restart enrichment. The original worker's misleading default “completed” stop field after the admission-gate exception was corrected with its raw export preserved. No in-flight request was interrupted and the worker removed its own lock.
-
-Known API usage includes pilots, comparisons, partial classifications and verification. Free/Hobby hosting is used; hosting invoices and local compute/electricity are unmeasured. No new credit purchase is authorized. Source code, grading evidence and the calculator are prepared for submission; public repository/evidence sharing was explicitly approved. The student must confirm the instructor's coverage/deadline clarification and submit the repository URL through the course portal.
+[Known project API consumption](cost/completed_subset/summary.json) is **$3.671408118**, including pilots, partial work, comparisons, failures and verification, funded by the existing **$5 TypeSafe credit purchase**. Do not add purchase and consumption as independent expenses. One failed request still has unknown charge/tokens; the approved **$0.05 liability hold** is an allowance inside the **$4.80 API ceiling**, not a measured charge. Final total remains null/provisional. Local compute/electricity and hosting invoices are unmeasured; Supabase Free and Vercel Hobby host the result. [Failed-call and reconciliation evidence](reports/full_run/reconciliation/hold_authorization.json) is preserved. Reconciliation does not restart classification.
 
 ## Rubric evidence map
 
-These links describe evidence, not an awarded grade. The full-source coverage discrepancy remains disclosed.
-
-| Criterion | Evidence and limits |
+| Criterion | Evidence |
 |---|---|
-| D1 accessible code/setup/artifacts | [Fresh setup](docs/SETUP.md), [submission distribution](submission/README.md), [clean-environment checks](reports/submission_review/clean_environment_check.json), dependency lock and blank .env.example. |
-| D2 architecture/schema/provenance | [Architecture](ARCHITECTURE.md), [shared rubric](labels/README.md), [source manifest](dataset/manifest.json), [real review trace](reports/submission_review/real_review_trace.md), saved configurations and handoffs. |
-| D3 grounded calculations/memo | [Membership](reports/completed_subset/membership.csv), [ranking](reports/completed_subset/ranking.csv), [claim IDs](reports/completed_subset/claims.csv), [memo](reports/completed_subset/memo.md), [integrity](reports/completed_subset/subset_integrity.json). |
-| D4 recommendation/alternatives/limits | Memo compares usability and playback, cites examples, retains [raw AI prose](reports/completed_subset/memo_ai_raw.md) and explains selection bias, broad topics and unverified harm. |
-| T1 golden evaluation/error analysis | [50 human labels and diagnostics](reports/golden50/report.md), [quote/entity inspection](reports/golden50/quote_entity_inspection.csv); 11 semantic/language/temporal concerns remain disclosed. |
-| T2 independent verification/adversarial tests | [Blind 1,000](reports/completed_subset/verification.json), [inspected disagreements](reports/completed_subset/verification_review.json), [planted-label replay](reports/submission_review/planted_review_label_replay.json), [primary injection outcomes](reports/robustness/primary_jev/results.json). Replay is not new inference. |
-| T3 measured calculator/recovery/spend | [100 cold/warm](cost/report.md), [editable offline calculator](cost/README.md), [98 tests](reports/submission_review/offline_tests.txt), [recovery controls](reports/submission_review/recovery_controls.md), [actual 1/2-worker comparison](reports/worker_comparison/report.md), [real resume recording](reports/pilot100_optimized/resume.cast). |
-| W1 ingestion/coverage/classification | [Full ingestion](reports/full/ingestion.json), 244,582 complete originals + 13 quarantines; [unchanged full-source checker](reports/completed_subset/instructor_full_source_check.json) remains review_required for 416,027 incomplete and unknown tokens. Instructor clarification is needed for the ≥100k coverage option. |
-| W2 runnable bounded stages/resume | Source modules, role prompts and [staged commands](docs/SETUP.md); exact-text caches, ≤50 requests, shared reservations, saved handoffs and interruption/resume. Production remains user-stopped. |
-| W3 reproducible ranking/database/live result | [Byte-identical offline ranking](reports/completed_subset/ranking_replay_check.json), [private database upload](reports/deployment/database_upload_completed_subset.json), [live backend checks](reports/deployment/live_completed_subset_check.json), [dashboard](https://spotify-review-analysis-one.vercel.app). |
+| D1 accessible code/setup | [Setup](docs/SETUP.md), [distribution](submission/README.md), [clean checks](reports/submission_review/clean_environment_check.json). |
+| D2 architecture/provenance | [Architecture](ARCHITECTURE.md), [rubric/examples](labels/README.md), [real review trace](reports/submission_review/real_review_trace.md). |
+| D3 checked calculations | [Ranking](reports/completed_subset/ranking.csv), [claims](reports/completed_subset/claims.csv), [integrity](reports/completed_subset/subset_integrity.json). |
+| D4 recommendation/alternatives | [Memo](reports/completed_subset/memo.md), [sensitivity](reports/completed_subset/ranking_sensitivity.md), [raw AI prose](reports/completed_subset/memo_ai_raw.md). |
+| T1 human evaluation/errors | [Golden report](reports/golden50/report.md), [student review](reports/golden50/student_review_decision.json), [quote/entity inspection](reports/golden50/quote_entity_inspection.csv). |
+| T2 independent/adversarial checks | [Blind verification](reports/completed_subset/verification.json), [planted-label replay](reports/submission_review/planted_review_label_replay.json), [injection tests](reports/robustness/primary_jev/results.json). |
+| T3 calculator/recovery | [Pilot](cost/report.md), [calculator](cost/README.md), [recovery tests](reports/submission_review/recovery_controls.md), [98 tests](reports/submission_review/offline_tests.txt). |
+| W1 coverage/classification | [Full ingestion](reports/full/ingestion.json), [scope](reports/completed_subset/scope_manifest.json), [full-source check](reports/completed_subset/instructor_full_source_check.json). |
+| W2 stages/resume | [Stage commands](docs/SETUP.md), saved role handoffs, [resume recording](reports/pilot100_optimized/resume.cast). |
+| W3 ranking/database/live result | [Ranking replay](reports/completed_subset/ranking_replay_check.json), [upload](reports/deployment/database_upload_completed_subset.json), [live dashboard](https://spotify-review-analysis-one.vercel.app). |
+
+[Submission audit](submission/requirement-audit.md) and [follow-up revision manifest](submission/review_revision_manifest.json) distinguish original execution evidence from later explanatory changes. Submit the repository URL through the course portal; portal submission is the student's final step.
