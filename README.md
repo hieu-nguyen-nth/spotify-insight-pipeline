@@ -1,5 +1,7 @@
 # Spotify Insight Pipeline
 
+[Public source repository](https://github.com/hieu-nguyen-nth/spotify-insight-pipeline) · [Submission release](https://github.com/hieu-nguyen-nth/spotify-insight-pipeline/releases/tag/v1.0.0) · [Complete saved evidence ZIP](https://github.com/hieu-nguyen-nth/spotify-insight-pipeline/releases/download/v1.0.0/submission-evidence.zip). Extract the evidence ZIP into the repository root before offline ranking/checker replay. The release includes the source ZIP, archive checksums and final run manifest; no paid rerun is needed to grade it.
+
 Final analysis scope: **244,582 fully classified original reviews**, frozen after the user requested a safe stop. All **660,622 source rows** were ingested and preserved; **13 empty texts** are quarantined separately and **416,027 nonempty reviews** remain without complete classifications. Scheduled follow-ups are paused and enrichment is disabled in this workspace. Partial topic/intent results are retained separately.
 
 The supplied assignment's delivery bullet and Definition of Done explicitly permit “at least 100,000,” and the user supplied a bCourses announcement discussing 100k runs under $10 and an October 20 midnight extension. Other document sections, the public page and the checker still use full-corpus wording. This project follows the user's achieved-scope decision; it does not claim that the instructor has resolved the deadline or coverage-grade inconsistency. See [scope decision](reports/scope_change/scope_decision.json).
@@ -64,7 +66,7 @@ Known project API consumption: **$3.671408118**, funded from the existing **$5 T
 
 [Hold authorization](reports/full_run/reconciliation/hold_authorization.json), [safe stop authorization](reports/scope_change/stop_authorization.json) and raw failed-call evidence are retained. `./run.sh reconcile-usage --evidence /path/to/real_provider_evidence.json` previews actual evidence; only --apply settles it and releases the hold. Reconciliation does not restart enrichment. The original worker's misleading default “completed” stop field after the admission-gate exception was corrected with its raw export preserved. No in-flight request was interrupted and the worker removed its own lock.
 
-Known API usage includes pilots, comparisons, partial classifications and verification. Free/Hobby hosting is used; hosting invoices and local compute/electricity are unmeasured. No new credit purchase is authorized. Source code, grading evidence and the calculator are prepared for submission; repository publication and course-portal submission should follow the student's authorized sharing scope and instructor clarification.
+Known API usage includes pilots, comparisons, partial classifications and verification. Free/Hobby hosting is used; hosting invoices and local compute/electricity are unmeasured. No new credit purchase is authorized. Source code, grading evidence and the calculator are prepared for submission; public repository/evidence sharing was explicitly approved. The student must confirm the instructor's coverage/deadline clarification and submit the repository URL through the course portal.
 
 ## Rubric evidence map
 
