@@ -1,0 +1,33 @@
+{
+  "reviewer": "Codex assistant qualitative inspection; distinct from student adjudication",
+  "topic": {
+    "b5ee7834-a0eb-4c15-9c7b-935831021922": "Diverse can refer to catalog breadth, but this short praise is ambiguous; other remains plausible.",
+    "723f07de-9881-4049-8680-1a9e25652914": "The explicit old failure is repeated app crashes, supporting playback over account access. The update reports successful support; temporal precedence needs care.",
+    "ac6cd66d-a9d2-42a4-afb8-2f84beff7fd1": "Appears to refer to songs being on Spotify, supporting catalog; language interpretation remains tentative.",
+    "46842184-32f8-4088-ac15-2a700a7e94ed": "Appears to complain about missing lyrics. Lyrics are explicitly catalog in the rubric; language interpretation remains tentative.",
+    "de48c99b-46fe-4837-8634-e63dbc72a5ea": "Explicit recommendations and playlist discovery support catalog despite the positive intent.",
+    "372d4e67-59cc-4c54-879f-3e8a202ee554": "Appears to request fewer ads after songs. Ads are usability in the rubric; language interpretation remains tentative.",
+    "47f1406d-4918-4d60-9647-5ca8e610caca": "Cannot play songs names a playback failure. Mentioning an update alone does not make it usability.",
+    "215463ae-95b7-4481-8747-1754b68f31fa": "Songs fail to play and the app fails to open after reinstall. Playback is supported; no explicit login/account-access failure is described.",
+    "46c0b49f-83a1-427e-8f0b-cef62e3c94b5": "Excessive ad volume crosses ads/usability and audio/playback. One-topic labeling requires a precedence judgment; neither label is automatically proven correct.",
+    "283b5843-a992-464f-b1dc-9dc7281ff390": "Dollar and three months suggest a price/promotion context, but the sentence is unclear. Billing versus other remains unresolved.",
+    "2aa566c6-b98d-4513-b900-83702a8db8eb": "Explicit praise about advertising supports usability; topic identifies what is discussed even for positive intent.",
+    "8c0546b0-ce43-4a36-9d33-9f979e98d522": "Both missing lyrics and seeking controls appear. Catalog and playback/usability compete; one-topic precedence remains ambiguous.",
+    "b58dd6f0-ad88-4319-b6db-58afb60c37c1": "The request concerns organizing saved collections, supporting usability controls; catalog organization is a plausible alternative.",
+    "5fba12ea-4980-4f25-a129-f830a3974fd2": "Finding music and adding recommended songs support catalog despite a reference to playing music.",
+    "ac4e860a-c042-49cc-90f3-189591c336ac": "Offline playback is explicitly downloads/offline in the common rubric. Subscription payment is context rather than the named failure.",
+    "9034d675-9582-49b6-a1c1-c4ddabf8baf1": "The explicit complaint is too many ads, supporting usability rather than other."
+  },
+  "sentiment": {
+    "215463ae-95b7-4481-8747-1754b68f31fa": "Positive historical wording (really loved) coexists with present failures. The positive score misses the current complaint; causal attribution to individual lexicon tokens is not tested.",
+    "d2f3874f-d15d-4a2f-bb97-4f1213defa46": "The review rejects expense and intrusive ads, yet the score is positive. Surface words such as free coexist with negative meaning; exact token contributions were not inspected.",
+    "947821dc-b356-45dc-a0bc-1903728fad40": "Very good coexists with recurrent interruptions; positive framing dominates the returned score despite the unresolved problem.",
+    "1fc8b08f-7d6a-472f-b317-8ceb28d00f22": "No ads is a positive absence-of-problem statement. The negative score conflicts with its apparent meaning.",
+    "8cc4fad4-26ec-47b7-96e8-49c7da714eca": "Opposed sentiments concern different targets. Whole-text sentiment need not represent sentiment toward Spotify.",
+    "ac4e860a-c042-49cc-90f3-189591c336ac": "Unable to play offline expresses a functional complaint despite a positive score. Negation and domain meaning need attention.",
+    "dceb14e7-2df0-422f-bb2b-73d7c373159a": "Explicit frustration and failures have a near-neutral positive score. Misspellings/emphasis and contrasting positive words may contribute; no token-level causal test was done.",
+    "723f07de-9881-4049-8680-1a9e25652914": "The update reports resolution while the old post reports failure. Human and lexical scores may emphasize different times; a single sentiment label is ambiguous.",
+    "a972945c-6601-4108-882a-afe986866a7b": "One-word praise receives zero. This saved result suggests a lexical coverage limitation; no scoring changes were made.",
+    "16d640e9-b281-4746-9562-c7dbcf7126b6": "Historical praise contrasts with current dissatisfaction about premium restrictions. Whole-text positivity misses the current qualification."
+  }
+}

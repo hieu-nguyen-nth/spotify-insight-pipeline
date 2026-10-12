@@ -1,0 +1,225 @@
+{
+  "reviewer": "Codex assistant inspection of saved texts; no new human labels or model calls",
+  "selection": "All topic disagreements; ten largest sentiment absolute errors, ties by review ID",
+  "human_labels_sha256": "e995e8ed5998ada610fe70a805c3cbc76e1e338515a48c9d3a187140c7c56ce9",
+  "predictions_sha256": "bd09807b0b510528f98f707f58ddcd234390ad65ff29b35d326065b752fbbdc1",
+  "original_evaluation_sha256": "8369acbe8fc9f1722f3736ab5cdb2a61280491678d514b8e00539d918a8d7707",
+  "topic_disagreements": [
+    {
+      "review_id": "215463ae-95b7-4481-8747-1754b68f31fa",
+      "review_text": "What is happening with Spotify?? Recently I'm trying to play a song but it doesn't working. So I unstalled and thn again install it now I can't even open the app.. Just showing try again?? I really loved Spotify but this making me to rate it 1 star plz fix the problm as fast as u can",
+      "original_human_topic": "usability",
+      "model_topic": "playback",
+      "assistant_observation": "Songs fail to play and the app fails to open after reinstall. Playback is supported; no explicit login/account-access failure is described.",
+      "student_case_decision": null
+    },
+    {
+      "review_id": "283b5843-a992-464f-b1dc-9dc7281ff390",
+      "review_text": "Beth, we all got to give me a free dollar to go with 3 months, bro I can't be like",
+      "original_human_topic": "other",
+      "model_topic": "billing",
+      "assistant_observation": "Dollar and three months suggest a price/promotion context, but the sentence is unclear. Billing versus other remains unresolved.",
+      "student_case_decision": null
+    },
+    {
+      "review_id": "2aa566c6-b98d-4513-b900-83702a8db8eb",
+      "review_text": "Nice app, very less advertising",
+      "original_human_topic": "other",
+      "model_topic": "usability",
+      "assistant_observation": "Explicit praise about advertising supports usability; topic identifies what is discussed even for positive intent.",
+      "student_case_decision": null
+    },
+    {
+      "review_id": "372d4e67-59cc-4c54-879f-3e8a202ee554",
+      "review_text": "Please ye ads ko thoda kumm Karo harr ek song ke baad ad 🙏🙄",
+      "original_human_topic": "playback",
+      "model_topic": "usability",
+      "assistant_observation": "Appears to request fewer ads after songs. Ads are usability in the rubric; language interpretation remains tentative.",
+      "student_case_decision": null
+    },
+    {
+      "review_id": "46842184-32f8-4088-ac15-2a700a7e94ed",
+      "review_text": "asem, lirik nya kdang gaada kek mana??",
+      "original_human_topic": "usability",
+      "model_topic": "catalog",
+      "assistant_observation": "Appears to complain about missing lyrics. Lyrics are explicitly catalog in the rubric; language interpretation remains tentative.",
+      "student_case_decision": null
+    },
+    {
+      "review_id": "46c0b49f-83a1-427e-8f0b-cef62e3c94b5",
+      "review_text": "Are you out of your mind? This is dangerous! Listening to music in a normal volume and suddenly an add starts and my ears feel like they explode!! Stop this BS, or you're gonna destroy someones ears.",
+      "original_human_topic": "playback",
+      "model_topic": "usability",
+      "assistant_observation": "Excessive ad volume crosses ads/usability and audio/playback. One-topic labeling requires a precedence judgment; neither label is automatically proven correct.",
+      "student_case_decision": null
+    },
+    {
+      "review_id": "47f1406d-4918-4d60-9647-5ca8e610caca",
+      "review_text": "Very poor updates as we cannot playback the songs and most bad updates are happening it is affecting the spotify quality",
+      "original_human_topic": "usability",
+      "model_topic": "playback",
+      "assistant_observation": "Cannot play songs names a playback failure. Mentioning an update alone does not make it usability.",
+      "student_case_decision": null
+    },
+    {
+      "review_id": "5fba12ea-4980-4f25-a129-f830a3974fd2",
+      "review_text": "I find Spotify very good, it finds and play whatever music you want and also adds songs that you might like, judging from your playlist if you choose to arrange one. 😊💃🎸🎶",
+      "original_human_topic": "playback",
+      "model_topic": "catalog",
+      "assistant_observation": "Finding music and adding recommended songs support catalog despite a reference to playing music.",
+      "student_case_decision": null
+    },
+    {
+      "review_id": "723f07de-9881-4049-8680-1a9e25652914",
+      "review_text": "Update: I reached out to Spotify Support and with some help from Sarah I was able to get the app working again. Old Post:Normally, the app works great, and I use it constantly. I tried to open it today, and it keeps crashing every time. I've tried uninstalling and reinstalling, and updating. Nothing seems to work unfortunately.",
+      "original_human_topic": "access",
+      "model_topic": "playback",
+      "assistant_observation": "The explicit old failure is repeated app crashes, supporting playback over account access. The update reports successful support; temporal precedence needs care.",
+      "student_case_decision": null
+    },
+    {
+      "review_id": "8c0546b0-ce43-4a36-9d33-9f979e98d522",
+      "review_text": "1-Lyrics not getting loaded, 2-can't go back to or start song where to wanted. Pathetic update",
+      "original_human_topic": "playback",
+      "model_topic": "catalog",
+      "assistant_observation": "Both missing lyrics and seeking controls appear. Catalog and playback/usability compete; one-topic precedence remains ambiguous.",
+      "student_case_decision": null
+    },
+    {
+      "review_id": "9034d675-9582-49b6-a1c1-c4ddabf8baf1",
+      "review_text": "Worst app ever too much ad",
+      "original_human_topic": "other",
+      "model_topic": "usability",
+      "assistant_observation": "The explicit complaint is too many ads, supporting usability rather than other.",
+      "student_case_decision": null
+    },
+    {
+      "review_id": "ac4e860a-c042-49cc-90f3-189591c336ac",
+      "review_text": "paying for subscribing but unable to play in offline mode really?",
+      "original_human_topic": "playback",
+      "model_topic": "downloads",
+      "assistant_observation": "Offline playback is explicitly downloads/offline in the common rubric. Subscription payment is context rather than the named failure.",
+      "student_case_decision": null
+    },
+    {
+      "review_id": "ac6cd66d-a9d2-42a4-afb8-2f84beff7fd1",
+      "review_text": "Lhat ng song nasa spotify",
+      "original_human_topic": "other",
+      "model_topic": "catalog",
+      "assistant_observation": "Appears to refer to songs being on Spotify, supporting catalog; language interpretation remains tentative.",
+      "student_case_decision": null
+    },
+    {
+      "review_id": "b58dd6f0-ad88-4319-b6db-58afb60c37c1",
+      "review_text": "The only thing Spotify lacks is the ability to organize saved \nalbums/artists into collections. Would definitely deserve 5 stars if it \nincluded this feature.",
+      "original_human_topic": "catalog",
+      "model_topic": "usability",
+      "assistant_observation": "The request concerns organizing saved collections, supporting usability controls; catalog organization is a plausible alternative.",
+      "student_case_decision": null
+    },
+    {
+      "review_id": "b5ee7834-a0eb-4c15-9c7b-935831021922",
+      "review_text": "Spotify is awesome and and very diverse :)",
+      "original_human_topic": "other",
+      "model_topic": "catalog",
+      "assistant_observation": "Diverse can refer to catalog breadth, but this short praise is ambiguous; other remains plausible.",
+      "student_case_decision": null
+    },
+    {
+      "review_id": "de48c99b-46fe-4837-8634-e63dbc72a5ea",
+      "review_text": "I LOVE that I was able to put in only a few songs I like and Spotify gave me recommendations for an AWESOME Playlist...!!!",
+      "original_human_topic": "other",
+      "model_topic": "catalog",
+      "assistant_observation": "Explicit recommendations and playlist discovery support catalog despite the positive intent.",
+      "student_case_decision": null
+    }
+  ],
+  "largest_sentiment_errors": [
+    {
+      "review_id": "215463ae-95b7-4481-8747-1754b68f31fa",
+      "review_text": "What is happening with Spotify?? Recently I'm trying to play a song but it doesn't working. So I unstalled and thn again install it now I can't even open the app.. Just showing try again?? I really loved Spotify but this making me to rate it 1 star plz fix the problm as fast as u can",
+      "original_human_sentiment": -1.0,
+      "saved_vader_sentiment": 0.872,
+      "absolute_error": 1.872,
+      "assistant_observation": "Positive historical wording (really loved) coexists with present failures. The positive score misses the current complaint; causal attribution to individual lexicon tokens is not tested."
+    },
+    {
+      "review_id": "d2f3874f-d15d-4a2f-bb97-4f1213defa46",
+      "review_text": "Too expensive and the free version is pretty much unusable with constant ads... Every two or three songs.. Forget it",
+      "original_human_sentiment": -1.0,
+      "saved_vader_sentiment": 0.6808,
+      "absolute_error": 1.6808,
+      "assistant_observation": "The review rejects expense and intrusive ads, yet the score is positive. Surface words such as free coexist with negative meaning; exact token contributions were not inspected."
+    },
+    {
+      "review_id": "947821dc-b356-45dc-a0bc-1903728fad40",
+      "review_text": "Very good but wen I play my song it o ly plays a little bit then it stops I updated my phone and it worked but it happend again they need to fix this issue",
+      "original_human_sentiment": -0.5,
+      "saved_vader_sentiment": 0.8933,
+      "absolute_error": 1.3933,
+      "assistant_observation": "Very good coexists with recurrent interruptions; positive framing dominates the returned score despite the unresolved problem."
+    },
+    {
+      "review_id": "1fc8b08f-7d6a-472f-b317-8ceb28d00f22",
+      "review_text": "Duo Premium .... No ads at all!",
+      "original_human_sentiment": 1.0,
+      "saved_vader_sentiment": -0.3595,
+      "absolute_error": 1.3595,
+      "assistant_observation": "No ads is a positive absence-of-problem statement. The negative score conflicts with its apparent meaning."
+    },
+    {
+      "review_id": "8cc4fad4-26ec-47b7-96e8-49c7da714eca",
+      "review_text": "I hate this app and sweden .I love islam",
+      "original_human_sentiment": -1.0,
+      "saved_vader_sentiment": 0.128,
+      "absolute_error": 1.128,
+      "assistant_observation": "Opposed sentiments concern different targets. Whole-text sentiment need not represent sentiment toward Spotify."
+    },
+    {
+      "review_id": "ac4e860a-c042-49cc-90f3-189591c336ac",
+      "review_text": "paying for subscribing but unable to play in offline mode really?",
+      "original_human_sentiment": -0.75,
+      "saved_vader_sentiment": 0.3291,
+      "absolute_error": 1.0791,
+      "assistant_observation": "Unable to play offline expresses a functional complaint despite a positive score. Negation and domain meaning need attention."
+    },
+    {
+      "review_id": "dceb14e7-2df0-422f-bb2b-73d7c373159a",
+      "review_text": "I gave one star because I can't give any less than that. the new update is sooooooo annoying like I can't even play the songs that I like and I can't rewind songs what the heck",
+      "original_human_sentiment": -1.0,
+      "saved_vader_sentiment": 0.068,
+      "absolute_error": 1.068,
+      "assistant_observation": "Explicit frustration and failures have a near-neutral positive score. Misspellings/emphasis and contrasting positive words may contribute; no token-level causal test was done."
+    },
+    {
+      "review_id": "723f07de-9881-4049-8680-1a9e25652914",
+      "review_text": "Update: I reached out to Spotify Support and with some help from Sarah I was able to get the app working again. Old Post:Normally, the app works great, and I use it constantly. I tried to open it today, and it keeps crashing every time. I've tried uninstalling and reinstalling, and updating. Nothing seems to work unfortunately.",
+      "original_human_sentiment": -0.25,
+      "saved_vader_sentiment": 0.8176,
+      "absolute_error": 1.0676,
+      "assistant_observation": "The update reports resolution while the old post reports failure. Human and lexical scores may emphasize different times; a single sentiment label is ambiguous."
+    },
+    {
+      "review_id": "a972945c-6601-4108-882a-afe986866a7b",
+      "review_text": "Phenomenal",
+      "original_human_sentiment": 1.0,
+      "saved_vader_sentiment": 0.0,
+      "absolute_error": 1.0,
+      "assistant_observation": "One-word praise receives zero. This saved result suggests a lexical coverage limitation; no scoring changes were made."
+    },
+    {
+      "review_id": "16d640e9-b281-4746-9562-c7dbcf7126b6",
+      "review_text": "It's my best music app but now it's not...everything basic features is premium....",
+      "original_human_sentiment": -0.5,
+      "saved_vader_sentiment": 0.3818,
+      "absolute_error": 0.8818,
+      "assistant_observation": "Historical praise contrasts with current dissatisfaction about premium restrictions. Whole-text positivity misses the current qualification."
+    }
+  ],
+  "sentiment_mae": 0.4739,
+  "original_topic_agreement": 0.68,
+  "student_statement": "Student accepts the model topic in most disputed cases; exact case decisions not supplied.",
+  "student_statement_source": "student_review_decision.json",
+  "labels_predictions_prompts_modified": false,
+  "new_model_calls": 0
+}

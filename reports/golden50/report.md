@@ -1,5 +1,7 @@
 # Frozen golden-50 evaluation · October 11, 2026
 
+**October 12 follow-up:** [saved case inspection](../result_review/README.md) documents every topic disagreement and the ten largest sentiment errors without relabeling or rerunning inference. Assistant observations are distinct from the student's qualitative acceptance; original scores and answers remain unchanged.
+
 **Student review complete: proceed with the frozen configuration to the measured 500-review checkpoint.** The frozen optimized candidate produced all 50 predictions in 0.384 seconds through two actual Jev requests, with calculated API usage of **$0.000453810**, below the approved $0.003 cap. It used 49 distinct texts and one exact-text alias. Original IDs and hashes are retained. The source was the original unlabeled golden CSV; human answers never entered provider requests. The chosen configuration was frozen before scoring and has not been changed in response to these answers.
 
 | Diagnostic against student human labels | Measured result |

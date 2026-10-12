@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-12",
+  "offline_tests": {
+    "count": 102,
+    "passed": true,
+    "socket_connections": "blocked",
+    "reported_seconds": 0.676
+  },
+  "javascript_syntax": "pass",
+  "frozen_artifact_hash_checks": 8,
+  "audit_replay": "exact JSON equality",
+  "credential_scan": "pass",
+  "local_browser": {
+    "desktop_width": 1280,
+    "mobile_width": 390,
+    "horizontal_page_overflow": false,
+    "console_errors": 0,
+    "issue_search": "pass",
+    "empty_search": "pass",
+    "recommendation_evidence": "three matching sources",
+    "legacy_payload": "pass",
+    "unavailable_data_retry_state": "pass"
+  },
+  "new_model_calls": 0,
+  "classification_resumed": false,
+  "live_verification": "live_verification.json"
+}

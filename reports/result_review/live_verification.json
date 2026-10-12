@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-12",
+  "status": "pass",
+  "database": {
+    "completed_rows": 244582,
+    "membership_rows": 15825,
+    "artifacts": 6,
+    "private_table_public_grants": 0,
+    "unchanged_artifacts": [
+      "ranking",
+      "claims",
+      "aggregate_evidence"
+    ],
+    "updated_artifacts": [
+      {
+        "kind": "dashboard",
+        "before": "130ee63e23dc39a99dfef48cbb0b32737a66b1da31c436d6caa43c2276cb4c51",
+        "after": "76fe3b75982a8c2d2de774eac56a4f192ae002085db332c82bcbd15e63faf98f"
+      },
+      {
+        "kind": "memo",
+        "before": "d68ab026c74581a517b06ffe5559808f7004c34605c09af06b5172cf5ac88e4f",
+        "after": "e944d5ee8b935aa0f6d06b177921a35b3486b40a58b0a48c5214dc8a6a8137af"
+      },
+      {
+        "kind": "recommendations",
+        "before": "29186ff25e771cbf86f7cf0922e8f220cb42a6652fdec9a86e430c5fd7cf25bc",
+        "after": "3dbe505bbc4be8e5d8ea276f7a1dee6404747819a1b76bfb02c45a91cc66e6f4"
+      }
+    ],
+    "baseline_fields_preserved": true,
+    "new_model_calls": 0,
+    "new_classification_rows": 0,
+    "schema_changes": 0
+  },
+  "deployment": {
+    "id": "dpl_5hvuHRAqgxsi3Kha8aMB13V7ejeJ",
+    "url": "https://spotify-review-analysis-one.vercel.app",
+    "source_commit": "4226b0ff02f1a682f65bd386f3bbbe4dd0fb7654",
+    "target": "production",
+    "state": "READY",
+    "ready": 1791803998081,
+    "project": "prj_mf4A3BW6lUDDB6sy2SuywXwlRHed"
+  },
+  "public_browser": {
+    "no_login_required": true,
+    "completed_reviews": 244582,
+    "decision_panel_visible": true,
+    "baseline_and_diagnostic_scores_visible": true,
+    "search": "pass",
+    "billing_sources": 3,
+    "desktop_width": 1280,
+    "mobile_width": 390,
+    "horizontal_page_overflow": false,
+    "console_errors": 0
+  },
+  "protected_stage_verification": "Deployment API source hashes matched reviewed UI/backend files; public existing API matched checked saved artifact. No temporary authentication-bypass link used.",
+  "new_model_calls": 0,
+  "classification_resumed": false,
+  "public_http": {
+    "api/dashboard": {
+      "status": 200,
+      "sha256": "f816133f6c84c6b6c6f5516b53e682429e3b832fcfaec89996ebbfade0fa0b4e",
+      "matches_checked_source_or_artifact": true
+    },
+    "dashboard.js": {
+      "status": 200,
+      "sha256": "d0633dba72d72f52038cc764d9d6b496cfe22bc227dbbe7274709bcbde4d41fe",
+      "matches_checked_source_or_artifact": true
+    },
+    "styles.css": {
+      "status": 200,
+      "sha256": "c1ff63a2e5384b331d49d0535eb76624819eea8fe2d08c448d1e84ebbef76829",
+      "matches_checked_source_or_artifact": true
+    },
+    "index.html": {
+      "status": 200,
+      "sha256": "c2cd83c07ba362fd0db45c1eaea465909390089f92fb591e9a2aca973e83c76e",
+      "matches_checked_source_or_artifact": true
+    }
+  }
+}
