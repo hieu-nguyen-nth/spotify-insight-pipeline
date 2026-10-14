@@ -4,7 +4,7 @@
   "scope_completed_originals": 244582,
   "classification_resumed": false,
   "new_model_calls": 0,
-  "publication_status": "local_revision_not_published",
+  "publication_status": "published_to_main_and_production",
   "changes": [
     "Repair clean-copy offline checks and cached-input projection arithmetic",
     "Clarify Jev/VADER/Qwen/code/editorial roles and fingerprints",
@@ -19,7 +19,7 @@
   ],
   "files": {
     "ARCHITECTURE.md": "84de257d62a5f7cf9206299e637b297393b39f25d0d64b236b1e8549fee59a40",
-    "README.md": "81c4ade65bf15397a55374a41a2b8ef92b1bc908d84269e19d83c13102f8b199",
+    "README.md": "0567ffad868a16ac6ef19203ef0e5e9a1334b90eea0b5d40b8a7c50b051a600b",
     "backend/public/dashboard.js": "d25c0992a50988b0b3b7ad9bec86f23cf96b83d23967c0078d575d7f52ed0f2b",
     "backend/public/index.html": "10e242274436e04586aec4ac94fe6f561cbb57e89d4f4e4cad29eadf9e315804",
     "cost/README.md": "dd5bfb4275d2f073e19bbeca3b8cd5634992a542e673211a404d4a74e9a986b1",
@@ -29,27 +29,30 @@
     "docs/pipeline.mmd": "81c4ffc92881ba8f8237ba2017cf6ff0b4f01fa1ddb61cd2ac17a67c2856ee0d",
     "docs/pipeline.png": "c4298f5ec997475c718d8f963f139da32d0a05056900e817d39e7a452c257130",
     "docs/pipeline.svg": "af451be47b7da1404345ae6ce3f789c7783205c8551f79d355d740df24754e6f",
-    "reports/checklist_fixes/README.md": "d424cd5c569b1511143f20a590bec754598f28a042b287ec6441e5c3c07c6f4f",
+    "reports/checklist_fixes/README.md": "94e5dc0c1d64498509a60d669dae099ca87e49c49d5ba0667e0b0ef265300745",
     "reports/checklist_fixes/calculator_replay.json": "ec103dd88a92387e4dbd6899d1ed37a020bc3718fb20d8a15cdb56fc0fc8417c",
     "reports/checklist_fixes/clean_environment_check.json": "a52793a496ef59400bf2e4c8c30eb52067e6900fbc75f5e29701ffcec42b7fdc",
     "reports/checklist_fixes/database_validation_snapshot.json": "dc9b0b062660b57a66f7e196120d5e451e2d43475f88eebf162e6ea6bab5a813",
-    "reports/checklist_fixes/delivery_check.json": "0bb59457626eea984711f4233adeb613731aaad9818cce5c094423dea8d49ec4",
+    "reports/checklist_fixes/delivery_check.json": "b741fdbac44d93365dbcf5ca1d7c36639d869aad4f91e2209126295725512180",
     "reports/checklist_fixes/fresh_install_dependencies.txt": "0848644eb1cf4c78331f5e518bf86e811e66d5ead0840c1713830aff3adb8bfe",
     "reports/checklist_fixes/fresh_install_source.txt": "546c2eae52a77b5c4ace1550ce714530677016a2e89b29ee762fb8db84fcc121",
     "reports/checklist_fixes/fresh_offline_tests.txt": "7f807d97e6ed81b35b0a138bd896c06c2dd5d7385f91fe8e5d86c8373324dfdb",
     "reports/checklist_fixes/full_source_check.json": "562bc0f7eac42261d88b20da9f02e78b4fc686c928e0172432af311d5975910e",
     "reports/checklist_fixes/golden_export_coverage.json": "36d7f678ccd9c5e7cd02f12d1a22606e55f130639a4cf30d902b98bc4370317f",
-    "reports/checklist_fixes/live_verification.json": "a6776eda7e99f1760030f7a22b5b468893bf42e1c33f0f163bcc890384c0fdfe",
+    "reports/checklist_fixes/live_verification.json": "870b5715974dff80041d76ffa220cb432ea121062ed147ab97f9f974379815bc",
     "reports/checklist_fixes/local_desktop.jpg": "8823c2ea8b13ae24557a306c98812e7d1d3b351c4ac1c77779aac27c4be9fe52",
     "reports/checklist_fixes/local_mobile.jpg": "d5139228e5791dcd0ab40fdafdebb45eaf6314d0bda6d5fd6659594d1434b062",
     "reports/checklist_fixes/public_saved_files.json": "968beda6910b8d5c9dc93f6364ff9b598058d1757510b36f7f836a7015462f3f",
+    "reports/checklist_fixes/publication/desktop.jpg": "8823c2ea8b13ae24557a306c98812e7d1d3b351c4ac1c77779aac27c4be9fe52",
+    "reports/checklist_fixes/publication/mobile.jpg": "b519cd4b61338274aae452a2c953bb97175dc66a760296c7cf07bf14a8e1fb56",
+    "reports/checklist_fixes/publication/prepublication_verification.json": "a6776eda7e99f1760030f7a22b5b468893bf42e1c33f0f163bcc890384c0fdfe",
     "reports/checklist_fixes/requirements_comparison.json": "a73fa81cd19f69ffacdb14b2329d10697d4725df90f75f6f6f82c0172cea904f",
     "reports/checklist_fixes/saved_quote_provenance.json": "e336d1bb8bbe5b6925c9c1002134d6f970e0763dc1090904de25dc147bdd5c77",
-    "reports/checklist_fixes/security_check.json": "8305b9022f4978519434adb8dcc062fbc1ee10df27806aae9a2493ef48819db3",
+    "reports/checklist_fixes/security_check.json": "b6003328eebe080fa0e91e60260e81ac8df083df11045622911a4575b949a0c2",
     "scripts/golden_export_coverage.py": "e6f88f96d4f0b1b1bbbbcf6f96d32ddcd8d12bcfca9622d264a0f529cd6d9437",
     "scripts/verify_offline.py": "2f7ed558eb9ba9dc8365c9321c114bbe35296d96ad5b8f2ad5df51166229e2a3",
-    "submission/EVIDENCE_INDEX.md": "6fb07db691fa07bb80ad6bd9991ad0fa5c27c28e1ae8b646434eafb5125e3838",
-    "submission/README.md": "275f5bed36871e336be2f734932feb3d919d3c5db8a0c961a165a65cbd64cf79",
+    "submission/EVIDENCE_INDEX.md": "99d84d957d8316f062a93f607a00a54544d69db51571ffa7b7e1d4222c9e7791",
+    "submission/README.md": "d886f4e6ea74780b325ce6b0d2384e4273e6b9917d67fef36c7e90258ea84956",
     "submission/STUDENT_CHECKLIST.md": "e9683d0ed3cf7cf453b530d1aa1539bbb39994dbd4e612dc77b5706a5863add2",
     "submission/requirement-audit.md": "10fd31ebc6a6fc128d1a1934ab861b5d693c98a898009a05bd5215d5f659797d",
     "tests/test_calculator.py": "e917080c05defd4cba46fdd568e87f2f941700b40d39353671acdaedbd38a016"
@@ -60,10 +63,11 @@
     "new_model_calls": 0,
     "public_saved_files_verified": 16,
     "all_nine_grading_files_accessible": true,
-    "relative_link_check_count": 197,
+    "relative_link_check_count": 207,
     "missing_relative_links": 0,
     "local_mobile_desktop_checks": "pass",
-    "public_wording_deployed": false
+    "public_wording_deployed": true,
+    "production_browser_checks": "pass"
   },
   "preserved_sha256": {
     "grading/records.jsonl": "10456fc611a0eb420793557a9ea7aece0e2e3b806a032f8d577046f6be401762",
@@ -79,5 +83,14 @@
     "cost/rates.csv": "ce58ae35fb27deec44266778182c4ad29ea2c9525af20e4048ac10f373220394",
     "vendor/check_submission.py": "d60bd66d84922d934c65b3d42b2c7d36cc738e8c75e2d6f2b2f58bca3141c26d"
   },
-  "commit_authorization": "User: ok commit the update (October 14, 2026)"
+  "commit_authorization": "User: ok commit the update (October 14, 2026)",
+  "published_code_commit": "35dcf1b023276f756add45e51144af7ac54940ad",
+  "deployment_id": "dpl_EBX4tY4MiN4TwGn1njnzSYfnRVwZ",
+  "source_pr": "https://github.com/hieu-nguyen-nth/spotify-insight-pipeline/pull/3",
+  "publication_note": "Initial local-only verification is preserved in reports/checklist_fixes/publication/prepublication_verification.json. Documentation-only publication updates do not alter deployed backend files.",
+  "publication_doc_changes": [
+    "Current production verification and screenshots",
+    "Explicit caching, batching, parallelism and SQLite queue summary",
+    "Public delivery status and current checksums"
+  ]
 }

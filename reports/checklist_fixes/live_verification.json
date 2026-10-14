@@ -1,47 +1,101 @@
 {
+  "deployed_code_commit": "35dcf1b023276f756add45e51144af7ac54940ad",
+  "deployment_id": "dpl_EBX4tY4MiN4TwGn1njnzSYfnRVwZ",
+  "url": "https://spotify-review-analysis-one.vercel.app",
+  "target": "production",
+  "state": "READY",
   "date": "2026-10-14",
-  "publication_status": "local_revision_not_published",
-  "local_browser": {
-    "desktop_width": 1280,
-    "mobile_width": 390,
-    "horizontal_overflow": false,
-    "console_errors": 0,
-    "search_playback_rows": 1,
-    "source_quote_count": 3,
-    "roles_visible": true,
-    "classification_version_explanation_visible": true,
-    "analysis_subset_fingerprint_explanation_visible": true,
-    "screenshots": [
-      "local_desktop.jpg",
-      "local_mobile.jpg"
-    ]
-  },
-  "new_model_calls": 0,
-  "classification_resumed": false,
-  "database_modified": false,
-  "public_http": {
+  "http": {
     "/": {
       "status": 200,
-      "bytes": 4911,
-      "sha256": "c2cd83c07ba362fd0db45c1eaea465909390089f92fb591e9a2aca973e83c76e",
+      "sha256": "10e242274436e04586aec4ac94fe6f561cbb57e89d4f4e4cad29eadf9e315804",
+      "matches_saved_artifact_or_source": true,
+      "authentication": false
+    },
+    "/dashboard.js": {
+      "status": 200,
+      "sha256": "d25c0992a50988b0b3b7ad9bec86f23cf96b83d23967c0078d575d7f52ed0f2b",
+      "matches_saved_artifact_or_source": true,
+      "authentication": false
+    },
+    "/styles.css": {
+      "status": 200,
+      "sha256": "c1ff63a2e5384b331d49d0535eb76624819eea8fe2d08c448d1e84ebbef76829",
+      "matches_saved_artifact_or_source": true,
       "authentication": false
     },
     "/api/dashboard": {
       "status": 200,
-      "bytes": 17945,
       "sha256": "f816133f6c84c6b6c6f5516b53e682429e3b832fcfaec89996ebbfade0fa0b4e",
-      "authentication": false,
-      "matches_saved_artifact": true,
-      "completed_reviews": 244582
-    },
-    "/dashboard.js": {
-      "status": 200,
-      "bytes": 7223,
-      "sha256": "d0633dba72d72f52038cc764d9d6b496cfe22bc227dbbe7274709bcbde4d41fe",
+      "matches_saved_artifact_or_source": true,
       "authentication": false
     }
   },
-  "public_wording": "Previous deployed revision; locally verified wording has not been deployed.",
-  "read_only_database_evidence": "database_validation_snapshot.json (prior October 14 audit; no database changes in this repair)",
-  "commit_authorization": "User explicitly requested committing the update on October 14, 2026."
+  "new_model_calls": 0,
+  "classification_resumed": false,
+  "database_modified": false,
+  "completed_reviews": 244582,
+  "publication_status": "published_to_main_and_production",
+  "source_pr": "https://github.com/hieu-nguyen-nth/spotify-insight-pipeline/pull/3",
+  "website_code_matches_current_main": true,
+  "browser": {
+    "no_login_required": true,
+    "completed_reviews": 244582,
+    "desktop_width": 1280,
+    "mobile_width": 390,
+    "horizontal_page_overflow": false,
+    "console_errors": 0,
+    "filtered_playback_rows": 1,
+    "source_evidence_quotes": 3,
+    "roles_visible": true,
+    "classification_version_explanation_visible": true,
+    "analysis_subset_fingerprint_explanation_visible": true,
+    "screenshots": [
+      "publication/desktop.jpg",
+      "publication/mobile.jpg"
+    ]
+  },
+  "deployment": {
+    "id": "dpl_EBX4tY4MiN4TwGn1njnzSYfnRVwZ",
+    "state": "READY",
+    "target": "production",
+    "project": "prj_mf4A3BW6lUDDB6sy2SuywXwlRHed",
+    "code_commit": "35dcf1b023276f756add45e51144af7ac54940ad",
+    "build_milliseconds": 7268
+  },
+  "verification_scope": "Public HTTP byte/JSON comparison, actual public browser checks, and deployed source UID comparison. No temporary authentication bypass, new inference or database mutation.",
+  "previous_verification": "publication/prepublication_verification.json",
+  "deployed_source_checks": {
+    "api/dashboard.py": {
+      "uid": "a2261d3051469e99275cec0656771d64f26b79a9",
+      "sha1_matches_reviewed_source": true
+    },
+    "local_preview.py": {
+      "uid": "dae7bc26142f4d6833e4aa72b81a108aaf4ed753",
+      "sha1_matches_reviewed_source": true
+    },
+    "public/dashboard.js": {
+      "uid": "014d6be88d135dd6668e41e79867261630f7ebcd",
+      "sha1_matches_reviewed_source": true
+    },
+    "public/index.html": {
+      "uid": "481a045c93a111405620ec2c92274f08d480e7fb",
+      "sha1_matches_reviewed_source": true
+    },
+    "public/styles.css": {
+      "uid": "f9a736470c0bb0384b0fb6351c661bd326339a27",
+      "sha1_matches_reviewed_source": true
+    },
+    "vercel.json": {
+      "uid": "5d19dd6debde151b677b23c9ac26b847dc367f7b",
+      "sha1_matches_reviewed_source": true
+    }
+  },
+  "runtime_log_scan": {
+    "status": "unavailable",
+    "platform_api_status": 403,
+    "cli_fallback": "Could not load authenticated user; CLI returned an internal error.",
+    "error_count": null,
+    "separate_checks": "Public HTTP/API comparisons and actual browser console checks passed."
+  }
 }
