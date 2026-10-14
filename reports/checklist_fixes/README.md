@@ -1,0 +1,13 @@
+# Checklist repairs
+
+Two defects are corrected: the fresh-copy helper now includes newer audit dependencies and blocks network during tests; cost projections share measured billing logic for mutually exclusive cached/uncached input and output. Synthetic cached-input examples now bill/project 38 and 33.5 correctly, without adding reasoning already included in output. Original pilot results, production labels and baseline exports are unchanged.
+
+[Fresh environment](clean_environment_check.json) passed 104 tests and reproduced membership/ranking/claims byte-for-byte. It also checked doubled rates and changed planning limits without altering measurements. The helper requires Python 3.10+; verification used Python 3.12.14. [Test log](fresh_offline_tests.txt) and credential-free install logs are saved here, with personal paths replaced by placeholders. Historical 98/102-test reports remain preserved as earlier evidence.
+
+The README embeds the six-stage diagram, distinguishes Jev/VADER/Qwen/code/editorial roles, and links the [current evidence index](../../submission/EVIDENCE_INDEX.md) and [pilot metadata](../../cost/pilot_metadata.md). The [golden/export comparison](golden_export_coverage.json) discloses 20/50 overlap, 30 missing IDs, one differing topic and six differing review flags without relabeling or inventing adjudication. Replay it with `python3 scripts/golden_export_coverage.py --out work/golden_export_coverage.json`.
+
+[Public delivery checks](delivery_check.json), [security scan](security_check.json), [full-source checker](full_source_check.json) and [local UI and public baseline verification](live_verification.json) record the current checks. All nine grading files are available through the current repository plus the original evidence ZIP. Hashes/configuration identifiers are reproducibility fingerprints, not credentials. Frozen historical archives/history retain some personal filesystem paths; new public logs are normalized, and no history or original execution evidence was rewritten.
+
+Classification stays at 244,582 completed originals. Full-source coverage, completion-based sampling bias, unresolved failed-call usage and unmeasured local/hosting costs remain honest limitations; these repairs do not convert them into a checker pass or a guaranteed grade.
+
+Publication status: this revision is authorized for a local commit. Public main and the deployed website still contain the preceding revision; publication and deployment have not been performed.

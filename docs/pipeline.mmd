@@ -1,0 +1,26 @@
+flowchart TD
+  A[1 PREPARE — Python/SQLite: 660,622 rows, hashes, queue] --> E[2 CLASSIFY — Jev topic/intent and conditional severity]
+  A --> Q[13 empty texts: quarantine log]
+  E --> V[Local VADER sentiment and code quote/entity checks]
+  V --> S[Atomic records/partials/calls/checkpoints]
+  S --> STOP[Student stop: 244,582 completed; 416,027 incomplete]
+  STOP --> B[3 VERIFY — separate blind Jev task on 1,000 original texts]
+  B --> D[193 disagreements; saved comparison and inspected cases]
+  STOP --> G[4 GROUP — code: 15,825 complaint/cancellation memberships, 8 topic groups]
+  G --> R[5 RANK — code: integer severity sums; ascending issue-ID ties]
+  R --> C[ranking.csv and claims.csv; six-decimal mean display]
+  R --> N[6a NAME — local Qwen; separate naming prompt/schema]
+  N --> M[6b RECOMMEND — local Qwen; separate writing prompt/schema]
+  M --> EDIT[Editorial review; raw AI retained; memo/recommendation IDs checked]
+  D --> X[Offline integrity and unchanged full-source checker]
+  EDIT --> X
+  X --> OUT[grading/, cost/, reports/; scope and unknown usage disclosed]
+  EDIT --> DB[(Supabase: private processed rows; six stored artifacts)]
+  DB --> API[Vercel Python GET /api/dashboard — saved database artifact]
+  API --> UI[Public metrics, baseline/sensitivity, recommendations, source evidence]
+  S -. spent + reserved + next request above cap .-> HOLD[Stop admission]
+  S -. unknown paid outcome .-> HOLD
+  S -. actual interrupted checkpoint .-> RESUME[Same-config resume dispatches pending work]
+  RESUME --> E
+  R -. separate offline flag diagnostic .-> SENS[No replacement of baseline or labels]
+  RETRY[Saved production: 0 automatic retries; later known-usage fixtures: at most 1 retry] -. policy distinction .-> S

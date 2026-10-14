@@ -1,0 +1,83 @@
+{
+  "commit": "928331028dd2d3461af1d6e852857fca967455c7",
+  "historical_blobs_scanned": 432,
+  "configured_credential_values_compared": 1,
+  "credential_candidates": [],
+  "archives": [
+    {
+      "name": "source-code.zip",
+      "text_files_scanned": 408,
+      "text_bytes_scanned": 47969142,
+      "env_paths": [
+        ".env.example"
+      ]
+    },
+    {
+      "name": "submission-evidence.zip",
+      "text_files_scanned": 20855,
+      "text_bytes_scanned": 1473628931,
+      "env_paths": []
+    }
+  ],
+  "personal_filesystem_path_locations": [
+    "current:reports/checkpoint10000/ingestion_report.json",
+    "current:reports/checkpoint500/ingestion_report.json",
+    "current:reports/completed_subset/ingestion_report.json",
+    "current:reports/full/ingestion_report.json",
+    "current:reports/full_run/execution_plan.json",
+    "current:reports/full_run/ingestion_report.json",
+    "current:reports/golden50/ingestion_report.json",
+    "current:reports/pilot100_optimized/ingestion_report.json",
+    "current:reports/scope_change/README_before_subset.md",
+    "current:reports/submission_review/fresh_install_dependencies.txt",
+    "current:reports/submission_review/fresh_install_source.txt",
+    "git:reports/checkpoint10000/ingestion_report.json@49761ea30d41",
+    "git:reports/checkpoint500/ingestion_report.json@edc0fb405383",
+    "git:reports/completed_subset/ingestion_report.json@7202b78c42ac",
+    "git:reports/full/ingestion_report.json@9b0e63259dea",
+    "git:reports/full_run/execution_plan.json@e3f0d5cc4d38",
+    "git:reports/golden50/ingestion_report.json@e56cb1f3f81e",
+    "git:reports/pilot100_optimized/ingestion_report.json@a021fe2f2b3d",
+    "git:reports/scope_change/README_before_subset.md@14726d13ee56",
+    "git:reports/submission_review/fresh_install_dependencies.txt@ed82a624f11e",
+    "git:reports/submission_review/fresh_install_source.txt@d80055120311",
+    "source-code.zip:reports/checkpoint10000/ingestion_report.json",
+    "source-code.zip:reports/checkpoint500/ingestion_report.json",
+    "source-code.zip:reports/completed_subset/ingestion_report.json",
+    "source-code.zip:reports/full/ingestion_report.json",
+    "source-code.zip:reports/full_run/execution_plan.json",
+    "source-code.zip:reports/full_run/ingestion_report.json",
+    "source-code.zip:reports/golden50/ingestion_report.json",
+    "source-code.zip:reports/pilot100_optimized/ingestion_report.json",
+    "source-code.zip:reports/scope_change/README_before_subset.md",
+    "source-code.zip:reports/submission_review/fresh_install_dependencies.txt",
+    "source-code.zip:reports/submission_review/fresh_install_source.txt",
+    "submission-evidence.zip:reports/checkpoint10000/ingestion_report.json",
+    "submission-evidence.zip:reports/checkpoint500/ingestion_report.json",
+    "submission-evidence.zip:reports/completed_subset/ingestion_report.json",
+    "submission-evidence.zip:reports/full/ingestion_report.json",
+    "submission-evidence.zip:reports/full_run/execution_plan.json",
+    "submission-evidence.zip:reports/full_run/ingestion_report.json",
+    "submission-evidence.zip:reports/golden50/ingestion_report.json",
+    "submission-evidence.zip:reports/pilot100_final/ingestion_report.json",
+    "submission-evidence.zip:reports/pilot100_optimized/ingestion_report.json",
+    "submission-evidence.zip:reports/scope_change/README_before_subset.md",
+    "submission-evidence.zip:reports/smoke/ingestion_report.json",
+    "submission-evidence.zip:reports/submission_review/fresh_install_dependencies.txt",
+    "submission-evidence.zip:reports/submission_review/fresh_install_source.txt"
+  ],
+  "email_like_locations": [],
+  "limits": "Pattern and exact configured-value scan, not a proof that every possible secret or personal detail is absent. Email-like strings in review texts require context; commit identities are normal public Git metadata.",
+  "date": "2026-10-14",
+  "scanned_working_tree": true,
+  "tracked_env_paths": [
+    ".env.example"
+  ],
+  "dotenv_ignored": true,
+  "example_values_blank": true,
+  "first_commit_ignore_rules_present": true,
+  "final_local_text_scan_credential_candidates": 0,
+  "new_public_report_personal_absolute_paths": [],
+  "commit_authorized_date": "2026-10-14",
+  "scan_scope": "Historical/archive scan preserved; current changed/new text and proposed diff rechecked before staging."
+}

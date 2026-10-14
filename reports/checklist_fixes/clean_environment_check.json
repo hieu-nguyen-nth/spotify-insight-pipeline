@@ -1,0 +1,77 @@
+{
+  "new_model_calls": 0,
+  "credentials_copied": false,
+  "persisted_work_database_copied": false,
+  "checks": {
+    "install_dependencies": {
+      "exit_code": 0,
+      "wall_seconds": 3.8206811668351293,
+      "socket_connect_blocked": false
+    },
+    "install_source": {
+      "exit_code": 0,
+      "wall_seconds": 3.943028917070478,
+      "socket_connect_blocked": false
+    },
+    "offline_tests": {
+      "exit_code": 0,
+      "wall_seconds": 2.274216915946454,
+      "socket_connect_blocked": true
+    },
+    "calculator_default": {
+      "exit_code": 0,
+      "wall_seconds": 0.07894591568037868,
+      "socket_connect_blocked": true
+    },
+    "calculator_doubled_rates": {
+      "exit_code": 0,
+      "wall_seconds": 0.07090404210612178,
+      "socket_connect_blocked": true
+    },
+    "calculator_editable_limits": {
+      "exit_code": 0,
+      "wall_seconds": 0.07833712501451373,
+      "socket_connect_blocked": true
+    },
+    "ranking_saved_records": {
+      "exit_code": 0,
+      "wall_seconds": 7.128535625059158,
+      "socket_connect_blocked": true
+    },
+    "saved_quote_provenance": {
+      "exit_code": 0,
+      "wall_seconds": 1.6452682078815997,
+      "socket_connect_blocked": true
+    },
+    "golden_export_scope": {
+      "exit_code": 0,
+      "wall_seconds": 1.5403372081927955,
+      "socket_connect_blocked": true
+    }
+  },
+  "test_count": 104,
+  "status": "pass",
+  "byte_identical_exports": {
+    "membership.csv": true,
+    "ranking.csv": true,
+    "claims.csv": true
+  },
+  "grading_files_present": [
+    "run.json",
+    "ingestion.json",
+    "records.jsonl",
+    "membership.csv",
+    "ranking.csv",
+    "claims.csv",
+    "calls.jsonl",
+    "checkpoint_before.json",
+    "checkpoint_after.json"
+  ],
+  "doubled_rate_arithmetic": "pass",
+  "changed_limits_preserve_measurements": true,
+  "unpriced_fallback_remains_unknown": true,
+  "python_version": "Python 3.12.14",
+  "offline_socket_policy": "Every test, calculator and ranking replay process installed a socket.connect-denying audit hook.",
+  "dependency_install_network": "Package index only; dependency install is not claimed offline.",
+  "limitation": "Fresh copy of exact source and saved evidence; public-checkout download verification is a separate delivery check."
+}

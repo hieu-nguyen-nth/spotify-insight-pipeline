@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-14",
+  "files": [
+    {
+      "path": "grading/run.json",
+      "status": 200,
+      "bytes": 488,
+      "sha256": "30928dab2c17f5a90b106393b90180873eb070eb48a56a8b03191b783de65a0e",
+      "matches_saved_file": true,
+      "authentication": false
+    },
+    {
+      "path": "grading/ingestion.json",
+      "status": 200,
+      "bytes": 954,
+      "sha256": "3e5e01083c3d0a338bb584f71b3a5420485783f5ca9d085b8cac89a51b42752a",
+      "matches_saved_file": true,
+      "authentication": false
+    },
+    {
+      "path": "grading/membership.csv",
+      "status": 200,
+      "bytes": 835656,
+      "sha256": "f6f45aa6f503a186fdb4b09f87a544456188b6bf7a0aa74816728b9d19848d92",
+      "matches_saved_file": true,
+      "authentication": false
+    },
+    {
+      "path": "grading/ranking.csv",
+      "status": 200,
+      "bytes": 401,
+      "sha256": "2cb6cb2cb153dc1759b5a61e82b119482712fe847726c98db1dc3f9f605dd3cf",
+      "matches_saved_file": true,
+      "authentication": false
+    },
+    {
+      "path": "grading/claims.csv",
+      "status": 200,
+      "bytes": 2094,
+      "sha256": "703051e93d7193c9d0e4c0e11827a5d868567e5b36cb4b155c90f6b4a025a8f1",
+      "matches_saved_file": true,
+      "authentication": false
+    },
+    {
+      "path": "grading/calls.jsonl",
+      "status": 200,
+      "bytes": 26562899,
+      "sha256": "989e305021aacbc4333805cae3d3803414d0d1dcb8d36521de1be8ec61c4ecac",
+      "matches_saved_file": true,
+      "authentication": false
+    },
+    {
+      "path": "grading/checkpoint_before.json",
+      "status": 200,
+      "bytes": 1216,
+      "sha256": "68b8fdb2c9b7df2ab3b47149afab0c29114ad7dc6734a2868ff45cd8988499ef",
+      "matches_saved_file": true,
+      "authentication": false
+    },
+    {
+      "path": "grading/checkpoint_after.json",
+      "status": 200,
+      "bytes": 10761636,
+      "sha256": "c857bf17f2262b3b560568c26839de7cb295781be71a743854fb1c9f8be34bc3",
+      "matches_saved_file": true,
+      "authentication": false
+    },
+    {
+      "path": "specs/GRADING_CONTRACT.md",
+      "status": 200,
+      "bytes": 12300,
+      "sha256": "3d73772af2d4fc76b26d2548fadaceb4dd38edfe0c96e538ef4267665d476c8c",
+      "matches_saved_file": true,
+      "authentication": false
+    },
+    {
+      "path": "specs/COST_CALCULATOR.md",
+      "status": 200,
+      "bytes": 12277,
+      "sha256": "467e7a344fe814e17cd848e3607b067d070e227a2e1dd2536d92659c5f2292c4",
+      "matches_saved_file": true,
+      "authentication": false
+    },
+    {
+      "path": "cost/pilot_calls.jsonl",
+      "status": 200,
+      "bytes": 13244,
+      "sha256": "32bbc351199770e22256a5d1ce26414fc8873095a3e9f9f7c0e8b0759e375dc6",
+      "matches_saved_file": true,
+      "authentication": false
+    },
+    {
+      "path": "cost/pilot_records.jsonl",
+      "status": 200,
+      "bytes": 68825,
+      "sha256": "f222aa87f39e569af04a9d03ae3b7ed2134a4ac1d6db2f8d73bd5e5328701a34",
+      "matches_saved_file": true,
+      "authentication": false
+    },
+    {
+      "path": "cost/pilot_runs.json",
+      "status": 200,
+      "bytes": 1867,
+      "sha256": "b012a6e7488e4ff7bcdf1db1be689a5203b2bc441ecc23ecf9b7df773aa69108",
+      "matches_saved_file": true,
+      "authentication": false
+    },
+    {
+      "path": "cost/rates.csv",
+      "status": 200,
+      "bytes": 774,
+      "sha256": "ce58ae35fb27deec44266778182c4ad29ea2c9525af20e4048ac10f373220394",
+      "matches_saved_file": true,
+      "authentication": false
+    },
+    {
+      "path": "reports/golden50/evaluation.json",
+      "status": 200,
+      "bytes": 11601,
+      "sha256": "8369acbe8fc9f1722f3736ab5cdb2a61280491678d514b8e00539d918a8d7707",
+      "matches_saved_file": true,
+      "authentication": false
+    },
+    {
+      "path": "reports/completed_subset/memo.md",
+      "status": 200,
+      "bytes": 7082,
+      "sha256": "e944d5ee8b935aa0f6d06b177921a35b3486b40a58b0a48c5214dc8a6a8137af",
+      "matches_saved_file": true,
+      "authentication": false
+    }
+  ],
+  "source_revision": "Existing public main baseline; these saved files are unchanged by local repairs."
+}

@@ -1,0 +1,137 @@
+{
+  "audit_script_sha256": "d60bd66d84922d934c65b3d42b2c7d36cc738e8c75e2d6f2b2f58bca3141c26d",
+  "audit_version": "a5-audit-v1",
+  "automatic_grade": null,
+  "calculated_ranking": [
+    {
+      "complaint_count": 5862,
+      "issue_id": "issue_usability",
+      "mean_severity": "2.720744",
+      "priority_score": 15949,
+      "rank": 1,
+      "severity_sum": 15949
+    },
+    {
+      "complaint_count": 4157,
+      "issue_id": "issue_playback",
+      "mean_severity": "3.675247",
+      "priority_score": 15278,
+      "rank": 2,
+      "severity_sum": 15278
+    },
+    {
+      "complaint_count": 1656,
+      "issue_id": "issue_billing",
+      "mean_severity": "2.962560",
+      "priority_score": 4906,
+      "rank": 3,
+      "severity_sum": 4906
+    },
+    {
+      "complaint_count": 1843,
+      "issue_id": "issue_other",
+      "mean_severity": "2.092784",
+      "priority_score": 3857,
+      "rank": 4,
+      "severity_sum": 3857
+    },
+    {
+      "complaint_count": 1084,
+      "issue_id": "issue_catalog",
+      "mean_severity": "2.792435",
+      "priority_score": 3027,
+      "rank": 5,
+      "severity_sum": 3027
+    },
+    {
+      "complaint_count": 603,
+      "issue_id": "issue_access",
+      "mean_severity": "3.943615",
+      "priority_score": 2378,
+      "rank": 6,
+      "severity_sum": 2378
+    },
+    {
+      "complaint_count": 572,
+      "issue_id": "issue_downloads",
+      "mean_severity": "3.498252",
+      "priority_score": 2001,
+      "rank": 7,
+      "severity_sum": 2001
+    },
+    {
+      "complaint_count": 48,
+      "issue_id": "issue_support",
+      "mean_severity": "2.979167",
+      "priority_score": 143,
+      "rank": 8,
+      "severity_sum": 143
+    }
+  ],
+  "coverage": {
+    "accounted_fraction": 0.37025,
+    "duplicate_ids": 0,
+    "expected": 660622,
+    "invalid_or_unresolved": 0,
+    "labelable": 660609,
+    "labelable_completion_fraction": 0.370237,
+    "missing": 416027,
+    "quarantined": 13,
+    "received_lines": 244595,
+    "unique_expected_ids": 244595,
+    "valid_cache_reuses": 0,
+    "valid_completed": 244582,
+    "valid_completion_fraction": 0.37023
+  },
+  "examples": [
+    {
+      "code": "missing_records",
+      "detail": "416027 IDs; first: ['00001e1e-b376-4a01-b5ca-832c7bf085fe', '00003001-b0f9-4cb7-8da7-1f84606162b8', '0000544b-8ba6-4f68-be7e-046797648ebf', '00009940-41a8-45f9-ac86-9e2f2b23b6ee', '0000ca63-33fa-4b2a-9317-7d8b7cca3b1a']"
+    },
+    {
+      "code": "unfinished_classification",
+      "detail": "416027"
+    },
+    {
+      "code": "invalid_usage",
+      "detail": "03cb9c58-d8c1-4500-864e-4b9049ddbe6d"
+    },
+    {
+      "code": "invalid_usage",
+      "detail": "03cb9c58-d8c1-4500-864e-4b9049ddbe6d"
+    }
+  ],
+  "hash_convention": "Reference/benchmark: canonical UTF-8 JSON via canonical(); input files and audit script: exact bytes.",
+  "input_files_sha256": {
+    "calls.jsonl": "989e305021aacbc4333805cae3d3803414d0d1dcb8d36521de1be8ec61c4ecac",
+    "checkpoint_after.json": "c857bf17f2262b3b560568c26839de7cb295781be71a743854fb1c9f8be34bc3",
+    "checkpoint_before.json": "68b8fdb2c9b7df2ab3b47149afab0c29114ad7dc6734a2868ff45cd8988499ef",
+    "claims.csv": "703051e93d7193c9d0e4c0e11827a5d868567e5b36cb4b155c90f6b4a025a8f1",
+    "ingestion.json": "3e5e01083c3d0a338bb584f71b3a5420485783f5ca9d085b8cac89a51b42752a",
+    "membership.csv": "f6f45aa6f503a186fdb4b09f87a544456188b6bf7a0aa74816728b9d19848d92",
+    "ranking.csv": "2cb6cb2cb153dc1759b5a61e82b119482712fe847726c98db1dc3f9f605dd3cf",
+    "records.jsonl": "10456fc611a0eb420793557a9ea7aece0e2e3b806a032f8d577046f6be401762",
+    "run.json": "30928dab2c17f5a90b106393b90180873eb070eb48a56a8b03191b783de65a0e"
+  },
+  "issue_counts": {
+    "invalid_usage": 2,
+    "missing_records": 1,
+    "unfinished_classification": 1
+  },
+  "limits": [
+    "Artifacts do not prove actual model execution, authorship, cost, or independent verification.",
+    "Exact quote membership does not prove that the quote supports the label.",
+    "Claims export checks numbers; a person must check that all memo claims are represented.",
+    "Benchmark agreement is diagnostic; final 4/3/3 grades require rubric review."
+  ],
+  "quality": {
+    "official": false,
+    "status": "not_supplied"
+  },
+  "reference_sha256": "bb31d47db9b9a85cd97b3ba6e880915aff41a6127c3accee719c139ab34b7e97",
+  "reported_calls": 10047,
+  "reported_input_tokens": 87261599,
+  "reported_output_tokens": 67048162,
+  "status": "review_required",
+  "working_coverage_point_candidate": 0.4962
+}

@@ -1,0 +1,21 @@
+Obtaining file:///private<clean-project>
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: spotify-insight-pipeline
+  Building editable for spotify-insight-pipeline (pyproject.toml): started
+  Building editable for spotify-insight-pipeline (pyproject.toml): finished with status 'done'
+  Created wheel for spotify-insight-pipeline: filename=spotify_insight_pipeline-0.1.0-0.editable-py3-none-any.whl size=1561 sha256=72110510bb085bb54acb67d94043a18a5352e34bcd281b5b7882a20b451737d8
+  Stored in directory: <temporary-path>
+Successfully built spotify-insight-pipeline
+Installing collected packages: spotify-insight-pipeline
+Successfully installed spotify-insight-pipeline-0.1.0
+WARNING: The directory '<home>/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: <clean-project>/.venv/bin/python -m pip install --upgrade pip

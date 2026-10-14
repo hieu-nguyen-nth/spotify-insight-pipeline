@@ -9,6 +9,19 @@ from pathlib import Path
 
 HERE=Path(__file__).resolve().parent
 
+def call_cost(call, prices):
+    """Bill mutually exclusive token categories; output already includes reasoning."""
+    if call.get('provider','').startswith('local_'):
+        return Decimal(0)  # No API bill; local compute remains unmeasured.
+    if call.get('input_tokens') is None or call.get('output_tokens') is None:
+        return None
+    inp=call['input_tokens'];cached=call.get('cached_input_tokens',0)
+    if not 0<=cached<=inp or call['output_tokens']<0:
+        raise ValueError('Invalid token usage.')
+    units={'input_token':inp-cached,'output_token':call['output_tokens']}
+    if cached:units['cached_input_token']=cached
+    return sum((Decimal(v)*prices[(call['provider'],call['model'],unit)] for unit,v in units.items()),Decimal(0))
+
 def calculate(runs,calls,rate_rows,unique=484189,nonempty=660609,budget=4.8,verification_max=1000,retry_fraction=.05,prior_spend=0,checkpoint_allowance=0,completed_unique=0,max_workers=1,output_token_cap=1024,fallback_fraction=0,fallback_usd_per_review=None):
     if not 0 < unique <= nonempty or verification_max < 1 or min(Decimal(str(v)) for v in (budget,retry_fraction,prior_spend,checkpoint_allowance))<0:
         raise ValueError('Volumes, budgets and allowances must be valid nonnegative values.')
@@ -21,16 +34,9 @@ def calculate(runs,calls,rate_rows,unique=484189,nonempty=660609,budget=4.8,veri
     prices={(r['provider'],r['model'],r['unit']):Decimal(r['usd_per_unit']) for r in rate_rows}
     stages={};unknown=[]
     for call in calls:
-        if call.get('provider','').startswith('local_'):
-            amount=Decimal(0)  # Local inference has no API bill; compute cost remains unknown.
-        elif call.get('input_tokens') is None or call.get('output_tokens') is None:
+        amount=call_cost(call,prices)
+        if amount is None:
             unknown.append(call['request_id']);continue
-        else:
-            inp=call['input_tokens'];cached=call.get('cached_input_tokens',0)
-            if not 0<=cached<=inp:raise ValueError('Invalid cached token usage.')
-            units={'input_token':inp-cached,'output_token':call['output_tokens']}
-            if cached:units['cached_input_token']=cached
-            amount=sum((Decimal(v)*prices[(call['provider'],call['model'],unit)] for unit,v in units.items()),Decimal(0))
         stages[call['role']]=stages.get(call['role'],Decimal(0))+amount
     cold=next((r for r in runs if r.get('temperature')=='cold'),None)
     if cold is None:cold=next((r for r in runs if r.get('state')=='completed' and r.get('new_unique_enrichment_work',0)>0),None)
@@ -38,10 +44,10 @@ def calculate(runs,calls,rate_rows,unique=484189,nonempty=660609,budget=4.8,veri
     if cold is None:raise ValueError('A real completed cold run is required.')
     # Calls may span interrupted/resumed enrichment and downstream runs; include the actual cold attempts.
     cold_calls=calls if warm is None else calls[:cold['model_requests']]
-    enrichment=sum((Decimal(c.get('input_tokens') or 0)*prices[(c['provider'],c['model'],'input_token')]+Decimal(c.get('output_tokens') or 0)*prices[(c['provider'],c['model'],'output_token')] for c in cold_calls if c['role']=='enrich' and c.get('input_tokens') is not None),Decimal(0))
+    enrichment=sum((call_cost(c,prices) or Decimal(0) for c in cold_calls if c['role']=='enrich'),Decimal(0))
     verify_calls=[c for c in cold_calls if c['role']=='verify']
     verify_n=sum(len(c['review_ids']) for c in verify_calls)
-    verify_cost=sum((Decimal(c['input_tokens'])*prices[(c['provider'],c['model'],'input_token')]+Decimal(c['output_tokens'])*prices[(c['provider'],c['model'],'output_token')] for c in verify_calls if c.get('input_tokens') is not None),Decimal(0))
+    verify_cost=sum((call_cost(c,prices) or Decimal(0) for c in verify_calls),Decimal(0))
     measured_enrichment_work=cold.get('new_unique_enrichment_work',cold['unique_texts'])
     variable_per_unique=enrichment/Decimal(measured_enrichment_work)
     verification_per_review=verify_cost/Decimal(verify_n) if verify_n else None
