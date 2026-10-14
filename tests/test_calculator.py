@@ -1,11 +1,35 @@
 import importlib.util
 import unittest
+from decimal import Decimal
 from pathlib import Path
 
 spec=importlib.util.spec_from_file_location('calculator',Path(__file__).resolve().parents[1]/'cost/calculator.py')
 calc=importlib.util.module_from_spec(spec);spec.loader.exec_module(calc)
 
 class CalculatorTests(unittest.TestCase):
+    def test_prompt_cache_billing_matches_enrichment_and_verifier_projection(self):
+        runs,calls,rates=self.data()
+        runs[0].update(unique_texts=1,input_rows=1,completed=1)
+        calls[0].update(input_tokens=100,cached_input_tokens=80,output_tokens=0)
+        calls[1].update(input_tokens=10,output_tokens=0,review_ids=['a'])
+        rates[0]['usd_per_unit']='1'
+        rates.append(dict(rates[0],unit='cached_input_token',usd_per_unit='.1'))
+        result=calc.calculate(runs,calls,rates,unique=1,nonempty=1,verification_max=1)
+        self.assertEqual(Decimal(result['api_total_usd']),Decimal(38))
+        self.assertEqual(Decimal(result['scenarios'][0]['api_usd']),Decimal(38))
+        calls[1]['cached_input_tokens']=5
+        cached_verifier=calc.calculate(runs,calls,rates,unique=1,nonempty=1,verification_max=1)
+        self.assertEqual(Decimal(cached_verifier['api_total_usd']),Decimal('33.5'))
+        self.assertEqual(cached_verifier['api_total_usd'],cached_verifier['scenarios'][0]['api_usd'])
+        calls[0].update(output_tokens=20,reasoning_tokens=20)
+        rates[1]['usd_per_unit']='2'
+        reasoning=calc.calculate(runs,calls,rates,unique=1,nonempty=1,verification_max=1)
+        self.assertEqual(Decimal(reasoning['api_total_usd']),Decimal('73.5'))
+        self.assertEqual(reasoning['api_total_usd'],reasoning['scenarios'][0]['api_usd'])
+    def test_invalid_prompt_cache_usage_is_rejected(self):
+        runs,calls,rates=self.data()
+        calls[0]['cached_input_tokens']=calls[0]['input_tokens']+1
+        with self.assertRaises(ValueError):calc.calculate(runs,calls,rates)
     def test_editable_limits_preserve_measured_usage_and_no_invented_speedup(self):
         a=calc.calculate(*self.data())
         b=calc.calculate(*self.data(),max_workers=2,output_token_cap=512)

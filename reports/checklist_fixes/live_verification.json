@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-14",
+  "publication_status": "local_revision_not_published",
+  "local_browser": {
+    "desktop_width": 1280,
+    "mobile_width": 390,
+    "horizontal_overflow": false,
+    "console_errors": 0,
+    "search_playback_rows": 1,
+    "source_quote_count": 3,
+    "roles_visible": true,
+    "classification_version_explanation_visible": true,
+    "analysis_subset_fingerprint_explanation_visible": true,
+    "screenshots": [
+      "local_desktop.jpg",
+      "local_mobile.jpg"
+    ]
+  },
+  "new_model_calls": 0,
+  "classification_resumed": false,
+  "database_modified": false,
+  "public_http": {
+    "/": {
+      "status": 200,
+      "bytes": 4911,
+      "sha256": "c2cd83c07ba362fd0db45c1eaea465909390089f92fb591e9a2aca973e83c76e",
+      "authentication": false
+    },
+    "/api/dashboard": {
+      "status": 200,
+      "bytes": 17945,
+      "sha256": "f816133f6c84c6b6c6f5516b53e682429e3b832fcfaec89996ebbfade0fa0b4e",
+      "authentication": false,
+      "matches_saved_artifact": true,
+      "completed_reviews": 244582
+    },
+    "/dashboard.js": {
+      "status": 200,
+      "bytes": 7223,
+      "sha256": "d0633dba72d72f52038cc764d9d6b496cfe22bc227dbbe7274709bcbde4d41fe",
+      "authentication": false
+    }
+  },
+  "public_wording": "Previous deployed revision; locally verified wording has not been deployed.",
+  "read_only_database_evidence": "database_validation_snapshot.json (prior October 14 audit; no database changes in this repair)",
+  "commit_authorization": "User explicitly requested committing the update on October 14, 2026."
+}

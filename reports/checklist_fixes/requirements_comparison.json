@@ -1,0 +1,17 @@
+{
+  "reviewed_date": "2026-10-14",
+  "online_full_brief_url": "https://docs.google.com/document/d/1PUFw56OGxqbUxiFm0vKtsWX8ac8633BgOlCSGa3TgLA/edit",
+  "source": "Read-only export of the public Google Doc linked by the course page during the final grader review.",
+  "normalization": "Remove inline image payload reference lines and leading/trailing whitespace.",
+  "local_normalized_sha256": "7b3720579862a71e9fc04c8797441073b459669190a4dd9b60c6380aa0712157",
+  "online_normalized_sha256": "7c77b96258a8400763042f075cd26ded619be6547e35dacef63e85f76b79d806",
+  "only_substantive_difference": "Online full brief adds the October 20, 2026 deadline extension.",
+  "grading_requirements_match": true,
+  "deadline": "2026-10-20T23:59:00-07:00",
+  "minimum_classification_option_in_both": 100000,
+  "full_source_coverage_denominators_in_both": {
+    "rows": 660622,
+    "nonempty": 660609
+  },
+  "coverage_interpretation": "The \u2265100K option does not explicitly replace the printed full-source coverage formula; instructor interpretation remains to confirm."
+}

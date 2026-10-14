@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-14",
+  "mode": "read_only",
+  "memberships": 15825,
+  "artifact_count": 6,
+  "completed_rows": 244582,
+  "artifact_hashes": {
+    "memo": "e944d5ee8b935aa0f6d06b177921a35b3486b40a58b0a48c5214dc8a6a8137af",
+    "claims": "db0026bcbd349585e016ea7d4a07bc54188bf3aca685f651f3e7c6c3d0c8176d",
+    "ranking": "0bb2a848db0e1c83cacf008a7eecd81359a1549ed0a3f73b268b1a13b8f08bb8",
+    "dashboard": "76fe3b75982a8c2d2de774eac56a4f192ae002085db332c82bcbd15e63faf98f",
+    "recommendations": "3dbe505bbc4be8e5d8ea276f7a1dee6404747819a1b76bfb02c45a91cc66e6f4",
+    "aggregate_evidence": "4c0668099b2a1166e3d92440dc1e55046350ef9164479efae0b029eba9e959fa"
+  },
+  "raw_table_anon_select_grants": 0
+}

@@ -1,0 +1,1291 @@
+{
+  "date": "2026-10-14",
+  "source_inventory": "Local revision authorized for commit; remote publication has not been performed.",
+  "public_release_checks": [
+    {
+      "name": "manifest.json",
+      "http_status": 200,
+      "authentication": false,
+      "method": "GET"
+    },
+    {
+      "name": "source-code.zip",
+      "http_status": 200,
+      "authentication": false,
+      "method": "HEAD"
+    },
+    {
+      "name": "submission-evidence.zip",
+      "http_status": 200,
+      "authentication": false,
+      "method": "HEAD"
+    }
+  ],
+  "grading_files": {
+    "grading/run.json": {
+      "bytes": 488,
+      "sha256": "30928dab2c17f5a90b106393b90180873eb070eb48a56a8b03191b783de65a0e"
+    },
+    "grading/ingestion.json": {
+      "bytes": 954,
+      "sha256": "3e5e01083c3d0a338bb584f71b3a5420485783f5ca9d085b8cac89a51b42752a"
+    },
+    "grading/records.jsonl": {
+      "bytes": 162002705,
+      "sha256": "10456fc611a0eb420793557a9ea7aece0e2e3b806a032f8d577046f6be401762"
+    },
+    "grading/membership.csv": {
+      "bytes": 835656,
+      "sha256": "f6f45aa6f503a186fdb4b09f87a544456188b6bf7a0aa74816728b9d19848d92"
+    },
+    "grading/ranking.csv": {
+      "bytes": 401,
+      "sha256": "2cb6cb2cb153dc1759b5a61e82b119482712fe847726c98db1dc3f9f605dd3cf"
+    },
+    "grading/claims.csv": {
+      "bytes": 2094,
+      "sha256": "703051e93d7193c9d0e4c0e11827a5d868567e5b36cb4b155c90f6b4a025a8f1"
+    },
+    "grading/calls.jsonl": {
+      "bytes": 26562899,
+      "sha256": "989e305021aacbc4333805cae3d3803414d0d1dcb8d36521de1be8ec61c4ecac"
+    },
+    "grading/checkpoint_before.json": {
+      "bytes": 1216,
+      "sha256": "68b8fdb2c9b7df2ab3b47149afab0c29114ad7dc6734a2868ff45cd8988499ef"
+    },
+    "grading/checkpoint_after.json": {
+      "bytes": 10761636,
+      "sha256": "c857bf17f2262b3b560568c26839de7cb295781be71a743854fb1c9f8be34bc3"
+    }
+  },
+  "checked_relative_links": 197,
+  "missing_links": [],
+  "links": [
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/memo.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "docs/SETUP.md",
+      "available": true,
+      "delivery": "repository_revision_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/scope_change/scope_decision.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/memo.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/checklist_fixes/requirements_comparison.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/membership.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/ranking.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/claims.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/ranking_sensitivity.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/golden50/report.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/golden50/student_review_decision.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/result_review/README.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/checklist_fixes/golden_export_coverage.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/verification.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/verification_review.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "docs/pipeline.png",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "docs/pipeline.svg",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "docs/pipeline.mmd",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "ARCHITECTURE.md",
+      "available": true,
+      "delivery": "repository_revision_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "database/README.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/deployment/live_completed_subset_check.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/deployment/browser_completed_subset_check.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/checklist_fixes/live_verification.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/result_review/README.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "ARCHITECTURE.md",
+      "available": true,
+      "delivery": "repository_revision_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/recommendations_ai_raw.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/memo_ai_raw.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "docs/SETUP.md",
+      "available": true,
+      "delivery": "repository_revision_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/pilot100_optimized/resume.cast",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/submission_review/recovery_controls.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/worker_comparison/report.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "submission/README.md",
+      "available": true,
+      "delivery": "repository_revision_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "docs/SETUP.md",
+      "available": true,
+      "delivery": "repository_revision_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/subset_integrity.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/ranking_replay_check.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/checklist_fixes/clean_environment_check.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "dataset/manifest.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/full/ingestion.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/full/quarantine.jsonl",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/instructor_full_source_check.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "cost/pilot_metadata.md",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "cost/report.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "cost/README.md",
+      "available": true,
+      "delivery": "repository_revision_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/checkpoint500/report.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/checkpoint10000/report.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/submission_review/runtime_summary.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "cost/completed_subset/summary.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/full_run/reconciliation/hold_authorization.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "docs/SETUP.md",
+      "available": true,
+      "delivery": "repository_revision_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "submission/README.md",
+      "available": true,
+      "delivery": "repository_revision_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/checklist_fixes/clean_environment_check.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "ARCHITECTURE.md",
+      "available": true,
+      "delivery": "repository_revision_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "labels/README.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/submission_review/real_review_trace.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/ranking.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/claims.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/subset_integrity.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/memo.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/ranking_sensitivity.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/memo_ai_raw.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/golden50/report.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/golden50/student_review_decision.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/golden50/quote_entity_inspection.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/verification.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/submission_review/planted_review_label_replay.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/robustness/primary_jev/results.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "cost/report.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "cost/README.md",
+      "available": true,
+      "delivery": "repository_revision_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/submission_review/recovery_controls.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/checklist_fixes/fresh_offline_tests.txt",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/full/ingestion.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/scope_manifest.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/instructor_full_source_check.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "docs/SETUP.md",
+      "available": true,
+      "delivery": "repository_revision_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/pilot100_optimized/resume.cast",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/completed_subset/ranking_replay_check.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/deployment/database_upload_completed_subset.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "submission/EVIDENCE_INDEX.md",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/checklist_fixes/README.md",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "submission/checklist_revision_manifest.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "README.md",
+      "path": "submission/saved_result_revision_manifest.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "ARCHITECTURE.md",
+      "path": "reports/completed_subset/ranking_sensitivity.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "ARCHITECTURE.md",
+      "path": "submission/checklist_revision_manifest.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "ARCHITECTURE.md",
+      "path": "reports/full/ingestion.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "ARCHITECTURE.md",
+      "path": "reports/full/quarantine.jsonl",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "ARCHITECTURE.md",
+      "path": "reports/completed_subset/configuration.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "ARCHITECTURE.md",
+      "path": "specs/GRADING_CONTRACT.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "ARCHITECTURE.md",
+      "path": "grading/calls.jsonl",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "ARCHITECTURE.md",
+      "path": "reports/completed_subset/verification.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "ARCHITECTURE.md",
+      "path": "reports/completed_subset/verification_review.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "ARCHITECTURE.md",
+      "path": "reports/completed_subset/membership.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "ARCHITECTURE.md",
+      "path": "reports/completed_subset/aggregate_evidence.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "ARCHITECTURE.md",
+      "path": "reports/completed_subset/ranking.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "ARCHITECTURE.md",
+      "path": "reports/completed_subset/claims.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "ARCHITECTURE.md",
+      "path": "reports/completed_subset/recommendations_ai_raw.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "ARCHITECTURE.md",
+      "path": "reports/completed_subset/memo_ai_raw.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "ARCHITECTURE.md",
+      "path": "reports/completed_subset/memo.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "ARCHITECTURE.md",
+      "path": "reports/completed_subset/recommendations.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "ARCHITECTURE.md",
+      "path": "src/spotify_pipeline/analysis.py",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "docs/SETUP.md",
+      "path": "reports/checklist_fixes/clean_environment_check.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "submission/README.md",
+      "path": "reports/submission_review/public_delivery_verification.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/README.md",
+      "path": "submission/review_revision_manifest.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/README.md",
+      "path": "docs/SETUP.md",
+      "available": true,
+      "delivery": "repository_revision_pending_publication"
+    },
+    {
+      "document": "submission/README.md",
+      "path": "submission/requirement-audit.md",
+      "available": true,
+      "delivery": "repository_revision_pending_publication"
+    },
+    {
+      "document": "submission/README.md",
+      "path": "submission/final_run_manifest.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/README.md",
+      "path": "reports/submission_review/memo_before_review_revision.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/README.md",
+      "path": "submission/review_revision_manifest.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/README.md",
+      "path": "submission/EVIDENCE_INDEX.md",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "submission/README.md",
+      "path": "submission/checklist_revision_manifest.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "submission/README.md",
+      "path": "submission/saved_result_revision_manifest.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/README.md",
+      "path": "reports/checklist_fixes/fresh_offline_tests.txt",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "submission/checklist_revision_manifest.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "submission/saved_result_revision_manifest.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "submission/review_revision_manifest.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "submission/final_run_manifest.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "grading/run.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "grading/ingestion.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "grading/membership.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "grading/ranking.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "grading/claims.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "grading/calls.jsonl",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "grading/checkpoint_before.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "grading/checkpoint_after.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/checklist_fixes/delivery_check.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "dataset/manifest.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "ARCHITECTURE.md",
+      "available": true,
+      "delivery": "repository_revision_pending_publication"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "labels/README.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "specs/GRADING_CONTRACT.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/completed_subset/configuration.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/golden50/human_labels_as_evaluated.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/golden50/records.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/golden50/evaluation.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/result_review/README.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/checklist_fixes/golden_export_coverage.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/completed_subset/verification.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/completed_subset/verification_review.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/robustness/primary_jev/results.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/submission_review/planted_review_label_replay.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/submission_review/real_review_trace.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/completed_subset/memo.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/completed_subset/memo_ai_raw.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/completed_subset/ranking_sensitivity.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "cost/pilot_metadata.md",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "cost/pilot_records.jsonl",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "cost/pilot_calls.jsonl",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "cost/usage.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "cost/rates.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "cost/README.md",
+      "available": true,
+      "delivery": "repository_revision_pending_publication"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/submission_review/recovery_controls.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/pilot100_optimized/resume.cast",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/checklist_fixes/clean_environment_check.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "docs/SETUP.md",
+      "available": true,
+      "delivery": "repository_revision_pending_publication"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/deployment/database_upload_completed_subset.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "database/README.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/checklist_fixes/live_verification.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/checklist_fixes/security_check.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "submission/EVIDENCE_INDEX.md",
+      "path": "reports/checklist_fixes/full_source_check.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "cost/README.md",
+      "path": "cost/report.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/README.md",
+      "path": "reports/checkpoint500/report.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/README.md",
+      "path": "cost/pilot_records.jsonl",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/README.md",
+      "path": "cost/pilot_calls.jsonl",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/README.md",
+      "path": "cost/pilot_runs.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/README.md",
+      "path": "cost/usage.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/README.md",
+      "path": "cost/rates.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/README.md",
+      "path": "cost/project_usage.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/README.md",
+      "path": "reports/checkpoint10000/report.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/README.md",
+      "path": "cost/completed_subset/summary.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/README.md",
+      "path": "reports/checklist_fixes/fresh_offline_tests.txt",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "cost/README.md",
+      "path": "reports/worker_comparison/report.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/README.md",
+      "path": "cost/pilot_metadata.md",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "cost/pilot_metadata.md",
+      "path": "cost/pilot_records.jsonl",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/pilot_metadata.md",
+      "path": "cost/pilot_calls.jsonl",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/pilot_metadata.md",
+      "path": "cost/usage.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/pilot_metadata.md",
+      "path": "cost/pilot_runs.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/pilot_metadata.md",
+      "path": "cost/rates.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/pilot_metadata.md",
+      "path": "reports/pilot100_optimized/resume.cast",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/pilot_metadata.md",
+      "path": "reports/pilot100_optimized/checkpoint_before.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/pilot_metadata.md",
+      "path": "reports/pilot100_optimized/checkpoint_after.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/pilot_metadata.md",
+      "path": "reports/pilot100_optimized/configuration.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/pilot_metadata.md",
+      "path": "reports/pilot100_optimized/verification.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/pilot_metadata.md",
+      "path": "src/spotify_pipeline/analysis.py",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/pilot_metadata.md",
+      "path": "cost/rates.csv",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/pilot_metadata.md",
+      "path": "docs/SETUP.md",
+      "available": true,
+      "delivery": "repository_revision_pending_publication"
+    },
+    {
+      "document": "cost/pilot_metadata.md",
+      "path": "cost/report.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/pilot_metadata.md",
+      "path": "reports/checkpoint500/report.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/pilot_metadata.md",
+      "path": "reports/checkpoint10000/report.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "cost/pilot_metadata.md",
+      "path": "cost/README.md",
+      "available": true,
+      "delivery": "repository_revision_pending_publication"
+    },
+    {
+      "document": "cost/pilot_metadata.md",
+      "path": "reports/checklist_fixes/clean_environment_check.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "reports/checklist_fixes/README.md",
+      "path": "reports/checklist_fixes/clean_environment_check.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "reports/checklist_fixes/README.md",
+      "path": "reports/checklist_fixes/fresh_offline_tests.txt",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "reports/checklist_fixes/README.md",
+      "path": "submission/EVIDENCE_INDEX.md",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "reports/checklist_fixes/README.md",
+      "path": "cost/pilot_metadata.md",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "reports/checklist_fixes/README.md",
+      "path": "reports/checklist_fixes/golden_export_coverage.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "reports/checklist_fixes/README.md",
+      "path": "reports/checklist_fixes/delivery_check.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "reports/checklist_fixes/README.md",
+      "path": "reports/checklist_fixes/security_check.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "reports/checklist_fixes/README.md",
+      "path": "reports/checklist_fixes/full_source_check.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    },
+    {
+      "document": "reports/checklist_fixes/README.md",
+      "path": "reports/checklist_fixes/live_verification.json",
+      "available": true,
+      "delivery": "local_addition_pending_publication"
+    }
+  ],
+  "zip_crc": "pass",
+  "evidence_zip_sha256": "3892d0f0653c46a1f38490b2cae5ec1f15bb9b4fa393f2eacdf528b31ba21fb0",
+  "archive_manifest": {
+    "observed_at_utc": "2026-10-12T08:23:56.056765+00:00",
+    "publicly_published": true,
+    "new_model_calls": 0,
+    "source": {
+      "path": "submission/source-code.zip",
+      "bytes": 20713079,
+      "sha256": "469fdf35e26da9a1a1d008236d8d9e8d30e4afa72c3116425955f1d95bac900a",
+      "files": 417,
+      "zip_integrity": "passed"
+    },
+    "evidence": {
+      "path": "submission/submission-evidence.zip",
+      "bytes": 278118280,
+      "sha256": "3892d0f0653c46a1f38490b2cae5ec1f15bb9b4fa393f2eacdf528b31ba21fb0",
+      "files": 20859,
+      "zip_integrity": "passed"
+    },
+    "source_scan": {
+      "configured_credential_scan": "passed",
+      "blank_env_example": "passed",
+      "files_scanned": 417
+    },
+    "evidence_scan": {
+      "configured_credential_scan": "passed",
+      "blank_env_example": "passed",
+      "files_scanned": 20859
+    },
+    "scope": "244582 completed originals; full-source missing outputs disclosed",
+    "contains_source_review_quotes": true,
+    "contains_saved_model_request_response_handoffs": true,
+    "contains_original_raw_csv": false,
+    "contains_work_databases_credentials_or_model_weights": false,
+    "publication_requires_user_scope": "Public evidence includes review quotes beyond the previously published selected dashboard examples.",
+    "delivery_source_commit": "b1eaea0c01e1adf0f3effc2292ba97308357e63d",
+    "source_archive_amendment": "Create the optional output directory in fresh setup; frozen evidence archive unchanged.",
+    "public_repository": "https://github.com/hieu-nguyen-nth/spotify-insight-pipeline",
+    "public_release": "https://github.com/hieu-nguyen-nth/spotify-insight-pipeline/releases/tag/v1.0.0",
+    "signed_out_downloads_verified": true
+  },
+  "limits": "ZIP hashes/CRC and contents checked locally against previously downloaded public assets; current unauthenticated HEAD checks access and GET verifies unchanged manifest. Publication checks identify the current source commit separately."
+}

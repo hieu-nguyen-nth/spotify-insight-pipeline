@@ -19,7 +19,7 @@ Still disclosed: unchanged full-source checker remains review_required for 416,0
 
 Known project API consumption is $3.671408118; final total is null/provisional with the separate approved $0.05 hold inside $4.80. Existing $5 purchase funds this usage. No new purchase or classification restart is authorized.
 
-Student actions: confirm the ≥100k coverage option and exact extended deadline with the instructor; inspect the disclosure and submit the public repository link through https://submissions-portal-eight.vercel.app. If genuine provider usage evidence is available, supply it locally for reconciliation; never invent the failed request's charge or tokens.
+Student actions: confirm how the ≥100k option affects coverage grading with the instructor; inspect the disclosure and submit the public repository link through https://submissions-portal-eight.vercel.app. If genuine provider usage evidence is available, supply it locally for reconciliation; never invent the failed request's charge or tokens.
 
 ## Follow-up review · October 12, 2026
 
@@ -28,3 +28,9 @@ The current README surfaces original human agreement, phase timing, local writin
 ## Saved-result improvement · October 12, 2026
 
 The dashboard now presents the revised joint investigation decision and separate sensitivity scenario while preserving baseline counts/ranking. Recommendations cite all three existing examples per leading issue (nine total); exact quote and membership validation passed. [Case inspection](../reports/result_review/README.md) covers all 16 original topic disagreements and the ten largest sentiment errors, with assistant observations separated from the student’s qualitative acceptance. No case-level human adjudication was fabricated. Classification remains stopped at 244,582 completed original reviews, with zero new inference calls and unchanged original labels/scores/prompts.
+
+## Checklist repair · October 14, 2026
+
+[Current repairs and verification](../reports/checklist_fixes/README.md) supersede earlier test-count/setup claims. Both confirmed code defects are fixed; model-role clarification, README diagram, complete pilot metadata and golden/export-scope disclosure are added. [Current evidence index](EVIDENCE_INDEX.md) links all nine grading files and public archive instructions. Original execution records and full-source limitations remain intact.
+
+The full online brief, reviewed October 14, explicitly extends the deadline to October 20, 2026, at 11:59 pm Pacific. Its substantive requirements match the supplied local brief; the ≥100K/full-corpus coverage interpretation remains separate. See [document comparison](../reports/checklist_fixes/requirements_comparison.json).
