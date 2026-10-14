@@ -10,4 +10,4 @@ The README embeds the six-stage diagram, distinguishes Jev/VADER/Qwen/code/edito
 
 Classification stays at 244,582 completed originals. Full-source coverage, completion-based sampling bias, unresolved failed-call usage and unmeasured local/hosting costs remain honest limitations; these repairs do not convert them into a checker pass or a guaranteed grade.
 
-Publication status: this revision is authorized for a local commit. Public main and the deployed website still contain the preceding revision; publication and deployment have not been performed.
+Publication status: PR #3 is merged into main and production deployment `dpl_EBX4tY4MiN4TwGn1njnzSYfnRVwZ` is live. [Production verification](live_verification.json) records exact source/response checks and desktop/mobile browser results. The [prepublication snapshot](publication/prepublication_verification.json) preserves the earlier local-only check. No classifications or stored database data were changed.

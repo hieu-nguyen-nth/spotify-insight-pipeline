@@ -79,5 +79,7 @@
   "final_local_text_scan_credential_candidates": 0,
   "new_public_report_personal_absolute_paths": [],
   "commit_authorized_date": "2026-10-14",
-  "scan_scope": "Historical/archive scan preserved; current changed/new text and proposed diff rechecked before staging."
+  "scan_scope": "Historical/archive scan preserved; current changed/new text and proposed diff rechecked before staging.",
+  "publication_revision_credential_candidates": 0,
+  "publication_scan_scope": "Current source/report text and publication diff; prior historical/archive scan is preserved."
 }

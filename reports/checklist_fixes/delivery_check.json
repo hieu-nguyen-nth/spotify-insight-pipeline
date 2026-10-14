@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "source_inventory": "Local revision authorized for commit; remote publication has not been performed.",
+  "source_inventory": "Current publication revision; original execution ZIP remains frozen.",
   "public_release_checks": [
     {
       "name": "manifest.json",
@@ -59,7 +59,7 @@
       "sha256": "c857bf17f2262b3b560568c26839de7cb295781be71a743854fb1c9f8be34bc3"
     }
   },
-  "checked_relative_links": 197,
+  "checked_relative_links": 207,
   "missing_links": [],
   "links": [
     {
@@ -72,7 +72,7 @@
       "document": "README.md",
       "path": "docs/SETUP.md",
       "available": true,
-      "delivery": "repository_revision_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
@@ -90,7 +90,7 @@
       "document": "README.md",
       "path": "reports/checklist_fixes/requirements_comparison.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
@@ -138,7 +138,7 @@
       "document": "README.md",
       "path": "reports/checklist_fixes/golden_export_coverage.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
@@ -156,25 +156,25 @@
       "document": "README.md",
       "path": "docs/pipeline.png",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
       "path": "docs/pipeline.svg",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
       "path": "docs/pipeline.mmd",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
       "path": "ARCHITECTURE.md",
       "available": true,
-      "delivery": "repository_revision_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
@@ -198,7 +198,7 @@
       "document": "README.md",
       "path": "reports/checklist_fixes/live_verification.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
@@ -210,7 +210,7 @@
       "document": "README.md",
       "path": "ARCHITECTURE.md",
       "available": true,
-      "delivery": "repository_revision_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
@@ -228,7 +228,7 @@
       "document": "README.md",
       "path": "docs/SETUP.md",
       "available": true,
-      "delivery": "repository_revision_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
@@ -250,15 +250,57 @@
     },
     {
       "document": "README.md",
+      "path": "cost/pilot_runs.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/checkpoint10000/report.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "cost/pilot_calls.jsonl",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "cost/pilot_metadata.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/worker_comparison/report.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "ARCHITECTURE.md",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
+      "path": "reports/pilot100_optimized/resume.cast",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "README.md",
       "path": "submission/README.md",
       "available": true,
-      "delivery": "repository_revision_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
       "path": "docs/SETUP.md",
       "available": true,
-      "delivery": "repository_revision_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
@@ -276,7 +318,7 @@
       "document": "README.md",
       "path": "reports/checklist_fixes/clean_environment_check.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
@@ -306,7 +348,7 @@
       "document": "README.md",
       "path": "cost/pilot_metadata.md",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
@@ -318,7 +360,7 @@
       "document": "README.md",
       "path": "cost/README.md",
       "available": true,
-      "delivery": "repository_revision_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
@@ -354,25 +396,25 @@
       "document": "README.md",
       "path": "docs/SETUP.md",
       "available": true,
-      "delivery": "repository_revision_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
       "path": "submission/README.md",
       "available": true,
-      "delivery": "repository_revision_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
       "path": "reports/checklist_fixes/clean_environment_check.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
       "path": "ARCHITECTURE.md",
       "available": true,
-      "delivery": "repository_revision_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
@@ -468,7 +510,7 @@
       "document": "README.md",
       "path": "cost/README.md",
       "available": true,
-      "delivery": "repository_revision_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
@@ -480,7 +522,7 @@
       "document": "README.md",
       "path": "reports/checklist_fixes/fresh_offline_tests.txt",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
@@ -504,7 +546,7 @@
       "document": "README.md",
       "path": "docs/SETUP.md",
       "available": true,
-      "delivery": "repository_revision_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
@@ -528,19 +570,19 @@
       "document": "README.md",
       "path": "submission/EVIDENCE_INDEX.md",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
       "path": "reports/checklist_fixes/README.md",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
       "path": "submission/checklist_revision_manifest.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "README.md",
@@ -558,7 +600,7 @@
       "document": "ARCHITECTURE.md",
       "path": "submission/checklist_revision_manifest.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "ARCHITECTURE.md",
@@ -660,7 +702,7 @@
       "document": "docs/SETUP.md",
       "path": "reports/checklist_fixes/clean_environment_check.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "submission/README.md",
@@ -678,13 +720,13 @@
       "document": "submission/README.md",
       "path": "docs/SETUP.md",
       "available": true,
-      "delivery": "repository_revision_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "submission/README.md",
       "path": "submission/requirement-audit.md",
       "available": true,
-      "delivery": "repository_revision_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "submission/README.md",
@@ -708,13 +750,13 @@
       "document": "submission/README.md",
       "path": "submission/EVIDENCE_INDEX.md",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "submission/README.md",
       "path": "submission/checklist_revision_manifest.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "submission/README.md",
@@ -726,13 +768,19 @@
       "document": "submission/README.md",
       "path": "reports/checklist_fixes/fresh_offline_tests.txt",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
+    },
+    {
+      "document": "submission/README.md",
+      "path": "reports/checklist_fixes/live_verification.json",
+      "available": true,
+      "delivery": "repository"
     },
     {
       "document": "submission/EVIDENCE_INDEX.md",
       "path": "submission/checklist_revision_manifest.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "submission/EVIDENCE_INDEX.md",
@@ -804,7 +852,7 @@
       "document": "submission/EVIDENCE_INDEX.md",
       "path": "reports/checklist_fixes/delivery_check.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "submission/EVIDENCE_INDEX.md",
@@ -816,7 +864,7 @@
       "document": "submission/EVIDENCE_INDEX.md",
       "path": "ARCHITECTURE.md",
       "available": true,
-      "delivery": "repository_revision_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "submission/EVIDENCE_INDEX.md",
@@ -864,7 +912,7 @@
       "document": "submission/EVIDENCE_INDEX.md",
       "path": "reports/checklist_fixes/golden_export_coverage.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "submission/EVIDENCE_INDEX.md",
@@ -918,7 +966,7 @@
       "document": "submission/EVIDENCE_INDEX.md",
       "path": "cost/pilot_metadata.md",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "submission/EVIDENCE_INDEX.md",
@@ -948,7 +996,7 @@
       "document": "submission/EVIDENCE_INDEX.md",
       "path": "cost/README.md",
       "available": true,
-      "delivery": "repository_revision_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "submission/EVIDENCE_INDEX.md",
@@ -966,13 +1014,13 @@
       "document": "submission/EVIDENCE_INDEX.md",
       "path": "reports/checklist_fixes/clean_environment_check.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "submission/EVIDENCE_INDEX.md",
       "path": "docs/SETUP.md",
       "available": true,
-      "delivery": "repository_revision_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "submission/EVIDENCE_INDEX.md",
@@ -990,19 +1038,19 @@
       "document": "submission/EVIDENCE_INDEX.md",
       "path": "reports/checklist_fixes/live_verification.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "submission/EVIDENCE_INDEX.md",
       "path": "reports/checklist_fixes/security_check.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "submission/EVIDENCE_INDEX.md",
       "path": "reports/checklist_fixes/full_source_check.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "cost/README.md",
@@ -1068,7 +1116,7 @@
       "document": "cost/README.md",
       "path": "reports/checklist_fixes/fresh_offline_tests.txt",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "cost/README.md",
@@ -1080,7 +1128,7 @@
       "document": "cost/README.md",
       "path": "cost/pilot_metadata.md",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "cost/pilot_metadata.md",
@@ -1158,7 +1206,7 @@
       "document": "cost/pilot_metadata.md",
       "path": "docs/SETUP.md",
       "available": true,
-      "delivery": "repository_revision_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "cost/pilot_metadata.md",
@@ -1182,67 +1230,79 @@
       "document": "cost/pilot_metadata.md",
       "path": "cost/README.md",
       "available": true,
-      "delivery": "repository_revision_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "cost/pilot_metadata.md",
       "path": "reports/checklist_fixes/clean_environment_check.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "reports/checklist_fixes/README.md",
       "path": "reports/checklist_fixes/clean_environment_check.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "reports/checklist_fixes/README.md",
       "path": "reports/checklist_fixes/fresh_offline_tests.txt",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "reports/checklist_fixes/README.md",
       "path": "submission/EVIDENCE_INDEX.md",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "reports/checklist_fixes/README.md",
       "path": "cost/pilot_metadata.md",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "reports/checklist_fixes/README.md",
       "path": "reports/checklist_fixes/golden_export_coverage.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "reports/checklist_fixes/README.md",
       "path": "reports/checklist_fixes/delivery_check.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "reports/checklist_fixes/README.md",
       "path": "reports/checklist_fixes/security_check.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "reports/checklist_fixes/README.md",
       "path": "reports/checklist_fixes/full_source_check.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
     },
     {
       "document": "reports/checklist_fixes/README.md",
       "path": "reports/checklist_fixes/live_verification.json",
       "available": true,
-      "delivery": "local_addition_pending_publication"
+      "delivery": "repository"
+    },
+    {
+      "document": "reports/checklist_fixes/README.md",
+      "path": "reports/checklist_fixes/live_verification.json",
+      "available": true,
+      "delivery": "repository"
+    },
+    {
+      "document": "reports/checklist_fixes/README.md",
+      "path": "reports/checklist_fixes/publication/prepublication_verification.json",
+      "available": true,
+      "delivery": "repository_publication_revision"
     }
   ],
   "zip_crc": "pass",
